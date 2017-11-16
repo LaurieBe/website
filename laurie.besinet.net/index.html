@@ -1,0 +1,24 @@
+<html>
+<script>
+<!-- Script de redirection automatique écrit par Hermann YTEMBE - ytembe@icamer.com
+francais="http://laurie.besinet.net/fr"; //Rempalcez la valeur par l'adresse de la page en français
+anglais="http://laurie.besinet.net/en"; //Remplacez la valeur par l'adresse de la page en anglais
+nom=navigator.appName; //J'ai choisi le français et l'anglais car je sais que ce sont les langues les plus parlées dans le monde
+langue=navigator.language; //Donc si votre navigateur a une autre langue que le français, il est rédirigé vers la page en Anglais
+langue1=navigator.browserLanguage;
+	if (nom=="Microsoft Internet Explorer")
+		{
+		if (langue1=="fr")
+		self.location.href=francais;
+		else
+		self.location.href=anglais;
+		}
+	else
+		{
+		if (langue=="fr")
+		self.location.href=francais;
+		else self.location.href=anglais;
+		}
+//-->
+</script>
+</html>
