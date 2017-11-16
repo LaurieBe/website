@@ -1,6 +1,6 @@
 
   i18next.init({
-    lng: 'fr',
+    lng: 'en',
     debug: true,
     resources: {
       en: {
@@ -46,7 +46,7 @@
 //    document.getElementById('i18n_experiences').innerHTML = i18next.t('key_experiences');
 //    document.getElementById('i18n_projects').innerHTML = i18next.t('key_projects');
     document.getElementById('i18n_contact').innerHTML = i18next.t('key_contact');
-    document.getElementById('i18n_contact2').innerHTML = i18next.t('key_contact');
+//    document.getElementById('i18n_contact2').innerHTML = i18next.t('key_contact');
     document.getElementById('i18n_home').innerHTML = i18next.t('key_home');
   }
 
