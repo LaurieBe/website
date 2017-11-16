@@ -408,7 +408,7 @@ $(document).ready(function(){
 		nope: '_include/js/placeholder.js',
 		complete : function() {
 				if (!Modernizr.placeholder) {
-						Placeholders.init({
+						Placeholders.enable({
 						live: true,
 						hideOnFocus: false,
 						className: "yourClass",
