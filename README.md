@@ -1,1 +1,3 @@
-# website
+# website - brushed
+New template for my website
+Soon online...
