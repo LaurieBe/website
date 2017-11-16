@@ -81,7 +81,7 @@ body a:hover{
 nav {
 	position: relative;
 	float: left;
-  background-color: #000c;
+	background-color: rgba(36, 36, 36, 0.83);
 }
 nav ul {
 	padding: 0;
