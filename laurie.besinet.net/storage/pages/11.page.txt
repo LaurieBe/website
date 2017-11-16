@@ -1,0 +1,19 @@
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-lg-3&quot;&gt;
+	 &lt;/div&gt;
+
+	 &lt;div class=&quot;col-lg-6&quot;&gt;Suivez ici les derniers articles que j&#039;ai publié sur mon fil &lt;a href=&quot;https://twitter.com/lauriebesinet&quot;&gt;twitter&lt;/a&gt; 
+	 	 &lt;br&gt;
+
+	 	                         &lt;a class=&quot;twitter-timeline&quot;  href=&quot;https://twitter.com/lauriebesinet&quot; data-widget-id=&quot;673809048752533504&quot;&gt;Tweets de @lauriebesinet&lt;/a&gt;
+            &lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#039;http&#039;:&#039;https&#039;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&quot;://platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+          
+          
+	 &lt;/div&gt;
+
+&lt;br&gt;
+
+	 &lt;div class=&quot;col-lg-3&quot;&gt;
+	 &lt;/div&gt;
+
+&lt;/div&gt;

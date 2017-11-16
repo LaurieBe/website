@@ -1,0 +1,742 @@
+&lt;span id=&quot;ancre&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#FFFFFF&quot;&gt;.&lt;/span&gt;
+	 	 &lt;div&gt;
+	 	 	 		&lt;p class=&quot;center&quot;&gt;
+					&lt;img style=&quot;width: 100%;&quot; class=&quot;pull-center&quot; src=&quot;http://laurie.besinet.net/public/uploads/Photo Accueil.jpg&quot; alt=&quot;Photo Accueil&quot; /&gt;
+				&lt;/p&gt;
+	 	 &lt;/div&gt;
+.
+			&lt;div&gt;
+			
+				
+				&lt;div class=&quot;col-lg-12&quot;&gt;
+					&lt;div class=&quot;col-lg-3&quot;&gt;
+							&lt;br&gt;
+							&lt;h1&gt; Laurie Besinet&lt;/h1&gt;
+							
+					&lt;/div&gt;
+					&lt;div class=&quot;col-lg-8&quot;&gt;
+							&lt;br&gt;
+							&lt;h2&gt;Ingénieure agronome&lt;/h2&gt;
+							&lt;br&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;						
+				
+				
+				&lt;div class=&quot;col-lg-12&quot;&gt;
+				
+					&lt;!_________________COLONNE ANNEXE___________________&gt;
+					
+					&lt;div class=&quot;col-lg-3&quot;&gt;
+						
+						&lt;div &gt;
+							&lt;p&gt;
+							&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+							&lt;/p&gt;
+							  
+							&lt;br&gt;
+							&lt;br&gt;
+							&lt;h2&gt; &lt;span id=&quot;age&quot;&gt;&lt;/span&gt; ans &lt;h2&gt;
+								&lt;span id=&quot;ancrecontact&quot;&gt;&lt;/span&gt;
+							&lt;br&gt;
+							&lt;h1&gt; &lt;img src=&quot;http://laurie.besinet.net/public/uploads/contact.jpg&quot; alt=&quot;Contact&quot; /&gt; &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp Contact &lt;/h1&gt;
+						&lt;/div&gt;
+
+						&lt;br&gt;
+
+						&lt;div &gt;
+
+						
+								&lt;a href=&quot;https://fr.linkedin.com/in/lauriebesinet/fr&quot;&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/linkedin%20logo.jpg&quot; alt=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;a href=&quot;https://fr.linkedin.com/in/lauriebesinet/fr&quot;&gt;LinkedIn&lt;/a&gt;
+								&lt;br&gt;
+								&lt;br&gt;
+								&lt;a href=&quot;http://fr.viadeo.com/fr/profile/laurie.besinet&quot;&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/Viadeo%20logo.jpg&quot; alt=&quot;Viadeo&quot; /&gt;&lt;/a&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;a href=&quot;http://fr.viadeo.com/fr/profile/laurie.besinet&quot;&gt;Viadeo&lt;/a&gt;
+								&lt;br&gt;
+								&lt;br&gt;
+								&lt;a href=&quot;https://twitter.com/lauriebesinet&quot;&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/twitter%20logo.jpg&quot; alt=&quot;Twitter&quot; /&gt;&lt;/a&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;a href=&quot;https://twitter.com/lauriebesinet&quot;&gt;Twitter&lt;/a&gt;
+								&lt;br&gt;
+								&lt;br&gt;
+								&lt;img src=&quot;http://laurie.besinet.net/public/uploads/mail%20logo.jpg&quot; alt=&quot;mail&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp laurie.besinet (at) gmail.com
+								&lt;br&gt;
+								&lt;br&gt;
+								&lt;img src=&quot;http://laurie.besinet.net/public/uploads/tel.jpg&quot; alt=&quot;tel&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp zero six 59 29 05 49
+								
+								&lt;br&gt;
+								&lt;br&gt;
+								
+						&lt;/div&gt;
+							
+					&lt;/div&gt;
+
+					
+					&lt;!_________________COLONNE CORPS DE TEXTE___________________&gt;
+					&lt;div class=&quot;col-lg-8&quot;&gt;
+					
+						
+						&lt;!_________________PRO___________________&gt;
+						&lt;div&gt;						
+							&lt;!_________________titre PRO___________________&gt;
+							&lt;div&gt;
+								&lt;p&gt;
+								&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+								&lt;/p&gt;
+								&lt;span id=&quot;ancrepro&quot;&gt;&lt;/span&gt;
+								&lt;span&gt;
+									&lt;h1&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/pro logo.jpg&quot; alt=&quot;Pro&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp Expériences Professionnelles &lt;/h1&gt;
+								&lt;/span&gt;						
+
+								&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+							&lt;/div&gt;
+							
+							&lt;!_________________contenu PRO___________________&gt;
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt; janvier 2016 - aujourd&#039;hui &lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;  
+								
+								&lt;h2&gt;
+									Responsable des modèles agronomiques et OAD &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp  	
+								&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsWnt()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+								
+								Weenat  |  CDI 
+								&lt;p id=&quot;detailsWnt&quot;&gt;&lt;/p&gt;
+								&lt;script&gt; 
+
+									var isOpenWnt=false; 
+
+									function toggleDetailsWnt() {
+
+										if (isOpenWnt == true) {
+
+											isOpenWnt=false;
+
+											document.getElementById(&quot;detailsWnt&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenWnt=true;
+
+											document.getElementById(&quot;detailsWnt&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;Jeune entreprise proposant des capteurs connectés et les données à la parcelle pour l&#039;agriculture  |  Nantes  (44)  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.weenat.com\&quot;&gt;www.weenat.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Création de modèles agronomiques et d&#039;outils d&#039;aide à la décision (OAD) basés sur les données récupérées par les capteurs placés dans les champs&lt;/p&gt;&lt;p&gt;Pour cela, rencontre des agriculteurs qui seront utilisateurs de la plateforme web et des OAD. &lt;/p&gt;&lt;p&gt; Ensuite gestion des projets à l&#039;échelle de l&#039;entreprise avec les différents coeurs de métiers concernés (électronique embarquée, développement informatique, user experience) ou avec d&#039;autres entreprises ou organismes.&lt;/p&gt;&lt;p&gt;Mise en place d&#039;essais pour vérifier l&#039;intérêt des OAD installés. &lt;/p&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2015  |  6 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;  
+									 
+								&lt;h2&gt;
+									Assistante en communication et marketing &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsPioCDD()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+
+								DuPont Pioneer  |  CDD							
+
+								&lt;p id=&quot;detailsPioCDD&quot;&gt;&lt;/p&gt;
+								&lt;script&gt; 
+
+									var isOpenPioCDD=false; 
+
+									function toggleDetailsPioCDD() {
+
+										if (isOpenPioCDD == true) {
+
+											isOpenPioCDD=false;
+
+											document.getElementById(&quot;detailsPioCDD&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenPioCDD=true;
+
+											document.getElementById(&quot;detailsPioCDD&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;Semencier international  |  Aussonne (31)  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.france.pioneer.com\&quot;&gt;www.france.pioneer.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Rédaction d’argumentaires techniques pour les documents marketing et supports de présentations (flyers, fiches techniques, site internet, vidéos, etc.)&lt;/p&gt;&lt;p&gt;Pour communiquer à propos d&#039;une nouvelle technique d&#039;ouverture des sacs de semences, j&#039;ai réalisé une vidéo. Pour cela j&#039;ai conçu, tourné et monté la &lt;a href=\&quot;https://www.youtube.com/watch?v=CDAEPZEYtn4\&quot;&gt;vidéo&lt;/a&gt; de promotion qui a été visionnée plus de 2 000 fois sur YouTube&lt;/p&gt;&lt;p&gt;Pour gérer le projet des livrets de résultats, document phare de l&#039;année, j&#039;ai compilé les données techniques venant de la recherche et des chefs produits ainsi que les témoignages d&#039;agriculteurs venant des agents terrain et j&#039;ai structuré et mis en forme ces données. Les livrets sont imprimés en plusieurs milliers d&#039;exemplaires et envoyés aux agriculteurs dans toute la France.&lt;/p&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+							
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2014  |  7 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+								
+								&lt;h2&gt;
+									Mise en place d&#039;un OAD sur le mildiou du maïs &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsPioSFE()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+							 
+								DuPont Pioneer  |  Stage						
+
+								&lt;p id=&quot;detailsPioSFE&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+										var isOpenPioSFE=true; 
+
+										function toggleDetailsPioSFE() {
+
+											if (isOpenPioSFE == false) {
+												isOpenPioSFE=true;
+												document.getElementById(&quot;detailsPioSFE&quot;).innerHTML =&quot;&quot;;
+											}
+
+											else {
+												isOpenPioSFE=false;
+												document.getElementById(&quot;detailsPioSFE&quot;).innerHTML =&quot;&lt;br&gt;&lt;div class=\&quot;row\&quot;&gt;&lt;div class=\&quot;col-lg-9\&quot;&gt;&lt;p&gt;Semencier international  |  Aussonne (31)  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.france.pioneer.com\&quot;&gt;www.france.pioneer.com&lt;/a&gt;&lt;br&gt;&lt;p&gt;Cette maladie habituellement discrète sur le maïs a été fortement présente en 2013, l&#039;enjeu était d&#039;apporter des supports aux agents terrain.&lt;/p&gt;&lt;p&gt;Avec les résultats de mon étude bibliographique et de mon enquête auprès des agriculteurs, j&#039;ai déterminé le contexte favorisant le mildiou. &lt;br&gt;J&#039;ai conçu un OAD informatisé (écrit en VBA) prenant en compte les paramètres environnementaux et agronomiques (date de semis optimale en fonction des probabilités de présence du mildiou, de la croissance de la plante et de l&#039;environnement de la parcelle). &lt;br&gt;J&#039;ai fait des essais auprès d&#039;agriculteurs qui se sont avérés concluants et leurs retours ont été positifs.&lt;br&gt;&lt;p&gt;L&#039;OAD est opérationnel et est utilisé auprès des agriculteurs.&lt;/p&gt;&lt;/div&gt;&lt;div class=\&quot;col-lg-3\&quot;&gt;&lt;img style=\&quot;max-width:100%\&quot; src=\&quot;http://laurie.besinet.net/public/uploads/Mildioujpg.png\&quot; alt=\&quot;Mildiou\&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&quot;;
+											}
+										}
+									&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+							
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2013  |  3 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+								&lt;h2&gt;
+									Optimisation de l&#039;analyse des acides gras &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsNetS()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+								
+								Nutrition et Santé  |  Stage							
+
+								&lt;p id=&quot;detailsNetS&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+									var isOpenNetS=false; 
+
+									function toggleDetailsNetS() {
+
+										if (isOpenNetS == true) {
+											isOpenNetS=false;
+											document.getElementById(&quot;detailsNetS&quot;).innerHTML =&quot;&quot;;
+										}
+
+										else {
+											isOpenNetS=true;
+											document.getElementById(&quot;detailsNetS&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;Leader du marché de la diététique | Revel (31)  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.nutritionetsante.com\&quot;&gt;www.nutritionetsante.com&lt;/a&gt;&lt;p&gt;Le service contrôle qualité de cette usine agroalimentaire souhaite renouveller son matériel pour l&#039;analyse des acides gras des biscuits produits dans l&#039;usine attenante. &lt;/p&gt;&lt;p&gt;J&#039;ai analysé le besoin des utilisateurs du laboratoire et fait une étude de marché pour faire une recommandation d&#039;achat. Un chromatographe en phase gazeuse a été acquis et je l&#039;ai paramétré. &lt;/p&gt;&quot;;
+										}
+									}
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+							
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2012  |  4 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+								&lt;h2&gt;
+									Assistante en laboratoire de recherche fondamentale &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsUWM()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+
+								Laboratory Ané, University of Wisconsin, USA  |  Stage							
+
+								&lt;p id=&quot;detailsUWM&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenUWM=false; 
+
+									function toggleDetailsUWM() {
+
+										if (isOpenUWM == true) {
+											isOpenUWM=false;
+											document.getElementById(&quot;detailsUWM&quot;).innerHTML =&quot;&quot;;
+										}
+										else {
+											isOpenUWM=true;
+											document.getElementById(&quot;detailsUWM&quot;).innerHTML =&quot;&lt;br&gt;&lt;div class=\&quot;row\&quot;&gt;&lt;div class=\&quot;col-lg-9\&quot;&gt;&lt;p&gt;Laboratoire spécialisé dans l&#039;étude des interactions entre microorganismes et plantes | Madison, Wisconsin | &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.wisc.edu\&quot;&gt;www.wisc.edu&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Pour m&#039;impliquer dans la réalisation des études sur les protéines impliquées dans la nodulation Fabacée – &lt;em&gt;Rhizobium&lt;/em&gt; à l’échelle de l’ADN, j&#039;ai mis en place des protocoles pour mettre en évidence la participation d&#039;une protéine des Fabacées dans la reconnaissance de &lt;em&gt;Rhizobium&lt;/em&gt; et j&#039;ai géré des plannings d&#039;expériences, de la plantation des graines aux analyses des résultats (comptages, pesées, analyses moléculaires, etc.).&lt;/p&gt;&lt;/div&gt;&lt;div class=\&quot;col-lg-3\&quot;&gt;&lt;img style=\&quot;max-width:100%\&quot; src=\&quot;http://laurie.besinet.net/public/uploads/Labo.png\&quot; alt=\&quot;Labo\&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&quot;;
+										}
+									}
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2011  |  3 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt; 
+								&lt;h2&gt;
+									Exploitation agricole &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsLamouthe()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+								
+								Domaine de Lamouthe, Lot-et-Garonne  |  Stage							
+
+								&lt;p id=&quot;detailsLamouthe&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenLamouthe=false; 
+
+									function toggleDetailsLamouthe() {
+
+										if (isOpenLamouthe == true) {
+
+											isOpenLamouthe=false;
+
+											document.getElementById(&quot;detailsLamouthe&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenLamouthe=true;
+
+											document.getElementById(&quot;detailsLamouthe&quot;).innerHTML =&quot;&lt;br&gt;&lt;div class=\&quot;row\&quot;&gt;&lt;div class=\&quot;col-lg-9\&quot;&gt;&lt;p&gt; Pour participer à la vie de la ferme, j&#039;ai conduit le troupeau de 250 moutons sur 80 ha de pâtures, vendu la viande aux marchés de la région, participé à la tonte des moutons, récolté des céréales et des fourrages et vécu en immersion avec la famille pendant les 3 mois de stage&lt;/p&gt;&lt;/div&gt;&lt;div class=\&quot;col-lg-3\&quot;&gt;&lt;img style=\&quot;max-width:100%\&quot; src=\&quot;http://laurie.besinet.net/public/uploads/Moutons.png\&quot; alt=\&quot;Moutons\&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+							
+							&lt;p&gt;Références sur demande.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+						&lt;/div&gt;	
+							
+						
+						
+						&lt;!_________________SCOLAIRE___________________&gt;
+						&lt;div&gt;	
+							&lt;!_________________titre SCOLAIRE___________________&gt;
+							&lt;div&gt;
+								&lt;p&gt;
+								&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+								&lt;/p&gt;
+								&lt;span id=&quot;ancreeducation&quot;&gt;&lt;/span&gt;
+								&lt;span&gt;
+									&lt;h1&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/etudes logopng.jpg&quot; alt=&quot;Etudes&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp Parcours Scolaire &lt;/h1&gt;
+								&lt;/span&gt;						
+
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;!_________________contenu SCOLAIRE___________________&gt;
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;Novembre 2015&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+								&lt;h2&gt;
+									Microsoft Virtual Academy &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsMOOCcode()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;
+
+								Cours en ligne |  C#, UX							
+
+								&lt;p id=&quot;detailsMOOCcode&quot;&gt;&lt;/p&gt;
+								&lt;script&gt; 
+
+										var isOpenMOOCcode=false; 
+
+										function toggleDetailsMOOCcode() {
+
+											if (isOpenMOOCcode == true) {
+
+												isOpenMOOCcode=false;
+
+												document.getElementById(&quot;detailsMOOCcode&quot;).innerHTML =&quot;&quot;;
+
+											}
+
+											else {
+
+												isOpenMOOCcode=true;
+
+												document.getElementById(&quot;detailsMOOCcode&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;MOOC diffusé par Windows  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;https://openclassrooms.com/courses/apprendre-a-coder-pour-les-vrais-debutants\&quot;&gt;openclassrooms.com/courses/apprendre-a-coder &lt;/a&gt;&lt;/p&gt;&quot;+
+
+												&quot;&lt;p&gt;Pour apprendre à développer des applications de bureau et pour smartphone, j&#039;ai appris le langage C# et le design pour l&#039;expérience utilisateur. &lt;br&gt;Cela comprend des cours, des tutoriaux de code et de conception d&#039;applications et une certification finale.&lt;br&gt;&lt;/p&gt;&quot;;
+
+											}
+
+											}
+
+									&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2010 - 2015&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt; 
+									&lt;h2&gt;
+										Ecole d&#039;Ingénieurs de Purpan &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsPurpan()&quot;&gt; + &lt;/button&gt;
+									&lt;/h2&gt;
+
+								Ecole d&#039;ingénieurs en agriculture							
+
+								&lt;p id=&quot;detailsPurpan&quot;&gt;&lt;/p&gt;
+								&lt;script&gt; 
+
+									var isOpenPurpan=false; 
+
+									function toggleDetailsPurpan() {
+
+										if (isOpenPurpan == true) {
+
+											isOpenPurpan=false;
+
+											document.getElementById(&quot;detailsPurpan&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenPurpan=true;
+
+											document.getElementById(&quot;detailsPurpan&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;94ème promotion  |  Toulouse (31)  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.purpan.fr\&quot;&gt;www.purpan.fr&lt;/a&gt;&lt;/p&gt;&quot;+
+
+											&quot;&lt;p&gt;Agriculture, sciences de la vie, marketing, management, gestion de projets&lt;/p&gt;&lt;br&gt;&lt;p&gt;Domaine d&#039;approfondissement : Accompagnement, Conseil et Innovation en                  Agriculture&lt;br&gt;&lt;/p&gt;&quot;+
+											&quot;&lt;p&gt;Implication dans l’association de la 94ème promotion de l’école de Purpan pour l’animation de la vie étudiante&lt;/p&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2013&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+									&lt;h2&gt;
+									Université Fédérale du Ceará &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsBresil()&quot;&gt; + &lt;/button&gt;
+									&lt;/h2&gt;
+
+								Fortaleza, BRESIL |  équivalent bachelor						
+
+								&lt;p id=&quot;detailsBresil&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenBresil=false; 
+
+									function toggleDetailsBresil() {
+
+										if (isOpenBresil == true) {
+
+											isOpenBresil=false;
+
+											document.getElementById(&quot;detailsBresil&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenBresil=true;
+
+											document.getElementById(&quot;detailsBresil&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;Centre des sciences agraires  |  &lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.ufc.br\&quot;&gt;www.ufc.br &lt;/a&gt;&lt;/p&gt;&quot;+
+
+											&quot;&lt;p&gt;Echange universitaire&lt;/p&gt;&lt;br&gt;&lt;p&gt;Ingeniérie des aliments&lt;br&gt;&lt;/p&gt;&quot;;
+
+										}
+
+										}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+											
+						&lt;/div&gt;
+
+											
+						
+						&lt;!_________________PERSO___________________&gt;
+						&lt;div&gt;	
+							&lt;!_________________titre PERSO___________________&gt;
+							&lt;div&gt;							
+								&lt;p&gt;
+									&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+									&lt;span id=&quot;ancreperso&quot;&gt;&lt;/span&gt;
+								&lt;/p&gt;
+
+									&lt;h1&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/projets logo.jpg&quot; alt=&quot;Projets&quot; /&gt;
+									&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbspProjets personnels
+									&lt;/h1&gt;
+							&lt;/div&gt;
+
+							&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+							&lt;!_________________contenu PERSO___________________&gt;
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2015&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;     
+								&lt;h2&gt;Création de mon site web &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsSiteWeb()&quot;&gt; + &lt;/button&gt;
+								&lt;/h2&gt;							
+
+								&lt;p id=&quot;detailsSiteWeb&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenSiteWeb=false; 
+
+									function toggleDetailsSiteWeb() {
+
+										if (isOpenSiteWeb == true) {
+
+											isOpenSiteWeb=false;
+
+											document.getElementById(&quot;detailsSiteWeb&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenSiteWeb=true;
+
+											document.getElementById(&quot;detailsSiteWeb&quot;).innerHTML =&quot;&lt;br&gt;&lt;p&gt;Pour répondre à un défi personnel, j&#039;ai réalisé mon site. Pour cela, j&#039;ai acqui mon nom de domaine que j&#039;ai fait héberger, j&#039;ai installé un CMS et me suis inititiée au langage HTML et CSS. Le résultat est sous votre souris. &lt;\p&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2014  - 2015  |  8 mois&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;
+
+								&lt;h2&gt;Plastic Recycling &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsDefi()&quot;&gt; + &lt;/button&gt;&lt;/h2&gt;
+
+								Défi LocaCité, Concours d&#039;innovation étudiant  |  FabLab Toulouse						
+
+								&lt;p id=&quot;detailsDefi&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenDefi=false; 
+
+									function toggleDetailsDefi() {
+
+										if (isOpenDefi == true) {
+
+											isOpenDefi=false;
+
+											document.getElementById(&quot;detailsDefi&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenDefi=true;
+
+											document.getElementById(&quot;detailsDefi&quot;).innerHTML =&quot;&lt;br&gt;&lt;div class=\&quot;row\&quot;&gt;&lt;div class=\&quot;col-lg-9\&quot;&gt;&lt;p&gt;&lt;a target=\&quot;_blank\&quot; href=\&quot;http://www.defi-locacite.fr/recyclage-plastique\&quot;&gt;Plastic Recycling&lt;/a&gt;&lt;/p&gt;&lt;p&gt; Pour relever le Défi LocaCité qui propose de repenser la ville, mon équipe, composée d&#039;étudiants de différentes formations et moi-même, a proposé de mettre en place une filière de récupération du plastique hors du circuit de recyclage. &lt;/p&gt;&lt;p&gt;Le projet a été développé pendant plusieurs mois au travers de workshops, rencontres avec des professionnels et conférences et l&#039;un d&#039;entre nous a repris la problématique comme sujet de son mémoire de fin d&#039;études. &lt;/div&gt;&lt;div class=\&quot;col-lg-3\&quot;&gt;&lt;img style=\&quot;max-width:100%\&quot; src=\&quot;http://laurie.besinet.net/public/uploads/Defi.png\&quot; alt=\&quot;Defi\&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							&lt;div&gt;
+								&lt;p class=&quot;text-muted&quot; style=&quot;margin-bottom: 0px&quot;&gt;2012  -  2015  |  3 ans&lt;/p&gt;
+								&lt;HR WIDTH=100%&gt;  
+
+								&lt;h2&gt;Association de la 94ème promotion &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;button class=&quot;btn btn-success btn-xs&quot; onclick=&quot;toggleDetailsAsso()&quot;&gt; + &lt;/button&gt;	&lt;/h2&gt;
+
+								E.I. Purpan									
+
+								&lt;p id=&quot;detailsAsso&quot;&gt;&lt;/p&gt;
+
+								&lt;script&gt; 
+
+									var isOpenAsso=false; 
+
+									function toggleDetailsAsso() {
+
+										if (isOpenAsso == true) {
+
+											isOpenAsso=false;
+
+											document.getElementById(&quot;detailsAsso&quot;).innerHTML =&quot;&quot;;
+
+										}
+
+										else {
+
+											isOpenAsso=true;
+
+											document.getElementById(&quot;detailsAsso&quot;).innerHTML =&quot;&lt;br&gt;&lt;div class=\&quot;row\&quot;&gt;&lt;div class=\&quot;col-lg-9\&quot;&gt;&lt;p&gt;Implication dans l&#039;organisation d&#039;animations, recherche de sponsors, promotion des évènements et des produits.&lt;/p&gt;&lt;p&gt; Pour l&#039;organisation de la cérémonie de remise des diplômes, j&#039;ai organisé l&#039;envoi des invitations avec une équipe dédiée. Pour cela, nous avons recensé les invités des personnes de la promotion (parents, frères, soeurs, etc.), établi un budget et contacté des imprimeurs pour finalement envoyer 300 invitations aux familles des élèves. &lt;\p&gt;&lt;/div&gt;&lt;div class=\&quot;col-lg-3\&quot;&gt;&lt;img style=\&quot;max-width:100%\&quot; src=\&quot;http://laurie.besinet.net/public/uploads/Invitation RDDjpg.png\&quot; alt=\&quot;Invitation\&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&quot;;
+
+										}
+
+									}
+
+								&lt;/script&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+
+
+						&lt;!_________________COMPETENCES_________________&gt;
+						&lt;div&gt;
+						&lt;!_________________titre COMPETENCES___________________&gt;
+							&lt;div&gt;							
+								&lt;p&gt;
+									&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+									&lt;span id=&quot;ancrecompetences&quot;&gt;&lt;/span&gt;
+								&lt;/p&gt;
+
+									&lt;h1&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/competences logo.jpg&quot; alt=&quot;Competences&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbspCompétences&lt;/h1&gt;
+								&lt;br&gt;
+							&lt;/div&gt;
+
+							
+						
+						&lt;!_________________CONTENU COMPETENCES____________&gt;
+						
+
+							&lt;div&gt;
+								&lt;h2&gt;Langues&lt;/h2&gt;
+
+								&lt;td style=&quot;width:10%&quot;&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;img src=&quot;http://laurie.besinet.net/public/uploads/France.jpg&quot; alt=&quot;France&quot; /&gt;&lt;/td&gt;
+								&lt;td style=&quot;width:20%&quot;&gt;&amp;nbsp&amp;nbspFrançais &lt;/td&gt;
+								&lt;td&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &lt;font class=&quot;text-success&quot;&gt;●●●●●●&lt;/font&gt;&lt;/td&gt;
+								&lt;br&gt;
+
+								&lt;td style=&quot;width:10%&quot;&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;img src=&quot;http://laurie.besinet.net/public/uploads/Etats Unis.jpg&quot; alt=&quot;Etats Unis&quot; /&gt;&lt;/td&gt;
+								&lt;td style=&quot;width:20%&quot;&gt;&amp;nbsp&amp;nbspAnglais &lt;/td&gt;
+								&lt;td&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp &lt;font class=&quot;text-success&quot;&gt;●●●●●○&lt;/font&gt;&lt;/td&gt;&lt;br&gt;
+
+								&lt;td style=&quot;width:10%&quot;&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;img src=&quot;http://laurie.besinet.net/public/uploads/Bresil.jpg&quot; alt=&quot;Bresil&quot; /&gt;&lt;/td&gt;
+								&lt;td style=&quot;width:20%&quot;&gt;&amp;nbsp&amp;nbspPortugais&lt;/td&gt;
+								&lt;td&gt;&amp;nbsp&amp;nbsp &lt;font class=&quot;text-success&quot;&gt;●●●●○○&lt;/font&gt;&lt;/td&gt;&lt;br&gt;
+
+								&lt;td style=&quot;width:10%&quot;&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;img src=&quot;http://laurie.besinet.net/public/uploads/Allemagne.jpg&quot; alt=&quot;Allemagne&quot; /&gt;&lt;/td&gt;
+								&lt;td style=&quot;width:20%&quot;&gt;&amp;nbsp&amp;nbspAllemand &lt;/td&gt;
+								&lt;td&gt;&amp;nbsp&amp;nbsp&amp;nbsp &lt;font class=&quot;text-success&quot;&gt;●●○○○○&lt;/font&gt;&lt;/td&gt;
+							&lt;/div&gt;
+
+							&lt;br&gt;
+
+							&lt;div&gt;
+								&lt;h2&gt;Informatique&lt;/h2&gt;
+									 &lt;ul&gt;
+										 &lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Maîtrise suite office (Word, Excel, Powerpoint) ou équivalent libre
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Notions en langages VBA, HTML, C# et xaml et utilisation de logiciels de gestion de base de données (Access)
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Utilisation de logiciel de statistiques (XLStats)
+									&lt;/ul&gt;
+							&lt;/div&gt;
+
+							&lt;br&gt;
+							
+							&lt;div&gt;
+								&lt;h2&gt;Autres&lt;/h2&gt;
+									 &lt;ul&gt;
+										 &lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;BPL
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Statistiques 
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Gestion de projet
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Rédaction de rapports
+										 &lt;br&gt;&lt;font class=&quot;text-success&quot;&gt;●&amp;nbsp&amp;nbsp&lt;/font&gt;Travail en équipe
+									 &lt;/ul&gt;      
+							&lt;/div&gt;
+							
+							&lt;br&gt;
+							
+						&lt;/div&gt;
+
+							
+							
+						&lt;!_______________INTERETS________________&gt;
+						&lt;div&gt;
+							
+							&lt;!________________TITRE INTERETS__________________&gt;
+							
+							&lt;div&gt;
+								&lt;p&gt;
+									&lt;HR style=&quot;height: 1px; color: #B4BCC2; background-color: #B4BCC2; width: 100%; border: none;&quot;&gt;
+									&lt;span id=&quot;ancreinterets&quot;&gt;&lt;/span&gt;
+								&lt;/p&gt;
+
+								&lt;h1&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/loisirs logo.jpg&quot; alt=&quot;Loisirs&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbspCentres d&#039;intérêts&lt;/h1&gt;
+								
+								&lt;br&gt;
+							&lt;/div&gt;
+
+								
+							
+							&lt;!_______________CONTENU INTERETS_________________&gt;
+
+							&lt;div&gt;
+								
+								&lt;div class=&quot;col-lg-6&quot;&gt;
+									&lt;h2&gt;Sports de glisse&lt;/h2&gt;
+									17 ans de ski, patinage artistique &lt;br&gt;
+									&lt;img style=&quot;max-width:50%&quot; src=&quot; http://laurie.besinet.net/public/uploads/ski.jpg&quot; alt=&quot;ski&quot; /&gt;
+
+									&lt;h2&gt;Voyages&lt;/h2&gt;
+									Amériques et Europe&lt;br&gt;
+									&lt;img style=&quot;max-width:70%&quot; src=&quot; http://laurie.besinet.net/public/uploads/carte.jpg&quot; alt=&quot;carte&quot; /&gt;
+								&lt;/div&gt;
+								
+								&lt;div class=&quot;col-lg-6&quot;&gt;
+									&lt;h2&gt;Nouvelles technologies, numérique&lt;/h2&gt;
+									&lt;img style=&quot;max-width:50%&quot; src=&quot; http://laurie.besinet.net/public/uploads/ntic.jpg&quot; alt=&quot;ntic&quot; /&gt;
+
+									&lt;h2&gt;Do It Yourself, Bricolage&lt;br&gt;&lt;/h2&gt;
+									&lt;img style=&quot;max-width:65%&quot; src=&quot; http://laurie.besinet.net/public/uploads/diy.jpg&quot; alt=&quot;diy&quot; /&gt;
+								&lt;/div&gt;
+												
+							&lt;/div&gt;
+						&lt;/div&gt;
+						
+					&lt;/div&gt;
+					
+					
+				
+				&lt;/div&gt;
+				
+				
+				&lt;! ______________________ BAS DE PAGE ___________________&gt;
+						
+		
+				&lt;div class=&quot;col-lg-12&quot;&gt;
+					
+					&lt;br&gt;
+					&lt;br&gt;					
+					&lt;HR WIDTH=100%&gt;
+					&lt;br&gt;
+					&lt;br&gt;
+				
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;col-lg-12&quot;&gt;
+					
+					&lt;div class=&quot;col-lg-3&quot;&gt;
+					&lt;/div&gt;
+				
+					&lt;div class=&quot;col-lg-4&quot;&gt;
+						&lt;a target=&quot;_blank&quot; href=&quot;http://laurie.besinet.net/public/uploads/CV_BESINET.pdf&quot;&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/imprimante.jpg&quot; alt=&quot;imprimante&quot; /&gt; &amp;nbsp&amp;nbsp&amp;nbsp
+								Version PDF
+						&lt;/a&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;col-lg-4&quot;&gt;
+						&lt;a href=&quot;#ancre&quot;&gt;&lt;img src=&quot;http://laurie.besinet.net/public/uploads/up.jpg&quot; alt=&quot;haut&quot; /&gt;&amp;nbsp&amp;nbsp&amp;nbsp
+							Haut de page
+						&lt;/a&gt;
+					&lt;/div&gt;
+											
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;col-lg-12&quot;&gt;
+					
+					&lt;br&gt;					
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+&lt;span style=&quot;color:#FFFFFF&quot;&gt;.&lt;/span&gt;
+		&lt;script&gt;
+			var birthDate = new Date(&quot;June 25, 1992 00:00:00&quot;)
+			var todayDate = new Date();
+			var age = Math.floor((todayDate - birthDate)/31536000000) ;
+			document.getElementById(&quot;age&quot;).innerHTML = age ;
+		&lt;/script&gt;	
