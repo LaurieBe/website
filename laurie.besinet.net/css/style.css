@@ -17,6 +17,9 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+body a:hover{
+	color:#10BD14;
+}
 /*----start-container----*/
 .container{
 	width:70%;
@@ -60,7 +63,7 @@ body a{
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
-	color:#EE2F1B;
+	color:#10BD14;
 }
 .logo a{
 	display:block;
@@ -193,7 +196,7 @@ nav a#pull {
 .banner-info span{
 	width:15%;
 	height:1px;
-	background:#35C2F8;
+	background:#10BD14;
 	display:inline-block;
 }
 .banner-info p{
@@ -217,8 +220,8 @@ nav a#pull {
 }
 .service-head span{
 	width:15%;
-	height:1px;
-	background:#35C2F8;
+	height:1.5px;
+	background:#10BD14;
 	display:inline-block;
 }
 .service-grid span{
@@ -279,6 +282,7 @@ nav a#pull {
 	line-height:1.7em;
 	color:#777777;
 }
+/*
 .e-left-inner-grid-left{
 	float:left;
 	width:10%
@@ -287,6 +291,7 @@ nav a#pull {
 	float:right;
 	width:85%;
 }
+*/
 .e-left-inner-grid{
 	width: 47%;
 	float: left;
@@ -340,10 +345,12 @@ a.leran-more{
 	-o-border-radius: 3em;
 	border:1px solid #CBEEFA;
 }
+/*-
 a.leran-more:hover{
 	background:#222222;
 	color:#FFFFFF;
 }
+*/
 .expertice-left-grid{
 	padding:3em 3em 3em 5em;
 }
@@ -467,9 +474,9 @@ a.leran-more:hover{
 	text-transform: uppercase;
 }
 .about-head span{
-	width: 8%;
-	height: 1px;
-	background: #35C2F8;
+	width: 15%;
+	height: 1.5px;
+	background: #10BD14;
 	display: inline-block;
 }
 /*--about-time-line--*/
@@ -524,6 +531,7 @@ a.leran-more:hover{
 	margin: 0 0 0 -25px;
 	display:block;
 }
+/*
 .cbp_tmicon{
 	left: 41%;
 	top: 1%;
@@ -548,6 +556,7 @@ a.leran-more:hover{
 	left: 41%;
 	top: 90%;
 }
+*/
 .img1{
 	background:url(../images/time-line-img.jpg) no-repeat;
 	background-size: 100% 100%;
@@ -746,7 +755,7 @@ a.leran-more:hover{
 	text-decoration:none;
 }
 .contact-left-grid p a:hover{
-	color:#35C2F8;
+	color:#10BD14;
 }
 .contact-left-grid p span{
 	width: 28px;
@@ -780,7 +789,7 @@ a.leran-more:hover{
 	text-decoration:none;
 }
 .contact-right-grid p a:hover{
-	color:#35C2F8;
+	color:#10BD14;
 }
 .contact-right-grid p span{
 	width: 28px;
@@ -823,14 +832,14 @@ a.leran-more:hover{
 	margin:0 0 1em 0;
 }
 .contact-right input[type="text"]:hover,.contact-right textarea:hover{
-	border-color:#35C2F8;
+	border-color:#10BD14;
 }
 .contact-right textarea{
 	outline:none;
 	min-height:150px;
 }
 .contact-right input[type="submit"]{
-	background:#35C2F8;
+	background:#10BD14;
 	padding:0.9em 1.5em;
 	color:#FFF;
 	text-transform:uppercase;
@@ -844,7 +853,7 @@ a.leran-more:hover{
 	-ms-transition:0.5s all;
 }
 .contact-right input[type="submit"]:hover{
-	background:#EE2F1B;
+	background:#10BD14;
 }
 /*---- copy-right -----*/
 .copy-right p{
@@ -856,8 +865,9 @@ a.leran-more:hover{
 	font-family: 'Open Sans', sans-serif;
 	margin-top:5em;
 }
+/*
 .copy-right p a{
-	color:#35C2F8;
+	color:#10BD14;
 }
 .copy-right p a:hover{
 	color:#FFF;
@@ -886,6 +896,7 @@ a.leran-more:hover{
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+*/
 /*---- responsive-design ----*/
 @media (max-width:1366px){
 	.container{
