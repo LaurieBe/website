@@ -73,7 +73,7 @@
           "key_etu_pur_eco": "PURPAN School of Engineers and managers in Agriculture",
           "key_etu_pur_desc": "<a target=\"_blank\" href=\"https://www.purpan.fr\">www.purpan.fr</a> | Toulouse, FRANCE",
           "key_etu_pur_date": "2010 – 2015",
-          "key_etu_pur_titre": "Master’s degree in agriculture",
+          "key_etu_pur_titre": "Master’s degree in agriculture engineering",
           "key_etu_pur_details": "General fields are agriculture, life sciences, marketing, project management. Acquisition of skills to master the complexity and to become an agent of change: <br> - carrying out contextual analysis of the agricultural world, <br> - using the tools of an engineer, <br> - running a company, <br> - effecting change. <br> Final year specialization in Support, Advice and Innovation in Agriculture",
 
           "key_etu_for_eco": "Federal University of Ceara",
@@ -82,6 +82,15 @@
           "key_etu_for_titre": "Bachelor's degree in food engineering",
           "key_etu_for_details": "Academic exchange with courses about food industry. <br> I discovered of a new country, a new continent, a new culture, a new language by living daily with all of it. This was very enriching to meet other points of view.",
 
+          "key_comp_hard": "Hard Skills",
+          "key_comp_hard_skills": "<ul><li>Vegetal and Animal Physiology, Protection, Nutrition</ul></li><ul><li>Food transformation and Quality</ul></li><ul><li>Team and project management</ul></li><ul><li>Economy, Marketing</ul></li><ul><li>Statistic</ul></li><ul><li>Microsoft Office</ul></li><ul><li>Developpement: initiation at VBA, C+, CSS, HTML, Git and Github</ul></li>",
+          "key_comp_lang": "Languages",
+          "key_comp_lang_skills1": "French: native language",
+          "key_comp_lang_skills2": "English: professional capability",
+          "key_comp_lang_skills3": "Portuguese: conversation capability",
+          "key_comp_lang_skills4": "German: elementary notions",
+          "key_comp_soft": "Soft Skills",
+          "key_comp_soft_skills": "<ul><li>Autonomy</ul></li><ul><li>Team Work</ul></li><ul><li>Well Organized</ul></li><ul><li>Patient</ul></li>",
         }
       },
       fr: {
@@ -203,6 +212,20 @@
     for(i =0; i<  document.getElementsByClassName('i18n_etu_for_date').length;i++){document.getElementsByClassName('i18n_etu_for_date')[i].innerHTML= i18next.t('key_etu_for_date');}
     for(i =0; i<  document.getElementsByClassName('i18n_etu_for_titre').length;i++){document.getElementsByClassName('i18n_etu_for_titre')[i].innerHTML= i18next.t('key_etu_for_titre');}
     for(i =0; i<  document.getElementsByClassName('i18n_etu_for_details').length;i++){document.getElementsByClassName('i18n_etu_for_details')[i].innerHTML= i18next.t('key_etu_for_details');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_hard_skills').length;i++){document.getElementsByClassName('i18n_comp_hard_skills')[i].innerHTML= i18next.t('key_comp_hard_skills');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_hard').length;i++){document.getElementsByClassName('i18n_comp_hard')[i].innerHTML= i18next.t('key_comp_hard');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_lang').length;i++){document.getElementsByClassName('i18n_comp_lang')[i].innerHTML= i18next.t('key_comp_lang');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_lang_skills1').length;i++){document.getElementsByClassName('i18n_comp_lang_skills1')[i].innerHTML= i18next.t('key_comp_lang_skills1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_lang_skills2').length;i++){document.getElementsByClassName('i18n_comp_lang_skills2')[i].innerHTML= i18next.t('key_comp_lang_skills2');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_lang_skills3').length;i++){document.getElementsByClassName('i18n_comp_lang_skills3')[i].innerHTML= i18next.t('key_comp_lang_skills3');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_lang_skills4').length;i++){document.getElementsByClassName('i18n_comp_lang_skills4')[i].innerHTML= i18next.t('key_comp_lang_skills4');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_soft').length;i++){document.getElementsByClassName('i18n_comp_soft')[i].innerHTML= i18next.t('key_comp_soft');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_soft_skills').length;i++){document.getElementsByClassName('i18n_comp_soft_skills')[i].innerHTML= i18next.t('key_comp_soft_skills');}
+
+
   }
 
   function changeLng(lng) {
