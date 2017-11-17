@@ -27,7 +27,7 @@ body{
 	background:#FAF9F5;
 	color:#3D3D3C;
 	font-weight:300;
-	font-size:16px;
+	font-size:18px;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
 }
@@ -1261,7 +1261,7 @@ footer .credits a:hover {
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: #BB0B28;
+	background: #035E14;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;

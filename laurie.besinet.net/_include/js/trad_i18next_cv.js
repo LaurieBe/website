@@ -16,10 +16,10 @@
           "key_home": "Home",
 
           "key_job_wnt_entr": "Weenat",
-          "key_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 to 15 employees | Nantes, France | Weenat allows the farmers to optimize their resources, by bringing them localized information in the plot to support their decisions.",
+          "key_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 to 15 employees | Nantes, FRANCE <br> Weenat allows the farmers to optimize their resources, by bringing them localized information in the plot to support their decisions.",
           "key_job_wnt_date1": "Jan 2016 - Nov 2017",
-          "key_job_wnt_title1": "Projects Manager",
-          "key_job_wnt_text1": "Four main missions:",
+          "key_job_wnt_title1": "as Projects Manager",
+          "key_job_wnt_text1": "In this small and young company, I had many responsibilities. My four main missions:",
           "key_job_wnt_mission1": "Create, developp and improve agronomic models and Decision Support Tools (DST)<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
           "key_job_wnt_proj1": "My main mission was to supervise creation and improvement of agronomic models and Decision Support Tools (DST) based on data (rain, humidity, temperature, soil tensiometry and temperature, ...) from sensors into the fields. The aim was to give farmers or researchers tools to confirm their decisions. As a Product Manager, I managed these projects from A to Z through: <br> - identifying users' needs and expectations <br> - structuring the model or calculations and data analyses <br> - leading the different trades involved (electronics, development) or teams from other companies <br> - implementing tests to confirm the interest of the DSTs <br> - placing the product on the market with commercial team. <br>Ten DST projects were successfully completed on various topics (irrigation, pests, fertilization, crop protection products, monitoring of growth and development).",
           "key_job_wnt_mission2": "Research and development of new strategic partnerships <span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
@@ -30,19 +30,45 @@
           "key_job_wnt_mission4": "Communication and marketing<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
 
           "key_job_pio_entr": "Dupont Pioneer",
-          "key_job_pio_desc": "<a target=\"_blank\" href=\"https://www.pioneer.com\">www.pioneer.com</a> | More than 10,000 employees worldwide | Aussonne, FRANCE | Dupont Pioneer is an international seed company specialized in maize, sunflower, oilseed rape and soybean.",
+          "key_job_pio_desc": "<a target=\"_blank\" href=\"https://www.pioneer.com\">www.pioneer.com</a> | More than 10,000 employees worldwide | Aussonne, FRANCE <br> Dupont Pioneer is an international seed company specialized in maize, sunflower, oilseed rape and soybean.",
           "key_job_pio_date1": "May - Dec 2015",
-          "key_job_pio_title1": "Communication and Marketing Assistant",
+          "key_job_pio_title1": "as Communication and Marketing Assistant",
           "key_job_pio_text1": "Daily I wrote technical arguments for marketing and communication materials, at the heart of the commercial team. Two other missions:",
           "key_job_pio_mission1": "Technical Result Book<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
           "key_job_pio_proj1": "The results book project is the flagship document of the year. In a first time I was responsible to gathering technical data and testimonies from farmers, structuring it and putting it in words. Then I made the booklet printed in thousands of copies and sent it to French farmers.",
           "key_job_pio_mission2": "Promotional video <span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
           "key_job_pio_proj2": "A promotional video about a new opening of seed bags that I put forward, designed, shot and edited has been viewed more than 2,000 times on YouTube.",
           "key_job_pio_date2": "May - Dec 2014",
-          "key_job_pio_title2": "Agronomist intern",
+          "key_job_pio_title2": "as Agronomist intern",
+          "key_job_pio_text2": "My goal was to bring technical supports to the field agents about the corn crazy top disease (downy mildew):",
           "key_job_pio_mission3": "Corn Disease Decision Support Tool conception <span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
-          "key_job_pio_proj3": "My goal was to bring technical supports to the field agents about the corn crazy top disease (downy mildew): <br> - With documentary researches and field survey, I determined the optimal conditions for the disease <br> - I coded a computerized DST (in VBA) that considers the environmental and <br> - agronomic parameters <br> - I conducted field tests in farms, which have been successful <br>Today the DST is operational and is used by field agents and farmers.",
+          "key_job_pio_proj3": " - With documentary researches and field survey, I determined the optimal conditions for the disease <br> - I coded a computerized DST (in VBA) that considers the environmental and <br> - agronomic parameters <br> - I conducted field tests in farms, which have been successful <br>Today the DST is operational and is used by field agents and farmers.",
 
+          "key_job_ns_entr": "Nutrition et Sante",
+          "key_job_ns_desc": "<a target=\"_blank\" href=\"https://www.nutritionetsante.com\">www.nutritionetsante.com</a> | 1750 employees in France | Revel, FRANCE <br> Fabricant of dietetic, organic and vegetal food, via world known brands (Gerblé, Isostar).",
+          "key_job_ns_date1": "May - Jul 2013",
+          "key_job_ns_title1": "as Food quality intern",
+          "key_job_ns_text1": "I worked with 7 person team in the physyco-chemical quality control laboratory. The various tests carried out could have concern the appearance, the texture, the preservation and the nutritional composition of the products. My main mission:",
+          "key_job_ns_mission1": "Chemical analysis material choice and parameterization<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
+          "key_job_ns_proj1": "I had to select a new equipment for the analysis of the fatty acids of the biscuits produced. Once the High-Pressure Liquid Chromatograph was acquired, I parameterized it. <br>It is now used every day to control the biscuits quality.",
+
+          "key_job_ane_entr": "Ane Laboratory",
+          "key_job_ane_desc": "<a target=\"_blank\" href=\"https://www.wisc.edu\">www.wisc.edu</a> | University of Wisconsin | Madison, Wisconsin, USA <br> Research laboratory studying interactions between microorganisms and plants.",
+          "key_job_ane_date1": "Jul - Sept 2012",
+          "key_job_ane_title1": "as Research laboratory intern",
+          "key_job_ane_text1": "It was my first big journey in a new country, far away my home land. I loved to meet people and discover their way of life. <br> On the laboratory I studied plant symbiosis at DNA level, assisting researchers by implementing laboratory protocols:",
+          "key_job_ane_mission1": "Experiments about plant and funghi interaction management<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
+          "key_job_ane_proj1": "I contributed to: <br> - demonstrate that a specific protein is implicated in the Fabaceae-Rhizobium symbiose  <br> - manage experiments from seedling to analysis of results (counts, weightings, molecular analyses, etc.).  <br>The results contributed to a scientific paper.",
+
+          "key_job_lam_entr": "Domaine de Lamouthe",
+          "key_job_lam_desc": "1 employee | Lot-et-Garonne, FRANCE <br> Farm with 80 ha and 250 sheep for slaughter.",
+          "key_job_lam_date1": "Jun - Sept 2011",
+          "key_job_lam_title1": "as Farm intern",
+          "key_job_lam_text1": "I worked in sheep farm during the summer. The family welcomed me during the 3-month internship and I've integrated myself into their daily lives.",
+          "key_job_lam_mission1": "Farm hand work<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
+          "key_job_lam_proj1": "I participated in the work of the farm: <br> - leading the herd of 250 sheep on 80 ha of pasture with the dog, <br> - feeding the lambs, <br> - solding the meat at the market, <br> - participating in shearing sheep, <br> - harvesting cereals and fodder.",
+
+          "key_job_ref": "References available upon request",
 
         }
       },
@@ -57,6 +83,7 @@
           "key_projects": "Projets",
           "key_contact": "Contact",
           "key_home": "Accueil",
+
           "key_job_wnt_entr": "Weenat",
           "key_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 à 15 employés | Nantes (44), France | Solutions d'agronomie de précision, mobile, connectée et accessible à tous les agriculteurs. Les informations sont collectées de façon ultra-localisée en temps réel par des capteurs, puis analysées et enrichies avec des OAD et enfin présentées dans une interface pratique",
           "key_job_wnt_date1": "Jan 2016 - Nov 2017",
@@ -123,8 +150,35 @@
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_title1').length;i++){document.getElementsByClassName('i18n_cv_job_pio_title1')[i].innerHTML= i18next.t('key_job_pio_title1');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_mission3').length;i++){document.getElementsByClassName('i18n_cv_job_pio_mission3')[i].innerHTML= i18next.t('key_job_pio_mission3');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_proj3').length;i++){document.getElementsByClassName('i18n_cv_job_pio_proj3')[i].innerHTML= i18next.t('key_job_pio_proj3');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_text2').length;i++){document.getElementsByClassName('i18n_cv_job_pio_text2')[i].innerHTML= i18next.t('key_job_pio_text2');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_title2').length;i++){document.getElementsByClassName('i18n_cv_job_pio_title2')[i].innerHTML= i18next.t('key_job_pio_title2');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_pio_date2').length;i++){document.getElementsByClassName('i18n_cv_job_pio_date2')[i].innerHTML= i18next.t('key_job_pio_date2');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_desc').length;i++){document.getElementsByClassName('i18n_cv_job_ns_desc')[i].innerHTML= i18next.t('key_job_ns_desc');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_entr').length;i++){document.getElementsByClassName('i18n_cv_job_ns_entr')[i].innerHTML= i18next.t('key_job_ns_entr');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_date1').length;i++){document.getElementsByClassName('i18n_cv_job_ns_date1')[i].innerHTML= i18next.t('key_job_ns_date1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_text1').length;i++){document.getElementsByClassName('i18n_cv_job_ns_text1')[i].innerHTML= i18next.t('key_job_ns_text1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_title1').length;i++){document.getElementsByClassName('i18n_cv_job_ns_title1')[i].innerHTML= i18next.t('key_job_ns_title1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_mission1').length;i++){document.getElementsByClassName('i18n_cv_job_ns_mission1')[i].innerHTML= i18next.t('key_job_ns_mission1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ns_proj1').length;i++){document.getElementsByClassName('i18n_cv_job_ns_proj1')[i].innerHTML= i18next.t('key_job_ns_proj1');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_desc').length;i++){document.getElementsByClassName('i18n_cv_job_ane_desc')[i].innerHTML= i18next.t('key_job_ane_desc');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_entr').length;i++){document.getElementsByClassName('i18n_cv_job_ane_entr')[i].innerHTML= i18next.t('key_job_ane_entr');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_date1').length;i++){document.getElementsByClassName('i18n_cv_job_ane_date1')[i].innerHTML= i18next.t('key_job_ane_date1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_text1').length;i++){document.getElementsByClassName('i18n_cv_job_ane_text1')[i].innerHTML= i18next.t('key_job_ane_text1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_title1').length;i++){document.getElementsByClassName('i18n_cv_job_ane_title1')[i].innerHTML= i18next.t('key_job_ane_title1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_mission1').length;i++){document.getElementsByClassName('i18n_cv_job_ane_mission1')[i].innerHTML= i18next.t('key_job_ane_mission1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ane_proj1').length;i++){document.getElementsByClassName('i18n_cv_job_ane_proj1')[i].innerHTML= i18next.t('key_job_ane_proj1');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_desc').length;i++){document.getElementsByClassName('i18n_cv_job_lam_desc')[i].innerHTML= i18next.t('key_job_lam_desc');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_entr').length;i++){document.getElementsByClassName('i18n_cv_job_lam_entr')[i].innerHTML= i18next.t('key_job_lam_entr');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_date1').length;i++){document.getElementsByClassName('i18n_cv_job_lam_date1')[i].innerHTML= i18next.t('key_job_lam_date1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_text1').length;i++){document.getElementsByClassName('i18n_cv_job_lam_text1')[i].innerHTML= i18next.t('key_job_lam_text1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_title1').length;i++){document.getElementsByClassName('i18n_cv_job_lam_title1')[i].innerHTML= i18next.t('key_job_lam_title1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_mission1').length;i++){document.getElementsByClassName('i18n_cv_job_lam_mission1')[i].innerHTML= i18next.t('key_job_lam_mission1');}
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_lam_proj1').length;i++){document.getElementsByClassName('i18n_cv_job_lam_proj1')[i].innerHTML= i18next.t('key_job_lam_proj1');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ref').length;i++){document.getElementsByClassName('i18n_cv_job_ref')[i].innerHTML= i18next.t('key_job_ref');}
 
   }
 

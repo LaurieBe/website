@@ -67,13 +67,13 @@
 
   <!-- Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-66628748-4', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-66628748-4', 'auto');
+  ga('send', 'pageview');
   </script>
   <!-- End Analytics -->
 
@@ -85,21 +85,21 @@
   nom=navigator.appName; //J'ai choisi le français et l'anglais car je sais que ce sont les langues les plus parlées dans le monde
   langue=navigator.language; //Donc si votre navigateur a une autre langue que le français, il est rédirigé vers la page en Anglais
   langue1=navigator.browserLanguage;
-  	if (nom=="Microsoft Internet Explorer")
-  		{
-  		if (langue1=="fr")
-  		self.location.href=francais;
-  		else
-  		self.location.href=anglais;
-  		}
-  	else
-  		{
-  		if (langue=="fr")
-  		self.location.href=francais;
-  		else self.location.href=anglais;
-  		}
-  </script-->
-  <!-- End Translation -->
+  if (nom=="Microsoft Internet Explorer")
+  {
+  if (langue1=="fr")
+  self.location.href=francais;
+  else
+  self.location.href=anglais;
+}
+else
+{
+if (langue=="fr")
+self.location.href=francais;
+else self.location.href=anglais;
+}
+</script-->
+<!-- End Translation -->
 
 </head>
 
@@ -113,91 +113,92 @@
 <body>
 
   <!--div style="height: 100px">
-    <button onclick="i18next.changeLanguage('en')">
-    english
-    </button>
-    <button onclick="i18next.changeLanguage('fr')">
-    francais
-    </button>
-    <div id="i18n_hello" />
-  < /div -->
+  <button onclick="i18next.changeLanguage('en')">
+  english
+</button>
+<button onclick="i18next.changeLanguage('fr')">
+francais
+</button>
+<div id="i18n_hello" />
+< /div -->
 
 
 <!-- This section is for Splash Screen -->
 <div class="ole">
   <section id="jSplash">
-  	<div id="circle"></div>
+    <div id="circle"></div>
   </section>
 </div>
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
 <div id="home-slider">
-    <div class="overlay"></div>
+  <div class="overlay"></div>
 
-    <div class="slider-text">
-    	<div id="slidecaption"></div>
-    </div>
+  <div class="slider-text">
+    <div id="slidecaption"></div>
+  </div>
 
-	<!--div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
+  <!--div class="control-nav">
+  <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+  <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+  <ul id="slide-list"></ul>
 
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
-    </div-->
+  <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+</div-->
 </div>
 <!-- End Homepage Slider -->
 
 <!-- Header -->
 <header>
-    <div class="sticky-nav">
-    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+  <div class="sticky-nav">
+    <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-        <div class="span1">
-        	<a id="goUp" href="#home-slider" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: center;"></a>
-        </div>
-
-        <nav id="menu">
-        	<ul id="menu-nav">
-            <li><a href="index.html" target="_blank" id="i18n_cv_home"></a></li>
-              <li><a href="index.html#contact" target="_blank" id="i18n_cv_contact"></a></li>
-              <li><a href="nz.html" target="_blank" id="i18n_cv_newzealand"></a></li>
-              <li class="current"><a href="cv.html" id="i18n_cv_resume"></a></li>
-            </ul>
-        </nav>
-
+    <div class="span1">
+      <a id="goUp" href="#home-slider" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: center;"></a>
     </div>
+
+    <nav id="menu">
+      <ul id="menu-nav">
+        <li><a href="index.html" target="_blank" id="i18n_cv_home"></a></li>
+        <li><a href="index.html#contact" target="_blank" id="i18n_cv_contact"></a></li>
+        <li><a href="nz.html" target="_blank" id="i18n_cv_newzealand"></a></li>
+        <li class="current"><a href="cv.html" id="i18n_cv_resume"></a></li>
+      </ul>
+    </nav>
+
+  </div>
 </header>
 <!-- End Header-->
 
 
 <!-- Our Shortcodes Section -->
 <div id="shortcodes" class="page">
-	<div class="container">
+  <div class="container">
 
-    	<!-- Title Page -->
-        <div class="row">
-            <div class="span12">
-                <div class="title-page">
-                    <h1 class="title" id="i18n_cv_resume2"></h2>
-                </div>
-            </div>
+    <!-- Title Page -->
+    <div class="row">
+      <div class="span12">
+        <div class="title-page">
+          <h1 class="title" id="i18n_cv_resume2"></h2>
+          </div>
         </div>
-        <!-- End Title Page -->
+      </div>
+      <!-- End Title Page -->
 
-        <!--Start Experiences-->
-        <div>
-          <!--Start Titre Experiences-->
-          <div id="experience" class="row">
-              <div class="span12">
-                  <div class="title-page">
-                      <h2 class="title-description" style="text-transform: uppercase;" id="i18n_cv_experiences"></h3>
-                  </div>
+
+      <!--Start Experiences-->
+      <div>
+
+        <!--Start Titre Experiences-->
+        <div id="experience" class="row">
+          <div class="span12">
+            <div class="title-page">
+              <h2 class="title-description" style="text-transform: uppercase;" id="i18n_cv_experiences"></h3>
               </div>
+            </div>
           </div>
           <!--Fin Titre Experiences-->
-
 
 
           <!--start Weenat-->
@@ -206,440 +207,476 @@
             <h3 class="i18n_cv_job_wnt_entr"></h3><br>
             <i><span><p class="i18n_cv_job_wnt_desc"></p></span></i>
             <div class="row">
-                <div class="span3">
-                  <span class="i18n_cv_job_wnt_date1" style="line-height: 34px;"></span><br>
-                </div>
-                <div class="span9">
-                  <h4 class="spec i18n_cv_job_wnt_title1"></h4>
-                </div>
+              <div class="span3">
+                <span class="i18n_cv_job_wnt_date1" style="line-height: 34px;"></span><br>
+              </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_wnt_title1"></h4></u>
+              </div>
             </div>
             <span class="i18n_cv_job_wnt_text1"></span><br><br>
 
 
             <!-- Start Toggle -->
-              <div class="accordion" id="toggleArea">
+            <div class="accordion" id="toggleArea">
 
-                  <!-- start wnt mission 1-->
-                  <div>
-                    <div class="accordion-group">
-                        <div class="accordion-heading togglize">
-                            <a class="accordion-toggle i18n_cv_job_wnt_mission1" data-toggle="collapse" data-parent="#" href="#collapseOne"></a>
-                        </div>
-                        <div id="collapseOne" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <span class="i18n_cv_job_wnt_proj1"></span>
-                            </div>
-                        </div>
-                    </div>
-                      <div class="skills">#TeamWork #NeedIdentification #Specification</div>
+              <!-- start wnt mission 1-->
+              <div>
+                <div class="accordion-group">
+                  <div class="accordion-heading togglize">
+                    <a class="accordion-toggle i18n_cv_job_wnt_mission1" data-toggle="collapse" data-parent="#" href="#collapseOne"></a>
                   </div>
-                  <!-- end wnt mission 1-->
-
-                  <!-- start wnt mission 2-->
-                  <div>
-                    <div class="accordion-group">
-                        <div class="accordion-heading togglize">
-                            <a class="accordion-toggle i18n_cv_job_wnt_mission2" data-toggle="collapse" data-parent="#" href="#collapseTwo"></a>
-                        </div>
-                        <div id="collapseTwo" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <span class="i18n_cv_job_wnt_proj2"></span>
-                            </div>
-                        </div>
+                  <div id="collapseOne" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      <span class="i18n_cv_job_wnt_proj1"></span>
                     </div>
-                    <div class="skills">#Arguing #Redacting #Planning #Budgeting #MarketAnalysis</div>
+                  </div>
                 </div>
-                <!-- end wnt mission 2-->
+                <div class="skills">#TeamWork #NeedIdentification #Specification</div>
+              </div>
+              <!-- end wnt mission 1-->
 
-                <!-- start wnt mission 3-->
-                <div>
-                  <div class="accordion-group">
-                      <div class="accordion-heading togglize">
-                          <a class="accordion-toggle i18n_cv_job_wnt_mission3" data-toggle="collapse" data-parent="#" href="#collapseThird"></a>
-                      </div>
-                      <div id="collapseThird" class="accordion-body collapse">
-                          <div class="accordion-inner">
-                              <span class="i18n_cv_job_wnt_proj3"></span>
-                          </div>
-                      </div>
+              <!-- start wnt mission 2-->
+              <div>
+                <div class="accordion-group">
+                  <div class="accordion-heading togglize">
+                    <a class="accordion-toggle i18n_cv_job_wnt_mission2" data-toggle="collapse" data-parent="#" href="#collapseTwo"></a>
                   </div>
-                  <div class="skills">#Negotiating #Fieldwork #Empathy #CustomerSatisfaction #Prioritizing #Anticipating</div>
+                  <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      <span class="i18n_cv_job_wnt_proj2"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills">#Arguing #Redacting #Planning #Budgeting #MarketAnalysis</div>
+              </div>
+              <!-- end wnt mission 2-->
+
+              <!-- start wnt mission 3-->
+              <div>
+                <div class="accordion-group">
+                  <div class="accordion-heading togglize">
+                    <a class="accordion-toggle i18n_cv_job_wnt_mission3" data-toggle="collapse" data-parent="#" href="#collapseThird"></a>
+                  </div>
+                  <div id="collapseThird" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      <span class="i18n_cv_job_wnt_proj3"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills">#Negotiating #Fieldwork #Empathy #CustomerSatisfaction #Prioritizing #Anticipating</div>
               </div>
               <!-- end wnt mission 3-->
 
               <!-- start wnt mission 4-->
               <div>
-                  <div class="accordion-group">
-                      <div class="accordion-heading togglize">
-                          <a class="accordion-toggle i18n_cv_job_wnt_mission4" data-toggle="collapse" data-parent="#" href="#collapseFour"></a>
-                      </div>
-                      <div id="collapseFour" class="accordion-body collapse">
-                          <div class="accordion-inner">
-                              <span class="i18n_cv_job_wnt_proj4"></span>
-                          </div>
-                      </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading togglize">
+                    <a class="accordion-toggle i18n_cv_job_wnt_mission4" data-toggle="collapse" data-parent="#" href="#collapseFour"></a>
                   </div>
-                  <div class="skills">#EventOrganisation #Communication #SocialNetworkManagement</div>
+                  <div id="collapseFour" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                      <span class="i18n_cv_job_wnt_proj4"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills">#EventOrganisation #Communication #SocialNetworkManagement</div>
               </div>
               <!-- end wnt mission 4-->
 
-              </div>
-              <!-- End Toggle -->
-
             </div>
-            <!-- End Weenat-->
+            <!-- End Toggle -->
 
-            <br>
-            <br>
+          </div>
+          <!-- End Weenat-->
 
-            <!--start Pioneer-->
+
+          <br>
+
+
+          <!--start Pioneer-->
+          <div>
+
+            <h3 class="i18n_cv_job_pio_entr"></h3>
+            <i><span><p class="i18n_cv_job_pio_desc"></p></span></i>
+
+            <!-- Start pio job 1 -->
+            <div class="row">
+              <div class="span3">
+                <span class="i18n_cv_job_pio_date1" style="line-height: 34px;"></span><br>
+              </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_pio_title1"></h4></u>
+              </div>
+            </div>
+
+            <span class="i18n_cv_job_pio_text1"></span><br><br>
+
+            <!-- start pio mission 1-->
             <div>
-
-              <h3 class="i18n_cv_job_pio_entr"></h3>
-              <i><span><p class="i18n_cv_job_pio_desc"></p></span></i>
-              <div class="row">
-                  <div class="span3">
-                    <span class="i18n_cv_job_pio_date1" style="line-height: 34px;"></span><br>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_pio_mission1" data-toggle="collapse" data-parent="#" href="#collapseFive"></a>
+                </div>
+                <div id="collapseFive" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_pio_proj1"></span>
                   </div>
-                  <div class="span9">
-                    <h4 class="spec i18n_cv_job_pio_title1"></h4>
-                  </div>
+                </div>
               </div>
-              <span class="i18n_cv_job_pio_text1"></span><br><br>
+              <div class="skills">#RemoteWork #TimeManagement</div>
+            </div>
+            <!-- end pio mission 1-->
 
-              <!-- Start Toggle -->
-
-
-                    <div class="accordion-group">
-                        <div class="accordion-heading togglize">
-                            <a class="accordion-toggle i18n_cv_job_pio_mission1" data-toggle="collapse" data-parent="#" href="#collapseFive"></a>
-                        </div>
-                        <div id="collapseFive" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <span class="i18n_cv_job_pio_proj1"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-group">
-                        <div class="accordion-heading togglize">
-                            <a class="accordion-toggle i18n_cv_job_pio_mission2" data-toggle="collapse" data-parent="#" href="#collapseSix"></a>
-                        </div>
-                        <div id="collapseSix" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <span class="i18n_cv_job_pio_proj2"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-
-                <!-- End Toggle -->
-
-                <div class="row">
-                    <div class="span3">
-                      <span class="i18n_cv_job_pio_date2" style="line-height: 34px;"></span><br>
-                    </div>
-                    <div class="span9">
-                      <h4 class="spec i18n_cv_job_pio_title2"></h4>
-                    </div>
+            <!-- start pio mission 2-->
+            <div>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_pio_mission2" data-toggle="collapse" data-parent="#" href="#collapseSix"></a>
                 </div>
-                <!-- Start Toggle -->
-                      <div class="accordion-group">
-                          <div class="accordion-heading togglize">
-                              <a class="accordion-toggle i18n_cv_job_pio_mission3" data-toggle="collapse" data-parent="#" href="#collapseSeven"></a>
-                          </div>
-                          <div id="collapseSeven" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                  <span class="i18n_cv_job_wnt_proj3"></span>
-                              </div>
-                          </div>
-                      </div>
-
-                  <!-- End Toggle -->
-
+                <div id="collapseSix" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_pio_proj2"></span>
+                  </div>
+                </div>
               </div>
-              <!-- End Pioneer-->
+              <div class="skills">#VideoEditing</div>
+            </div>
+            <!-- end pio mission 2-->
+            <!-- End pio job 1 -->
 
-              <br>
-              <br>
 
-              <!--start NS-->
-              <div>
-
-                <h3 >Nutrition et Santé</h3>
-                <i><span><p class="i18n_cv_job_wnt_desc"></p></span></i>
-                <div class="row">
-                    <div class="span4">
-                      <h4 class="spec">Stagiaire qualité et biochimie</h4>
-                    </div>
-                    <div class="span2">
-                      <span style="line-height: 34px;">2013</span><br>
-                    </div>
-                </div>
-
-                <!-- Start Toggle -->
-                  <div class="accordion" id="toggleArea">
-
-                      <div class="accordion-group">
-                          <div class="accordion-heading togglize">
-                              <a class="accordion-toggle i18n_cv_job_wnt_title1" data-toggle="collapse" data-parent="#" href="#collapseHeight"></a>
-                          </div>
-                          <div id="collapseHeight" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                  <span class="i18n_cv_job_wnt_proj1"></span>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-                  <!-- End Toggle -->
-
-                </div>
-                <!-- End NS-->
-
-                <br>
-                <br>
-
-                <!--start Ane-->
-                <div>
-
-                  <h3 >Laboratoire Ané, Université de Madison</h3>
-                  <i><span><p class="i18n_cv_job_wnt_desc"></p></span></i>
-                  <div class="row">
-                      <div class="span4">
-                        <h4 class="spec">Stagiaire recherche fondamentale</h4>
-                      </div>
-                      <div class="span2">
-                        <span style="line-height: 34px;">2012</span><br>
-                      </div>
-                  </div>
-
-                  <!-- Start Toggle -->
-                  <div class="accordion" id="toggleArea">
-
-                      <div class="accordion-group">
-                          <div class="accordion-heading togglize">
-                              <a class="accordion-toggle i18n_cv_job_wnt_title1" data-toggle="collapse" data-parent="#" href="#collapseNine"></a>
-                          </div>
-                          <div id="collapseNine" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                  <span class="i18n_cv_job_wnt_proj1"></span>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-                  <!-- End Toggle -->
-
-                </div>
-                <!-- End Ane-->
-
-                <br>
-                <br>
-
-                <!--start Lamouthe-->
-                <div>
-
-                  <h3 >Domaine de Lamouthe</h3>
-                  <i><span><p class="i18n_cv_job_wnt_desc"></p></span></i>
-                  <div class="row">
-                      <div class="span4">
-                        <h4 class="spec">Stagiaire en ferme</h4>
-                      </div>
-                      <div class="span2">
-                        <span style="line-height: 34px;">2011</span><br>
-                      </div>
-                  </div>
-
-                  <!-- Start Toggle -->
-                  <div class="accordion" id="toggleArea">
-
-                      <div class="accordion-group">
-                          <div class="accordion-heading togglize">
-                              <a class="accordion-toggle i18n_cv_job_wnt_title1" data-toggle="collapse" data-parent="#" href="#collapseTen"></a>
-                          </div>
-                          <div id="collapseTen" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                  <span class="i18n_cv_job_wnt_proj1"></span>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-                  <!-- End Toggle -->
-
-                </div>
-                <!-- End Lamouthe-->
-
+            <!-- Start pio job 2 -->
+            <div class="row">
+              <div class="span3">
+                <span class="i18n_cv_job_pio_date2" style="line-height: 34px;"></span><br>
               </div>
-              <!--End Experiences-->
-
-
-
-              <div class="row">
-              	<div class="span12">
-                  	<hr>
-                  </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_pio_title2"></h4></u>
               </div>
+            </div>
+
+            <span class="i18n_cv_job_pio_text2"></span><br><br>
 
 
-              <!--Start Etudes-->
-              <div>
-
-                <!-- Title Section -->
-                  <div class="row">
-                      <div class="span12">
-                          <div class="title-page">
-                              <h2 class="title-description" style="text-transform: uppercase;">Etudes</h2>
-                          </div>
-                      </div>
+            <!-- start pio mission 3-->
+            <div>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_pio_mission3" data-toggle="collapse" data-parent="#" href="#collapseSeven"></a>
+                </div>
+                <div id="collapseSeven" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_pio_proj3"></span>
                   </div>
-                  <!-- End Title Section -->
+                </div>
+              </div>
+              <div class="skills">#RiskManagement #ProjectManagement #Survey #Statistic</div>
+            </div>
+            <!-- end pio mission 3-->
+            <!-- End pio job 2 -->
 
-                  <!-- Start Tooltip -->
-                  <div class="span12">
-                  	<h3>EI Purpan</h3>
-                    <blockquote>
-    	                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    </blockquote>
+          </div>
+          <!-- End Pioneer-->
+
+
+          <br>
+
+
+          <!--start NS-->
+          <div>
+
+            <h3 class="i18n_cv_job_ns_entr"></h3>
+            <i><span><p class="i18n_cv_job_ns_desc"></p></span></i>
+
+
+            <!-- Start NS job 1 -->
+            <div class="row">
+              <div class="span3">
+                <span class="i18n_cv_job_ns_date1" style="line-height: 34px;"></span><br>
+              </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_ns_title1"></h4></u>
+              </div>
+            </div>
+
+            <span class="i18n_cv_job_ns_text1"></span><br><br>
+
+            <!-- start NS mission 1-->
+            <div>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_ns_mission1" data-toggle="collapse" data-parent="#" href="#collapseHeight"></a>
+                </div>
+                <div id="collapseHeight" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_ns_proj1"></span>
                   </div>
-                  <!-- End Tootlip -->
+                </div>
+              </div>
+              <div class="skills">#HACCP</div>
+            </div>
+            <!-- end NS mission 1-->
+            <!-- End NS job 1 -->
 
-                  <!-- Start Tooltip -->
-                  <div class="span12">
-                    <h3>Université Féderale du Cearà</h3>
-                    <blockquote>
-    	                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    </blockquote>
+          </div>
+          <!-- End NS-->
+
+
+          <br>
+
+
+          <!--start ane-->
+          <div>
+
+            <h3 class="i18n_cv_job_ane_entr"></h3>
+            <i><span><p class="i18n_cv_job_ane_desc"></p></span></i>
+
+            <!-- Start ane job 1 -->
+            <div class="row">
+              <div class="span3">
+                <span class="i18n_cv_job_ane_date1" style="line-height: 34px;"></span><br>
+              </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_ane_title1"></h4></u>
+              </div>
+            </div>
+
+            <span class="i18n_cv_job_ane_text1"></span><br><br>
+
+            <!-- start ane mission 1-->
+            <div>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_ane_mission1" data-toggle="collapse" data-parent="#" href="#collapseNine"></a>
+                </div>
+                <div id="collapseNine" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_ane_proj1"></span>
                   </div>
-                  <!-- End Tootlip -->
                 </div>
-                <!--Fin Etudes-->
+              </div>
+              <div class="skills">#GoodLaboratoryPractices</div>
+            </div>
+            <!-- end ane mission 1-->
+            <!-- End ane job 1 -->
 
-                <div class="row">
-                	<div class="span12">
-                    	<hr>
-                    </div>
+          </div>
+          <!-- End ane-->
+
+
+          <br>
+
+          <!--start Lamouthe-->
+          <div>
+
+            <h3 class="i18n_cv_job_lam_entr"></h3>
+            <i><span><p class="i18n_cv_job_lam_desc"></p></span></i>
+
+            <!-- Start Lamouthe job 1 -->
+            <div class="row">
+              <div class="span3">
+                <span class="i18n_cv_job_lam_date1" style="line-height: 34px;"></span><br>
+              </div>
+              <div class="span9">
+                <u><h4 class="spec i18n_cv_job_lam_title1"></h4></u>
+              </div>
+            </div>
+
+            <span class="i18n_cv_job_lam_text1"></span><br><br>
+
+            <!-- start Lamouthe mission 1-->
+            <div>
+              <div class="accordion-group">
+                <div class="accordion-heading togglize">
+                  <a class="accordion-toggle i18n_cv_job_lam_mission1" data-toggle="collapse" data-parent="#" href="#collapseTen"></a>
                 </div>
-
-
-                <!--Start Compétences-->
-                <div>
-
-                  <!-- Title Section -->
-                    <div class="row">
-                        <div class="span12">
-                            <div class="title-page">
-                                <h2 class="title-description" style="text-transform: uppercase;">Compétences</h2>
-                            </div>
-                        </div>
-                    </div>
-                  <!-- End Title Section -->
-
-                  <div class="row">
-
-                  	<div class="span4">
-                      	<h3>Informatique</h3>
-                          <ul>
-                            <li>kjzrutghizu</li>
-                            <li>zkahjgruzyg</li>
-                          </ul>
-                        </li>
-                    </div>
-
-                    <div class="span4">
-                      	<h3>Langues</h3>
-                          <ul>
-                            <li>kjzrutghizu</li>
-                            <li>zkahjgruzyg</li>
-                          </ul>
-                        </li>
-                    </div>
-
-                    <div class="span4">
-                      	<h3>soft skills</h3>
-                          <ul>
-                            <li>kjzrutghizu</li>
-                            <li>zkahjgruzyg</li>
-                          </ul>
-                        </li>
-                    </div>
-
+                <div id="collapseTen" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <span class="i18n_cv_job_lam_proj1"></span>
                   </div>
-
                 </div>
-                <!--Fin Compétences-->
+              </div>
+              <div class="skills">#FarmWork #Vegetal #Animal</div>
+            </div>
+            <!-- end Lamouthe mission 1-->
+            <!-- End Lamouthe job 1 -->
 
+          </div>
+          <!-- End Lamouthe-->
 
-                <div class="row">
-                	<div class="span12">
-                    	<hr>
-                    </div>
-                </div>
+          <br>
+          <i><span><p class="i18n_cv_job_ref"></p></span></i>
 
-
-                <!--Start Projects-->
-                <div>
-
-                  <!-- Title Section -->
-                    <div class="row">
-                        <div class="span12">
-                            <div class="title-page">
-                                <h2 class="title-description" style="text-transform: uppercase;">Projets</h2>
-                            </div>
-                        </div>
-                    </div>
-                  <!-- End Title Section -->
+        </div>
+        <!--End Experiences-->
 
 
 
-                </div>
-                <!--Fin Projects-->
+        <div class="row">
+          <div class="span12">
+            <hr>
+          </div>
+        </div>
 
 
-                <div class="row">
-                	<div class="span12">
-                    	<hr>
-                    </div>
-                </div>
+        <!--Start Etudes-->
+        <div>
+
+          <!-- Title Section -->
+          <div class="row">
+            <div class="span12">
+              <div class="title-page">
+                <h2 class="title-description" style="text-transform: uppercase;">Etudes</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End Title Section -->
+
+          <!-- Start Tooltip -->
+          <div class="span12">
+            <h3>EI Purpan</h3>
+            <blockquote>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </blockquote>
+          </div>
+          <!-- End Tootlip -->
+
+          <!-- Start Tooltip -->
+          <div class="span12">
+            <h3>Université Féderale du Cearà</h3>
+            <blockquote>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </blockquote>
+          </div>
+          <!-- End Tootlip -->
+        </div>
+        <!--Fin Etudes-->
+
+        <div class="row">
+          <div class="span12">
+            <hr>
+          </div>
+        </div>
 
 
-                <!--Start Interets-->
-                <div>
+        <!--Start Compétences-->
+        <div>
 
-                  <!-- Title Section -->
-                    <div class="row">
-                        <div class="span12">
-                            <div class="title-page">
-                                <h2 class="title-description" style="text-transform: uppercase;">Interêts</h2>
-                            </div>
-                        </div>
-                    </div>
-                  <!-- End Title Section -->
+          <!-- Title Section -->
+          <div class="row">
+            <div class="span12">
+              <div class="title-page">
+                <h2 class="title-description" style="text-transform: uppercase;">Compétences</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End Title Section -->
 
+          <div class="row">
 
+            <div class="span4">
+              <h3>Informatique</h3>
+              <ul>
+                <li>kjzrutghizu</li>
+                <li>zkahjgruzyg</li>
+              </ul>
+            </li>
+          </div>
 
-                </div>
-                <!--Fin Interets-->
+          <div class="span4">
+            <h3>Langues</h3>
+            <ul>
+              <li>kjzrutghizu</li>
+              <li>zkahjgruzyg</li>
+            </ul>
+          </li>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-                <div class="row">
-                	<div class="span12">
-                    	<hr>
-                    </div>
-                </div>
-
+        <div class="span4">
+          <h3>soft skills</h3>
+          <ul>
+            <li>kjzrutghizu</li>
+            <li>zkahjgruzyg</li>
+          </ul>
+        </li>
+      </div>
 
     </div>
+
+  </div>
+  <!--Fin Compétences-->
+
+
+  <div class="row">
+    <div class="span12">
+      <hr>
+    </div>
+  </div>
+
+
+  <!--Start Projects-->
+  <div>
+
+    <!-- Title Section -->
+    <div class="row">
+      <div class="span12">
+        <div class="title-page">
+          <h2 class="title-description" style="text-transform: uppercase;">Projets</h2>
+        </div>
+      </div>
+    </div>
+    <!-- End Title Section -->
+
+
+
+  </div>
+  <!--Fin Projects-->
+
+
+  <div class="row">
+    <div class="span12">
+      <hr>
+    </div>
+  </div>
+
+
+  <!--Start Interets-->
+  <div>
+
+    <!-- Title Section -->
+    <div class="row">
+      <div class="span12">
+        <div class="title-page">
+          <h2 class="title-description" style="text-transform: uppercase;">Interêts</h2>
+        </div>
+      </div>
+    </div>
+    <!-- End Title Section -->
+
+
+
+  </div>
+  <!--Fin Interets-->
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row">
+    <div class="span12">
+      <hr>
+    </div>
+  </div>
+
+
+</div>
 </div>
 <!-- End Shortcodes Section -->
 
@@ -649,37 +686,37 @@
 <footer>
   <div id="social-area">
 
-        <div class="container">
-              <nav id="social">
-                <ul>
-                    <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
-                    <li>From: Toulouse, FRANCE</li>
-                    <li>Current: Auckland, NEW ZEALAND</li>
-                </ul>
-            </nav>
-          </div>
+    <div class="container">
+      <nav id="social">
+        <ul>
+          <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
+          <li>From: Toulouse, FRANCE</li>
+          <li>Current: Auckland, NEW ZEALAND</li>
+        </ul>
+      </nav>
+    </div>
 
-      <div class="container">
-            <nav id="social">
-              <ul>
-                  <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
-                  <li>FR: +33 6 59 29 05 49</li>
-                  <li>NZ: +64 2 25 31 69 29</li>
-              </ul>
-          </nav>
-        </div>
+    <div class="container">
+      <nav id="social">
+        <ul>
+          <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
+          <li>FR: +33 6 59 29 05 49</li>
+          <li>NZ: +64 2 25 31 69 29</li>
+        </ul>
+      </nav>
+    </div>
 
-    	<div class="container">
-        <nav id="social">
-          <ul>
-              <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-              <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-              <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container">
+      <nav id="social">
+        <ul>
+          <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+          <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+          <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></a></li>
+        </ul>
+      </nav>
+    </div>
 
-        <p class="credits">&copy;2017 Laurie Besinet</p>
+    <p class="credits">&copy;2017 Laurie Besinet</p>
 
   </div>
 
@@ -687,10 +724,9 @@
 <!-- End Footer -->
 
 
-
 <!-- Back To Top -->
 <a id="back-to-top" href="#">
-	<i class="font-icon-arrow-simple-up"></i>
+  <i class="font-icon-arrow-simple-up"></i>
 </a>
 <!-- End Back to Top -->
 
