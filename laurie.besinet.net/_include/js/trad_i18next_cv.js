@@ -70,6 +70,18 @@
 
           "key_job_ref": "References available upon request",
 
+          "key_etu_pur_eco": "PURPAN School of Engineers and managers in Agriculture",
+          "key_etu_pur_desc": "<a target=\"_blank\" href=\"https://www.purpan.fr\">www.purpan.fr</a> | Toulouse, FRANCE",
+          "key_etu_pur_date": "2010 – 2015",
+          "key_etu_pur_titre": "Master’s degree in agriculture",
+          "key_etu_pur_details": "General fields are agriculture, life sciences, marketing, project management. Acquisition of skills to master the complexity and to become an agent of change: <br> - carrying out contextual analysis of the agricultural world, <br> - using the tools of an engineer, <br> - running a company, <br> - effecting change. <br> Final year specialization in Support, Advice and Innovation in Agriculture",
+
+          "key_etu_for_eco": "Federal University of Ceara",
+          "key_etu_for_desc": "<a target=\"_blank\" href=\"https://www.ufc.br\">www.ufc.br</a> | Center of Agricultural Sciences | Fortaleza, BRAZIL",
+          "key_etu_for_date": "Aug – Dec 2013",
+          "key_etu_for_titre": "Bachelor's degree in food engineering",
+          "key_etu_for_details": "Academic exchange with courses about food industry. <br> I discovered of a new country, a new continent, a new culture, a new language by living daily with all of it. This was very enriching to meet other points of view.",
+
         }
       },
       fr: {
@@ -180,6 +192,17 @@
 
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ref').length;i++){document.getElementsByClassName('i18n_cv_job_ref')[i].innerHTML= i18next.t('key_job_ref');}
 
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_eco').length;i++){document.getElementsByClassName('i18n_etu_pur_eco')[i].innerHTML= i18next.t('key_etu_pur_eco');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_desc').length;i++){document.getElementsByClassName('i18n_etu_pur_desc')[i].innerHTML= i18next.t('key_etu_pur_desc');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_date').length;i++){document.getElementsByClassName('i18n_etu_pur_date')[i].innerHTML= i18next.t('key_etu_pur_date');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_titre').length;i++){document.getElementsByClassName('i18n_etu_pur_titre')[i].innerHTML= i18next.t('key_etu_pur_titre');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_details').length;i++){document.getElementsByClassName('i18n_etu_pur_details')[i].innerHTML= i18next.t('key_etu_pur_details');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_for_eco').length;i++){document.getElementsByClassName('i18n_etu_for_eco')[i].innerHTML= i18next.t('key_etu_for_eco');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_for_desc').length;i++){document.getElementsByClassName('i18n_etu_for_desc')[i].innerHTML= i18next.t('key_etu_for_desc');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_for_date').length;i++){document.getElementsByClassName('i18n_etu_for_date')[i].innerHTML= i18next.t('key_etu_for_date');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_for_titre').length;i++){document.getElementsByClassName('i18n_etu_for_titre')[i].innerHTML= i18next.t('key_etu_for_titre');}
+    for(i =0; i<  document.getElementsByClassName('i18n_etu_for_details').length;i++){document.getElementsByClassName('i18n_etu_for_details')[i].innerHTML= i18next.t('key_etu_for_details');}
   }
 
   function changeLng(lng) {
