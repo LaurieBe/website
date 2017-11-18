@@ -70,6 +70,8 @@
 
           "key_job_ref": "References available upon request",
 
+          "key_etu": "Studies",
+
           "key_etu_pur_eco": "PURPAN School of Engineers and managers in Agriculture",
           "key_etu_pur_desc": "<a target=\"_blank\" href=\"https://www.purpan.fr\">www.purpan.fr</a> | Toulouse, FRANCE",
           "key_etu_pur_date": "2010 – 2015",
@@ -82,6 +84,7 @@
           "key_etu_for_titre": "Bachelor's degree in food engineering",
           "key_etu_for_details": "Academic exchange with courses about food industry. <br> I discovered of a new country, a new continent, a new culture, a new language by living daily with all of it. This was very enriching to meet other points of view.",
 
+          "key_comp": "Skills",
           "key_comp_hard": "Hard Skills",
           "key_comp_hard_skills": "<ul><li>Vegetal and Animal Physiology, Protection, Nutrition</ul></li><ul><li>Food transformation and Quality</ul></li><ul><li>Team and project management</ul></li><ul><li>Economy, Marketing</ul></li><ul><li>Statistic</ul></li><ul><li>Microsoft Office</ul></li><ul><li>Developpement: initiation at VBA, C+, CSS, HTML, Git and Github</ul></li>",
           "key_comp_lang": "Languages",
@@ -201,6 +204,8 @@
 
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_ref').length;i++){document.getElementsByClassName('i18n_cv_job_ref')[i].innerHTML= i18next.t('key_job_ref');}
 
+    for(i =0; i<  document.getElementsByClassName('i18n_etu').length;i++){document.getElementsByClassName('i18n_etu')[i].innerHTML= i18next.t('key_etu');}
+
     for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_eco').length;i++){document.getElementsByClassName('i18n_etu_pur_eco')[i].innerHTML= i18next.t('key_etu_pur_eco');}
     for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_desc').length;i++){document.getElementsByClassName('i18n_etu_pur_desc')[i].innerHTML= i18next.t('key_etu_pur_desc');}
     for(i =0; i<  document.getElementsByClassName('i18n_etu_pur_date').length;i++){document.getElementsByClassName('i18n_etu_pur_date')[i].innerHTML= i18next.t('key_etu_pur_date');}
@@ -213,7 +218,9 @@
     for(i =0; i<  document.getElementsByClassName('i18n_etu_for_titre').length;i++){document.getElementsByClassName('i18n_etu_for_titre')[i].innerHTML= i18next.t('key_etu_for_titre');}
     for(i =0; i<  document.getElementsByClassName('i18n_etu_for_details').length;i++){document.getElementsByClassName('i18n_etu_for_details')[i].innerHTML= i18next.t('key_etu_for_details');}
 
-    for(i =0; i<  document.getElementsByClassName('i18n_comp_hard_skills').length;i++){document.getElementsByClassName('i18n_comp_hard_skills')[i].innerHTML= i18next.t('key_comp_hard_skills');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp').length;i++){document.getElementsByClassName('i18n_comp_hard_skills')[i].innerHTML= i18next.t('key_comp_hard_skills');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_hard_skills').length;i++){document.getElementsByClassName('i18n_comp')[i].innerHTML= i18next.t('key_comp');}
     for(i =0; i<  document.getElementsByClassName('i18n_comp_hard').length;i++){document.getElementsByClassName('i18n_comp_hard')[i].innerHTML= i18next.t('key_comp_hard');}
 
     for(i =0; i<  document.getElementsByClassName('i18n_comp_lang').length;i++){document.getElementsByClassName('i18n_comp_lang')[i].innerHTML= i18next.t('key_comp_lang');}

@@ -553,7 +553,6 @@ blockquote small:before {
 	display: inline-block;
 	margin: 15px;
 	list-style: none;
-	cursor: pointer;
 }
 
 .icons-example ul li a {
@@ -561,7 +560,7 @@ blockquote small:before {
 	width: 70px;
 	height: 70px;
 
-	background: #9C9B98;
+	background: #FAF9F5;
 
 	-webkit-transition: all 400ms ease-out 0s;
 	   -moz-transition: all 400ms ease-out 0s;
@@ -578,11 +577,11 @@ blockquote small:before {
 .icons-example ul li a span {
 	display: inline-block;
 	margin: 0;
-	color: #55606a;
+	color: #023D0D;
 	font-size: 32px;
 	line-height: 70px;
 
-	opacity: 0.3;
+	opacity: 0.6;
 	filter: alpha(opacity=30);
 
 	-webkit-transition: all 400ms ease-out 0s;
@@ -599,7 +598,7 @@ blockquote small:before {
 
 .icons-example ul li:hover a,
 .icons-example ul li.active a {
-	background-color: #BB0B28;
+	background-color: #035E14;
 
 	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
