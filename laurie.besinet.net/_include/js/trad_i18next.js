@@ -7,7 +7,7 @@
         translation: {
           "key_title": "Laurie Bésinet",
           "key_welcome": "Welcome",
-          "key_hello": "Actually agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I'm looking for new challenges, that's why I leave soon to discover a country, its peoples, its cultures and its agricultures : New-Zealand",
+          "key_hello": "Passionate and specialized in agriculture and numeric to connect fields to the World. <br> I used to be agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I am now in New-Zealand to discover the country, its peoples, its cultures and its agricultures.",
           "key_newzealand": "New-Zealand",
           "key_resume": "Resume",
           "key_experiences": "Experiences",

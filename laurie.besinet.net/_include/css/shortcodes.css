@@ -9,8 +9,8 @@
   	-webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-  	background-color: #C9C9C5;
-  	color: #23262C;
+  	background-color: #011C06;
+  	color: #FFFFFF;
   	vertical-align: middle;
   	text-align: center;
   	text-transform: uppercase;
@@ -32,7 +32,7 @@
 .button:hover,
 .button:active,
 .button:focus {
-	background-color: #BB0B28;
+	background-color: #011C06;
 	color:#FFFFFF;
 }
 
@@ -49,8 +49,8 @@
 }
 
 .button.button-mini {
-  	padding: 4px 12px;
-  	font-size: 12px;
+  	padding: 2px 6px;
+  	font-size: 10px;
 }
 
 .button.button-block {

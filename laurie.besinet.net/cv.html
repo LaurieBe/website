@@ -146,24 +146,29 @@
 
     <!-- Header -->
     <header>
-      <div class="sticky-nav">
-        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        <div class="sticky-nav">
+          <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-        <div class="span1">
-          <a id="goUp" href="#home-slider" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: center;"></a>
-        </div>
+            <div class="span1">
+              <a id="goUp" href="index.html" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: middle;"></a>
+            </div>
 
-        <nav id="menu">
-          <ul id="menu-nav">
-            <li><a href="index.html" target="_blank" id="i18n_cv_home"></a></li>
-            <li><a href="index.html#contact" target="_blank" id="i18n_cv_contact"></a></li>
-            <li><a href="nz.html" target="_blank" id="i18n_cv_newzealand"></a></li>
-            <li class="current"><a href="cv.html" id="i18n_cv_resume"></a></li>
-          </ul>
-        </nav>
+            <nav id="menu">
+              <ul id="menu-nav">
+                <li><a href="index.html" target="_blank" id="i18n_cv_home"></a></li>
+                <li><a href="#contact" target="_blank" id="i18n_cv_contact"></a></li>
+                <li><a href="nz.html" target="_blank" id="i18n_cv_newzealand"></a></li>
+                <li class="current"><a href="cv.html" id="i18n_cv_resume"></a></li>
+                <li>
+                  <button class="button button-mini" onclick="i18next.changeLanguage('en')">EN</button>
+                  <button class="button button-mini" onclick="i18next.changeLanguage('fr')">FR</button>
+                </li>
+              </ul>
+            </nav>
 
-      </div>
     </header>
+    <!-- End Header href="#contact"-->
+
     <!-- End Header-->
 
 
@@ -408,7 +413,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="skills">#HACCP</div>
+                <div class="skills">#HACCP #Rigor</div>
               </div>
               <!-- end NS mission 1-->
               <!-- End NS job 1 -->
@@ -449,7 +454,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="skills">#GoodLaboratoryPractices</div>
+                <div class="skills">#GoodLaboratoryPractices #English</div>
               </div>
               <!-- end ane mission 1-->
               <!-- End ane job 1 -->
@@ -862,7 +867,6 @@
     <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
     <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
     <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-    <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
     <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
     <script src="_include/js/main.js"></script> <!-- Default JS -->
     <script src="_include/js/i18next.js"></script> <!-- Translation -->

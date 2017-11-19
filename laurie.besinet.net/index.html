@@ -76,105 +76,65 @@
     ga('send', 'pageview');
   </script>
   <!-- End Analytics -->
-
-  <!-- Translation -->
-
-  <!--script>
-  francais="http://laurie.besinet.net/fr"; //Rempalcez la valeur par l'adresse de la page en français
-  anglais="http://laurie.besinet.net/en"; //Remplacez la valeur par l'adresse de la page en anglais
-  nom=navigator.appName; //J'ai choisi le français et l'anglais car je sais que ce sont les langues les plus parlées dans le monde
-  langue=navigator.language; //Donc si votre navigateur a une autre langue que le français, il est rédirigé vers la page en Anglais
-  langue1=navigator.browserLanguage;
-  	if (nom=="Microsoft Internet Explorer")
-  		{
-  		if (langue1=="fr")
-  		self.location.href=francais;
-  		else
-  		self.location.href=anglais;
-  		}
-  	else
-  		{
-  		if (langue=="fr")
-  		self.location.href=francais;
-  		else self.location.href=anglais;
-  		}
-  </script-->
-  <!-- End Translation -->
-
 </head>
-
-
-
-
-
-
-
 
 <body>
 
-  <!--div style="height: 100px">
-    <button onclick="i18next.changeLanguage('en')">
-    english
-    </button>
-    <button onclick="i18next.changeLanguage('fr')">
-    francais
-    </button>
-    <div id="i18n_hello" />
-  < /div -->
+  <!-- This section is for Splash Screen -->
+  <div class="ole">
+    <section id="jSplash">
+    	<div id="circle"></div>
+    </section>
+  </div>
+  <!-- End of Splash Screen -->
 
+  <!-- Homepage Slider -->
+  <div id="home-slider">
+      <div class="overlay"></div>
 
-<!-- This section is for Splash Screen -->
-<div class="ole">
-  <section id="jSplash">
-  	<div id="circle"></div>
-  </section>
-</div>
-<!-- End of Splash Screen -->
+      <div class="slider-text">
+      	<div id="slidecaption"></div>
+      </div>
 
-<!-- Homepage Slider -->
-<div id="home-slider">
-    <div class="overlay"></div>
+  	<!--div class="control-nav">
+          <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+          <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+          <ul id="slide-list"></ul>
 
-    <div class="slider-text">
-    	<div id="slidecaption"></div>
-    </div>
+          <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+      </div-->
+  </div>
+  <!-- End Homepage Slider -->
 
-	<!--div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
+  <!-- Header -->
+  <header>
+      <div class="sticky-nav">
+      	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
-    </div-->
-</div>
-<!-- End Homepage Slider -->
+          <div class="span1">
+          	<a id="goUp" href="#home-slider" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: middle;"></a>
+          </div>
 
-<!-- Header -->
-<header>
-    <div class="sticky-nav">
-    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-
-        <div class="span1">
-        	<a id="goUp" href="#home-slider" title="Laurie Besinet" style="line-height: 60px;"><img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: center;"></a>
-        </div>
-
-        <nav id="menu">
-        	<ul id="menu-nav">
-            <li class="current"><a href="#home-slider" id="i18n_home"></a></li>
-              <li><a href="#contact" id="i18n_contact"></a></li>
-              <li><a href="nz.html" id="i18n_newzealand"></a></li>
+          <nav id="menu">
+          	<ul id="menu-nav">
+              <li class="current"><a href="#home-slider" id="i18n_home"></a></li>
+              <li><a href="#contact"><span id="i18n_contact"></span></a></li>
+              <li><a href="nz.html"><span id="i18n_newzealand"></span></a></li>
               <li><a href="cv.html" id="i18n_resume"></a></li>
+              <li>
+                <button class="button button-mini" onclick="i18next.changeLanguage('en')">EN</button>
+                <button class="button button-mini" onclick="i18next.changeLanguage('fr')">FR</button>
+              </li>
             </ul>
-        </nav>
+          </nav>
 
-    </div>
-</header>
-<!-- End Header href="#contact"-->
+  </header>
+  <!-- End Header href="#contact"-->
 
-<!-- Presentation Section -->
-<div id="work" class="page">
-	<div class="container">
-    	<!-- Title Page -->
+  <!-- Presentation Section -->
+  <div id="work" class="page">
+  	<div class="container">
+      	<!-- Title Page -->
         <div class="row">
             <div class="span12">
                 <div class="title-page">
@@ -189,166 +149,138 @@
 
         <!-- Portfolio Projects -->
         <div class="row">
-        	<!--div class="span3">
-            	< Filter>
-                <nav id="options" class="work-nav">
-                    <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
-                    </ul>
-                </nav>
-                < End Filter>
-            </div-->
 
+          <div class="span12">
+            <div class="row">
+              <p>Clic on the pictures to access my resume or the stories of my journey in New Zealand</p>
+            	<section id="projects">
+              	<ul id="thumbs">
 
-              <div class="span12">
-                <div class="row">
-                	<section id="projects">
-                    	<ul id="thumbs">
+			            <!-- Item Project and Filter Name -->
+                    <li class="item-thumbs span6">
+                      <h3 id="i18n_resume2"></h3>
+                    	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My resume" href="cv.html" class="external">
+                      	<span class="overlay-img"></span>
+                        <span class="overlay-img-thumb font-icon-plus"></span>
+                      </a>
+                      <Thumb Image and Description >
+                      <img src="_include/img/work/thumbs/image-01.jpg" alt="cv" style="max-width: 100%;">
+                    </li>
+                	<!-- End Item Project -->
 
-							            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span6">
-                              <h3 id="i18n_resume2"></h3>
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="cv" href="cv.html" class="external">
-                              	<span class="overlay-img"></span>
-                                <span class="overlay-img-thumb font-icon-plus"></span>
-                              </a>
-                              <Thumb Image and Description >
-                              <img src="_include/img/work/thumbs/image-01.jpg" alt="cv" style="max-width: 100%;">
-                            </li>
-                        	<!-- End Item Project -->
+			            <!-- Item Project and Filter Name -->
+                	<li class="item-thumbs span6">
+                    <h3 id="i18n_newzealand2"></h3>
+                    	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My Journey in New Zealand" href="nz.html" class="external">
+                        	<span class="overlay-img"></span>
+                            <span class="overlay-img-thumb font-icon-plus"></span>
+                        </a>
+                        <!-- Thumb Image and Description -->
+                        <img src="_include/img/work/thumbs/image-02.jpg" alt="nz" style="max-width: 100%;"  >
+                    </li>
+                	<!-- End Item Project -->
 
-							            <!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span6 design">
-                            <h3 id="i18n_newzealand2"></h3>
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="nz.html" class="external">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-02.jpg" alt="nz" style="max-width: 100%;"  >
-                            </li>
-                        	<!-- End Item Project -->
+                  </ul>
+              </section>
 
-                        </ul>
-                    </section>
-
-            	</div>
-            </div>
+          	</div>
+          </div>
         </div>
         <!-- End Portfolio Projects -->
 
-        <div class="row">
-        	<div class="span12">
-            	<hr>
-            </div>
-        </div>
 
-        <!-- Information Block -->
-        <div class="row">
-        	<div class="span12">
-            	<h3 class="spec">Information Block</h3>
-
-                <div class="info-block">
-                	<div class="info-text">
-                		<h3><span class="color-text">NEW</span> Brushed- Responsive One Page Template</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque diam, luctus at laoreet in, auctor ut tellus. Etiam enim lacus, ornare et tempor, rhoncus rhoncus sem. Aliquam volutpat arcu et nibh mollis eleifend pharetra lorem scelerisque. Donec vel enim purus, id viverra neque. Cras in velit ante, eget pellentesque sem. Duis tincidunt erat quam.</p>
-                        <a class="button" target="_blank" href="">Purchase</a>
-                	</div>
-                </div>
-            </div>
-        </div>
-        <!-- End Information Block -->
-
-        <div class="row">
-        	<div class="span12">
-            	<hr>
-            </div>
-        </div>
-
-
-    </div>
-</div>
-<!-- End presentation Section -->
-
-
-<!-- Footer -->
-<footer>
-  <div id="social-area">
-
-    <div class="container">
-      <nav id="social">
-        <ul>
-          <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></li>
-          <li>laurie@besinet.net</li></a>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container">
-      <nav id="social">
-        <ul>
-          <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
-          <li>From: Toulouse, FRANCE</li>
-          <li>Current: Auckland, NEW ZEALAND</li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container">
-      <nav id="social">
-        <ul>
-          <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
-          <li>FR: +33 6 59 29 05 49</li>
-          <li>NZ: +64 2 25 31 69 29</li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container">
-      <nav id="social">
-        <ul>
-          <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-          <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <p class="credits">&copy;2017 Laurie Besinet</p>
-
+      </div>
   </div>
-
-</footer>
-<!-- End Footer -->
-
-<!-- Back To Top -->
-<a id="back-to-top" href="#">
-	<i class="font-icon-arrow-simple-up"></i>
-</a>
-<!-- End Back to Top -->
+  <!-- End presentation Section -->
 
 
-<!-- Js -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
-<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
-<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-<script src="_include/js/main.js"></script> <!-- Default JS -->
-<script src="_include/js/i18next.js"></script> <!-- Translation -->
-<script src="_include/js/trad_i18next.js"></script> <!-- Translation -->
+  <!-- Footer -->
+  <footer>
+    <a href="#contact"> </a>
+    <div id="social-area">
+      <div class="container">
+        <nav id="social">
+          <ul style="display: inline-block">
+            <li><a title="Visa"><span class="font-icon-briefcase"></span></a></li>
+            <li>Visa: <span style="font-weight:bold">Working Holiday Visa</span> until the 17th Oct. 2018 &nbsp&nbsp&nbsp&nbsp</li>
+          </ul>
+          <ul style="display: inline-block">
+            <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></li>
+            <li><span style="font-weight:bold">laurie@besinet.net &nbsp&nbsp&nbsp&nbsp</span></li></a>
+          </ul>
+          <ul style="display: inline-block">
+            <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
+            <li>From: Toulouse, FRANCE</li>
+            <li>Current: <span style="font-weight:bold">Auckland, NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
+          </ul>
+          <ul style="display: inline-block">
+            <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
+            <li>FR: +33 6 59 29 05 49</li>
+            <li>NZ: <span style="font-weight:bold">+64 2 25 31 69 29 &nbsp&nbsp</span></li>
+          </ul>
+          <ul style="display: inline-block">
+            <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+            <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+          </ul>
 
-<!-- End Js -->
+        </nav>
+      </div>
+
+      <div class="container">
+        <nav>
+          <ul><p class="credits">&copy;2017 Website by Laurie Besinet, based on a theme by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>. Pictures by Laurie Besinet unless mentionned.</p></ul>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" href="#">
+  	<i class="font-icon-arrow-simple-up"></i>
+  </a>
+  <!-- End Back to Top -->
+
+
+  <!-- Js -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+  <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+  <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+  <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+  <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+  <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+  <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+  <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+  <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+  <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+  <script src="_include/js/main.js"></script> <!-- Default JS -->
+  <script src="_include/js/i18next.js"></script> <!-- Translation -->
+  <script src="_include/js/trad_i18next.js"></script> <!-- Translation -->
+  <script>
+    nom=navigator.appName;
+    langue=navigator.language;
+    langue1=navigator.browserLanguage;
+    if (nom=="Microsoft Internet Explorer")
+    {
+      if (langue1=="fr")
+      i18next.changeLanguage('fr');
+      else
+      i18next.changeLanguage('en');
+    }
+    else
+    {
+      if (langue=="fr")
+      i18next.changeLanguage('fr');
+      else
+      i18next.changeLanguage('en');
+    }
+  </script> <!-- Translation Auto -->
+
+  <!-- End Js -->
 
 </body>
 </html>
