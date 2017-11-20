@@ -32,8 +32,8 @@
 .button:hover,
 .button:active,
 .button:focus {
-	background-color: #011C06;
-	color:#FFFFFF;
+	background-color: #FFFFFF;
+	color:#011C06;
 }
 
 /* --- Button Sizes --- */
