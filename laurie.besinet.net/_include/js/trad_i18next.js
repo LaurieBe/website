@@ -7,26 +7,28 @@
         translation: {
           "key_title": "Laurie Bésinet",
           "key_welcome": "Welcome",
-          "key_hello": "Passionate and specialized in agriculture and numeric to connect fields to the World. <br> I used to be agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I am now in New-Zealand to discover the country, its peoples, its cultures and its agricultures.",
+          "key_hello": "Passionate and specialized in agriculture and numeric to connect fields to the World. <br> I used to be agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I am now in New Zealand to discover the country, its peoples, its cultures and its agricultures.",
           "key_newzealand": "New-Zealand",
           "key_resume": "Resume",
           "key_experiences": "Experiences",
           "key_projects": "Projects",
           "key_contact": "Contact",
           "key_home": "Home",
+          "key_instructions": "Clic on the pictures to access my resume or the stories of my journey in New Zealand:",
         }
       },
       fr: {
         translation: {
           "key_title": "Laurie Bésinet",
           "key_welcome": "Bienvenue",
-          "key_hello": "Je suis actuellement agronome dans une startup alliant nouvelles technologies et agronomie. <br> A la recherche permanente de nouveaux défis, je pars bientôt à la découverte d'un nouveau pays, ses gens, ses cultures et ses agricultures : la Nouvelle-Zélande",
+          "key_hello": "Passionnée par l'agriculture et les nouvelles technologies, et spécialisée dans ces domaines, mon idée est de connecter les champs, les agriculteurs, le monde. Après avoir été agronome dans une startup alliant nouvelles technologies et agronomie, je suis maintenant en Nouvelle-Zélande pour découvrir un nouveau pays, ses gens, ses cultures et ses agricultures",
           "key_newzealand": "Nouvelle-Zélande",
           "key_resume": "Curriculum Vitae",
           "key_experiences": "Expériences",
           "key_projects": "Projets",
           "key_contact": "Contact",
           "key_home": "Accueil",
+          "key_instructions": "Cliquer sur les images pour accéder à mon CV ou bien à mes impressions pendant mon voyage en Nouvelle-Zélande : ",
         }
       }
     }
@@ -48,6 +50,9 @@
     document.getElementById('i18n_contact').innerHTML = i18next.t('key_contact');
 //    document.getElementById('i18n_contact2').innerHTML = i18next.t('key_contact');
     document.getElementById('i18n_home').innerHTML = i18next.t('key_home');
+
+    for(i =0; i<  document.getElementsByClassName('i18n_instructions').length;i++){document.getElementsByClassName('i18n_instructions')[i].innerHTML= i18next.t('key_instructions');}
+
   }
 
   function changeLng(lng) {
