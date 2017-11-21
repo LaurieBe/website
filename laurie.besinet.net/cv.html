@@ -130,10 +130,10 @@
 
           <nav id="menu">
             <ul id="menu-nav">
-              <li><a class="external" href="index.html" id="i18n_cv_home"></a></li>
+              <li><a class="external" href="index.html#work" id="i18n_cv_home"></a></li>
+              <li class="current"><a class="external" href="cv.html#resume" id="i18n_cv_resume"></a></li>
+              <li><a class="external" href="nz.html#nz" id="i18n_cv_newzealand"></a></li>
               <li><a class="" href="#social-area" id="i18n_cv_contact"></a></li>
-              <li><a class="external" href="nz.html" id="i18n_cv_newzealand"></a></li>
-              <li class="current"><a class="external" href="cv.html" id="i18n_cv_resume"></a></li>
               <li>
                 <button class="button button-mini" onclick="i18next.changeLanguage('en')">EN</button>
                 <button class="button button-mini" onclick="i18next.changeLanguage('fr')" style="margin-left: 0px">FR</button>
@@ -846,6 +846,25 @@
   <script src="_include/js/main.js"></script> <!-- Default JS -->
   <script src="_include/js/i18next.js"></script> <!-- Translation -->
   <script src="_include/js/trad_i18next_cv.js"></script> <!-- Translation -->
+  <script>
+    nom=navigator.appName;
+    langue=navigator.language;
+    langue1=navigator.browserLanguage;
+    if (nom=="Microsoft Internet Explorer")
+    {
+      if (langue1=="fr")
+      i18next.changeLanguage('fr');
+      else
+      i18next.changeLanguage('en');
+    }
+    else
+    {
+      if (langue=="fr")
+      i18next.changeLanguage('fr');
+      else
+      i18next.changeLanguage('en');
+    }
+  </script> <!-- Translation Auto -->
   <!-- End Js -->
 
 </body>
