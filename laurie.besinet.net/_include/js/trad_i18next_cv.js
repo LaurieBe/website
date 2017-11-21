@@ -15,6 +15,8 @@
           "key_contact": "Contact",
           "key_home": "Home",
 
+          "key_job_comment": "From the most recent to the least:",
+
           "key_job_wnt_entr": "Weenat",
           "key_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 to 15 employees | Nantes, FRANCE <br> Weenat allows the farmers to optimize their resources, by bringing them localized information in the plot to support their decisions.",
           "key_job_wnt_date1": "Jan 2016 - Nov 2017",
@@ -94,6 +96,30 @@
           "key_comp_lang_skills4": "German: elementary notions",
           "key_comp_soft": "Soft Skills",
           "key_comp_soft_skills": "<ul><li>Autonomy</ul></li><ul><li>Team Work</ul></li><ul><li>Well Organized</ul></li><ul><li>Patient</ul></li>",
+
+          "key_proj": "Volunteering and Projects",
+          "key_proj_comment": "Clic on the pictures for details",
+          "key_proj_website_pic": "<img src=\"_include/img/work/thumbs/image-03.jpg\" style=\"width: 100%;\" alt=\"A personal challenge: to make my owm website I acquired my domain name that I hosted via OVH. I was introduced to HTML, CSS and javascript languages to code it. <br>The result is here: https://laurie.besinet.net\">",
+          "key_proj_website_title": "Creation of my website",
+          "key_proj_plastic_pic": "<img src=\"_include/img/work/thumbs/image-04.jpg\" style=\"width: 100%;\" alt=\"My team worked about a process to recover plastic out of the recycling circuit. Student Innovation Competition to rethink the city. <br>During several months, with other students, we worked on this project through workshops, meetings with professionals and conferences. <i><br>Photo by Imthaz Ahamed on Unsplash<i>\">",
+          "key_proj_plastic_title": "Plastic Recycling",
+          "key_proj_student_pic": "<img src=\"_include/img/work/thumbs/image-05.jpg\" style=\"width: 100%;\" alt=\"During school time, with other students, we were organizing animations by searching for sponsors, promoting the events and products.\">",
+          "key_proj_student_title": "Students Association",
+
+          "key_hob": "Hobbies",
+          "key_hob_comment": " ",
+          "key_hob_winter_title": "Winter sports",
+          "key_hob_winter_text": "Skiing, Snow boarding, Ice skating",
+          "key_hob_summer_title": "Summer sports",
+          "key_hob_summer_text": "Hiking, Scuba Diving",
+          "key_hob_travel_title": "Travelling",
+          "key_hob_travel_text": "Europe, USA, Brazil, Ivory coast, New Zealand, ...",
+          "key_hob_diy_title": "Do It Yourself",
+          "key_hob_diy_text": "Jewellry, Furnitures",
+          "key_hob_ntic_title": "New Technologies",
+          "key_hob_ntic_text": "Learn new technologies",
+          "key_hob_plant_title": "Plants growing",
+          "key_hob_plant_text": "From seeds or cuttings exchanges",
         }
       },
       fr: {
@@ -107,6 +133,8 @@
           "key_projects": "Projets",
           "key_contact": "Contact",
           "key_home": "Accueil",
+
+          "key_job_comment": "Du plus récent au plus ancien :",
 
           "key_job_wnt_entr": "Weenat",
           "key_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 à 15 employés | Nantes (44), FRANCE <br> eenat permet aux agriculteurs d'optimiser leurs ressources en leur fournissant des informations localisées au champ pour conforter leurs décisions.",
@@ -178,7 +206,7 @@
           "key_etu_for_details": "Echange académique. <br> J'ai pu découvrir un grand pays, un nouveau continent, des cultures qui se cotoient et une nouvelle langue en les cotoyant au quotidien.",
 
           "key_comp": "Compétences",
-          "key_comp_hard": "Compétences Techniquew",
+          "key_comp_hard": "Compétences Techniques",
           "key_comp_hard_skills": "<ul><li>Physiologie, Protection et Nutrition du Végétal et de l'Animal</ul></li><ul><li>Transformation et Qualité agro-alimentaire</ul></li><ul><li>Gestion d'équipe et de projet</ul></li><ul><li>Economie, Marketing</ul></li><ul><li>Statistiques</ul></li><ul><li>Microsoft Office</ul></li><ul><li>Informatique: initiation à VBA, C+, Python, CSS, HTML, Git et Github</ul></li>",
           "key_comp_lang": "Langues",
           "key_comp_lang_skills1": "Français : langue natale",
@@ -187,6 +215,32 @@
           "key_comp_lang_skills4": "Allemand : notions élémentaires",
           "key_comp_soft": "Compétences générales",
           "key_comp_soft_skills": "<ul><li>Autonomie</ul></li><ul><li>Travail en équipe</ul></li><ul><li>Bonne Organisation</ul></li><ul><li>Patience</ul></li>",
+
+          "key_proj": "Volontariat et projets",
+          "key_proj_comment": "Cliquer sur les images pour plus de détails :",
+          "key_proj_website_pic": "<img src=\"_include/img/work/thumbs/image-03.jpg\" style=\"width: 100%;\" alt=\"Pour relever un défi personnel, j'ai réalisé mon site web. Pour cela, j'ai acqui mon nom de domaine que j'ai fait héberger. Je me suis ensuite inititiée au langage HTML, CSS et javascript pour le coder.\">",
+          "key_proj_website_title": "Création de mon site web",
+          "key_proj_plastic_pic": "<img src=\"_include/img/work/thumbs/image-04.jpg\" style=\"width: 100%;\" alt=\"Concours d'innovation étudiant au FabLab Toulouse. Avec mon équipe, nous avons imaginé un projet de filière de récupération du plastique. Le projet a été consolidé au travers de workshops, rencontres de professionnels et conférences.<i><br>Photo par Imthaz Ahamed via Unsplash<i>\">",
+          "key_proj_plastic_title": "Recyclage de plastique",
+          "key_proj_student_pic": "<img src=\"_include/img/work/thumbs/image-05.jpg\" style=\"width: 100%;\" alt=\"Tout au long de mes études, je me suis impliquée dans l'organisation d'animations, recherche de sponsors, promotion des évènements et des ventes de produits.\">",
+          "key_proj_student_title": "Association d'Etudiants",
+
+          "key_hob": "Passions",
+          "key_hob_comment": " ",
+          "key_hob_winter_title": "Sports d'hiver",
+          "key_hob_winter_text": "Ski, Surf, Patin à glace",
+          "key_hob_summer_title": "Sports d'été",
+          "key_hob_summer_text": "Randonnée, Plongée",
+          "key_hob_travel_title": "Voyages",
+          "key_hob_travel_text": "Europe, USA, Brésil, Côte d'Ivoire, Nouvelle-Zélande, ...",
+          "key_hob_diy_title": "Bricolage",
+          "key_hob_diy_text": "Bijoux, Meubles",
+          "key_hob_ntic_title": "Nouvelles Technologies",
+          "key_hob_ntic_text": "Découvrir des nouveautés et apprendre à les utiliser",
+          "key_hob_plant_title": "Plantes",
+          "key_hob_plant_text": "Faire pousser à partir de graines ou de trocs de boutures",
+
+
         }
       }
     }
@@ -208,16 +262,9 @@
     document.getElementById('i18n_cv_contact').innerHTML = i18next.t('key_contact');
 //    document.getElementById('i18n_cv_contact2').innerHTML = i18next.t('key_contact');
     document.getElementById('i18n_cv_home').innerHTML = i18next.t('key_home');
-//    document.getElementByclassname('i18n_cv_job_wnt_title').innerHTML = i18next.t('key_job_wnt_title');
-//    document.getElementById('i18n_cv_job_wnt_date').innerHTML = i18next.t('key_job_wnt_date');
-//    document.getElementById('i18n_cv_job_wnt_desc').innerHTML = i18next.t('key_job_wnt_desc');
-//    document.getElementById('i18n_cv_job_wnt_comp').innerHTML = i18next.t('key_job_wnt_comp');
-//    document.getElementById('i18n_cv_job_wnt_durat').innerHTML = i18next.t('key_job_wnt_durat');
-//    document.getElementById('i18n_cv_job_wnt_plac').innerHTML = i18next.t('key_job_wnt_plac');
-//    document.getElementById('i18n_cv_job_wnt_proj1').innerHTML = i18next.t('key_job_wnt_proj1');
-//    document.getElementById('i18n_cv_').innerHTML = i18next.t('key_');
-//    document.getElementById('i18n_cv_').innerHTML = i18next.t('key_');
-//    document.getElementById('i18n_cv_').innerHTML = i18next.t('key_');
+
+    for(i =0; i<  document.getElementsByClassName('i18n_cv_job_comment').length;i++){document.getElementsByClassName('i18n_cv_job_comment')[i].innerHTML= i18next.t('key_job_comment');}
+
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_wnt_mission1').length;i++){document.getElementsByClassName('i18n_cv_job_wnt_mission1')[i].innerHTML= i18next.t('key_job_wnt_mission1');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_wnt_proj1').length;i++){document.getElementsByClassName('i18n_cv_job_wnt_proj1')[i].innerHTML= i18next.t('key_job_wnt_proj1');}
     for(i =0; i<  document.getElementsByClassName('i18n_cv_job_wnt_desc').length;i++){document.getElementsByClassName('i18n_cv_job_wnt_desc')[i].innerHTML= i18next.t('key_job_wnt_desc');}
@@ -301,6 +348,29 @@
     for(i =0; i<  document.getElementsByClassName('i18n_comp_soft').length;i++){document.getElementsByClassName('i18n_comp_soft')[i].innerHTML= i18next.t('key_comp_soft');}
     for(i =0; i<  document.getElementsByClassName('i18n_comp_soft_skills').length;i++){document.getElementsByClassName('i18n_comp_soft_skills')[i].innerHTML= i18next.t('key_comp_soft_skills');}
 
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj').length;i++){document.getElementsByClassName('i18n_comp_proj')[i].innerHTML= i18next.t('key_proj');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_comment').length;i++){document.getElementsByClassName('i18n_comp_proj_comment')[i].innerHTML= i18next.t('key_proj_comment');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_website_pic').length;i++){document.getElementsByClassName('i18n_comp_proj_website_pic')[i].innerHTML= i18next.t('key_proj_website_pic');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_website_title').length;i++){document.getElementsByClassName('i18n_comp_proj_website_title')[i].innerHTML= i18next.t('key_proj_website_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_plastic_pic').length;i++){document.getElementsByClassName('i18n_comp_proj_plastic_pic')[i].innerHTML= i18next.t('key_proj_plastic_pic');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_plastic_title').length;i++){document.getElementsByClassName('i18n_comp_proj_plastic_title')[i].innerHTML= i18next.t('key_proj_plastic_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_student_pic').length;i++){document.getElementsByClassName('i18n_comp_proj_student_pic')[i].innerHTML= i18next.t('key_proj_student_pic');}
+    for(i =0; i<  document.getElementsByClassName('i18n_comp_proj_student_title').length;i++){document.getElementsByClassName('i18n_comp_proj_student_title')[i].innerHTML= i18next.t('key_proj_student_title');}
+
+    for(i =0; i<  document.getElementsByClassName('i18n_hob').length;i++){document.getElementsByClassName('i18n_hob')[i].innerHTML= i18next.t('key_hob');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_comment').length;i++){document.getElementsByClassName('i18n_hob_comment')[i].innerHTML= i18next.t('key_hob_comment');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_winter_title').length;i++){document.getElementsByClassName('i18n_hob_winter_title')[i].innerHTML= i18next.t('key_hob_winter_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_winter_text').length;i++){document.getElementsByClassName('i18n_hob_winter_text')[i].innerHTML= i18next.t('key_hob_winter_text');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_summer_title').length;i++){document.getElementsByClassName('i18n_hob_summer_title')[i].innerHTML= i18next.t('key_hob_summer_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_summer_text').length;i++){document.getElementsByClassName('i18n_hob_summer_text')[i].innerHTML= i18next.t('key_hob_summer_text');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_travel_title').length;i++){document.getElementsByClassName('i18n_hob_travel_title')[i].innerHTML= i18next.t('key_hob_travel_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_travel_text').length;i++){document.getElementsByClassName('i18n_hob_travel_text')[i].innerHTML= i18next.t('key_hob_travel_text');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_ntic_title').length;i++){document.getElementsByClassName('i18n_hob_ntic_title')[i].innerHTML= i18next.t('key_hob_ntic_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_ntic_text').length;i++){document.getElementsByClassName('i18n_hob_ntic_text')[i].innerHTML= i18next.t('key_hob_ntic_text');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_diy_title').length;i++){document.getElementsByClassName('i18n_hob_diy_title')[i].innerHTML= i18next.t('key_hob_diy_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_diy_text').length;i++){document.getElementsByClassName('i18n_hob_diy_text')[i].innerHTML= i18next.t('key_hob_diy_text');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_plant_title').length;i++){document.getElementsByClassName('i18n_hob_plant_title')[i].innerHTML= i18next.t('key_hob_plant_title');}
+    for(i =0; i<  document.getElementsByClassName('i18n_hob_plant_text').length;i++){document.getElementsByClassName('i18n_hob_plant_text')[i].innerHTML= i18next.t('key_hob_plant_text');}
 
   }
 
