@@ -1,3 +1,3 @@
-# website - brushed
-New template for my website
-Soon online...
+# website
+See my website on http://laurie.besinet.net
+
