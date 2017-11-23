@@ -8,6 +8,7 @@
           "key_title": "Laurie Bésinet",
           "key_welcome": "Welcome",
           "key_hello": "Actually agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I'm looking for new challenges, that's why I leave soon to discover a country, its peoples, its cultures and its agricultures : New-Zealand",
+          "key_hello2": "Available immediately, living in Auckland",
           "key_newzealand": "New-Zealand",
           "key_resume": "Resume",
           "key_experiences": "Experiences",
@@ -127,6 +128,7 @@
           "key_title": "Laurie Bésinet",
           "key_welcome": "Bienvenue",
           "key_hello": "Je suis actuellement agronome dans une startup alliant nouvelles technologies et agronomie. <br> A la recherche permanente de nouveaux défis, je pars bientôt à la découverte d'un nouveau pays, ses gens, ses cultures et ses agricultures : la Nouvelle-Zélande",
+          "key_hello2": "Disponible immédiatement, sans préavis",
           "key_newzealand": "Nouvelle-Zélande",
           "key_resume": "Curriculum Vitae",
           "key_experiences": "Expériences",
@@ -253,6 +255,7 @@
     document.getElementById('i18n_cv_title').innerHTML = i18next.t('key_title');
 //    document.getElementById('i18n_cv_welcome').innerHTML = i18next.t('key_welcome');
 //    document.getElementById('i18n_cv_hello').innerHTML = i18next.t('key_hello');
+    document.getElementById('i18n_hello2').innerHTML = i18next.t('key_hello2');
     document.getElementById('i18n_cv_newzealand').innerHTML = i18next.t('key_newzealand');
 //    document.getElementById('i18n_cv_newzealand2').innerHTML = i18next.t('key_newzealand');
     document.getElementById('i18n_cv_resume').innerHTML = i18next.t('key_resume');
