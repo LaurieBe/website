@@ -255,27 +255,8 @@
   <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
   <script src="_include/js/main.js"></script> <!-- Default JS -->
   <script src="_include/js/i18next.js"></script> <!-- Translation -->
+  <script src="_include/js/i18nextBrowserLanguageDetector.js"></script> <!-- Translation -->
   <script src="_include/js/trad_i18next.js"></script> <!-- Translation -->
-  <script>
-    nom=navigator.appName;
-    langue=navigator.language;
-    langue1=navigator.browserLanguage;
-    if (nom=="Microsoft Internet Explorer")
-    {
-      if (langue1=="fr")
-      i18next.changeLanguage('fr');
-      else
-      i18next.changeLanguage('en');
-    }
-    else
-    {
-      if (langue=="fr")
-      i18next.changeLanguage('fr');
-      else
-      i18next.changeLanguage('en');
-    }
-  </script> <!-- Translation Auto -->
-
   <!-- End Js -->
 
 </body>
