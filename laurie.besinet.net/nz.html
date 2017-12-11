@@ -118,10 +118,10 @@
 
           <nav id="menu">
           	<ul id="menu-nav">
-              <li><a href="index.html#work" class="external i18n_nz_home"></a></li>
-              <li><a class="external i18n_nz_resume" href="cv.html#resume"></a></li>
-              <li class="current"><a class="external i18n_nz_newzealand" href="nz.html#nz"></a></li>
-              <li><a class="i18n_nz_contact" href="#social-area"></a></li>
+              <li><a href="index.html#work" class="external i18n_home"></a></li>
+              <li><a class="external i18n_resume" href="cv.html#resume"></a></li>
+              <li class="current"><a class="external i18n_newzealand" href="nz.html#nz"></a></li>
+              <li><a class="i18n_contact" href="#social-area"></a></li>
               <li>
                 <button class="button button-mini" onclick="i18next.changeLanguage('en')">EN</button>
                 <button class="button button-mini" onclick="i18next.changeLanguage('fr')">FR</button>
@@ -212,27 +212,9 @@
   <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
   <script src="_include/js/main.js"></script> <!-- Default JS -->
   <script src="_include/js/i18next.js"></script> <!-- Translation -->
+  <script src="_include/js/i18nextBrowserLanguageDetector.js"></script> <!-- Translation -->
+  <script src="_include/js/trad_i18next_functions.js"></script> 
   <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
-  <script>
-    nom=navigator.appName;
-    langue=navigator.language;
-    langue1=navigator.browserLanguage;
-    if (nom=="Microsoft Internet Explorer")
-    {
-      if (langue1=="fr")
-      i18next.changeLanguage('fr');
-      else
-      i18next.changeLanguage('en');
-    }
-    else
-    {
-      if (langue=="fr")
-      i18next.changeLanguage('fr');
-      else
-      i18next.changeLanguage('en');
-    }
-  </script> <!-- Translation Auto -->
-
   <!-- End Js -->
 
 </body>
