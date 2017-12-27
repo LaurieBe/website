@@ -105,47 +105,41 @@
                 <br>
                 <div>
 
-                  <!-- article a1 -->
-                  <div>
-                    <table>
-                      <tr>
-                        <td class="span4">
-                          <a href="a1.php#a1" class="thumbnail"><img src="./_include/img/nz/frtonz.png" ></a>
-                        </td>
-                        <td class="span8">
+                  <!-- article a0 -->
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="myPicturesBox"
+                          <a href="a2.php#a2"><div class="i18n_a2_pic"></div></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
                           <div style="margin-left: 30px;">
-                            <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
-                            <span class="i18n_a1_intro"></span>
+                            <a href="a2.php#a2"><h2 class="i18n_a2_title title-description" style="text-transform: uppercase;"></h2></a>
+                            <span class="i18n_a2_intro"></span>
                             <br>
-                            <a href="a1.php#a1"><span class="i18n_url"></span></a>
+                            <a href="a2.php#a2"><span class="i18n_url"></span></a>
                           </div>
-                        </td>
-                      </tr>
-                    </table>
+                    </div>
                   </div>
-
 
                   <br>
                   <hr>
 
-
                   <!-- article a1 -->
-                  <div>
-                    <table>
-                      <tr>
-                        <td class="span4">
-                          <a href="a1.php#a1" class="thumbnail i18n_a1_pic"></a>
-                        </td>
-                        <td class="span8">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="myPicturesBox"
+                          <a href="a1.php#a1"><div class="i18n_a1_pic"></div></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
                           <div style="margin-left: 30px;">
                             <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
                             <span class="i18n_a1_intro"></span>
                             <br>
                             <a href="a1.php#a1"><span class="i18n_url"></span></a>
                           </div>
-                        </td>
-                      </tr>
-                    </table>
+                    </div>
                   </div>
 
 
@@ -155,22 +149,20 @@
 
 
                   <!-- article a0 -->
-                  <div>
-                    <table>
-                      <tr>
-                        <td class="span4">
-                          <a href="a0.php#a0" class="thumbnail i18n_a0_pic"></a>
-                        </td>
-                        <td class="span8">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="myPicturesBox"
+                          <a href="a0.php#a0"><div class="i18n_a0_pic"></div></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
                           <div style="margin-left: 30px;">
                             <a href="a0.php#a0"><h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2></a>
                             <span class="i18n_a0_intro"></span>
                             <br>
                             <a href="a0.php#a0"><span class="i18n_url"></span></a>
                           </div>
-                        </td>
-                      </tr>
-                    </table>
+                    </div>
                   </div>
 
 

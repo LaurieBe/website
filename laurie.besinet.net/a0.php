@@ -109,12 +109,14 @@
                       <br><br>
 
                     <!-- article -->
-                    <div class="title-page">
-                      <h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2>
-                      <span class="i18n_a0_param"></span>
+                    <div>
+                      <div class="title-page">
+                        <h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2>
+                        <span class="i18n_a0_param"></span>
+                      </div>
+                      <p class="i18n_a0_intro"></p>
+                      <p class="i18n_a0_content"></p>
                     </div>
-                    <p class="i18n_a0_intro"></p>
-                    <p class="i18n_a0_content"></p>
 
 
                     <br><br>

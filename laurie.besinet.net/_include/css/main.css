@@ -1430,8 +1430,16 @@ a.thumbnail:hover,a.thumbnail:focus {
  border-color:#BB0B28;
  }
 
-.mySlides {
+.mySlides, .myPictures {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.myPicturesBox {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
