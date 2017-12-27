@@ -15,6 +15,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_projects": "Projects",
         "i18n_contact": "Contact",
         "i18n_home": "Home",
+        "i18n_blog": "Blog",
         "i18n_instructions": "Clic on the pictures to access my resume or the stories of my journey in New Zealand:",
       }
     },
@@ -30,6 +31,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_projects": "Projets",
         "i18n_contact": "Contact",
         "i18n_home": "Accueil",
+        "i18n_blog": "Blog",
         "i18n_instructions": "Cliquer sur les images pour accéder à mon CV ou bien à mes impressions pendant mon voyage en Nouvelle-Zélande : ",
       }
     }

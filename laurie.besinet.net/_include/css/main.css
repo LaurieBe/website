@@ -223,6 +223,8 @@ h3{
 
 h4{
 	font-size:20px;
+	color: #BB0B28;
+	font-weight: bold;
 }
 
 h5{
@@ -662,6 +664,10 @@ nav#navigation-mobile #menu-nav-mobile li.current a {
 	font-size: 24px;
 	font-weight: 200;
 	margin: 0;
+}
+
+.title-description {
+	font-size: 24px;
 }
 
 /* ==================================================
@@ -1400,4 +1406,32 @@ footer .credits a:hover {
       -ms-transition: none;
        -o-transition: none;
           transition: none;
+}
+
+
+/* ==================================================
+   Others
+================================================== */
+
+
+.breadcrumb {
+    background-color: #bc5c6c1a;
+		font-size: 15px;
+}
+
+.pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #bc5c6c1a;
+    border: none;
+		font-size: 15px;
+}
+a.thumbnail:hover,a.thumbnail:focus {
+ border-color:#BB0B28;
+ }
+
+.mySlides {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }

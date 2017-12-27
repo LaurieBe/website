@@ -15,6 +15,7 @@
           "i18n_projects": "Projects",
           "i18n_contact": "Contact",
           "i18n_home": "Home",
+          "i18n_blog": "Blog",
 
           "i18n_job_comment": "From the most recent to the least:",
 
@@ -135,6 +136,7 @@
           "i18n_projects": "Projets",
           "i18n_contact": "Contact",
           "i18n_home": "Accueil",
+          "i18n_blog": "Blog",
 
           "i18n_job_comment": "Du plus récent au plus ancien :",
 
