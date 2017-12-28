@@ -66,7 +66,7 @@
   <!-- Modernizr -->
   <script src="_include/js/modernizr.js"></script>
 
-  <!-- Analytics -->
+  <!-- Analytics
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -100,37 +100,17 @@
             <div class="span12">
                 <div class="title-page">
                     <h2 class="title i18n_blog"></h2>
-                    <p> blabla</p>
-                </diV>
+                    <p class="i18n_blogtxt"></p>
+                </div>
                 <br>
                 <div>
-
-                  <!-- article a0 -->
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="myPicturesBox"
-                          <a href="a2.php#a2"><div class="i18n_a2_pic"></div></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                          <div style="margin-left: 30px;">
-                            <a href="a2.php#a2"><h2 class="i18n_a2_title title-description" style="text-transform: uppercase;"></h2></a>
-                            <span class="i18n_a2_intro"></span>
-                            <br>
-                            <a href="a2.php#a2"><span class="i18n_url"></span></a>
-                          </div>
-                    </div>
-                  </div>
-
-                  <br>
-                  <hr>
 
                   <!-- article a1 -->
                   <div class="row">
                     <div class="col-lg-4">
-                      <div class="myPicturesBox"
+                      <div class="myPicturesBox">
                           <a href="a1.php#a1"><div class="i18n_a1_pic"></div></a>
-                        </div>
+                      </div>
                     </div>
                     <div class="col-lg-8">
                           <div style="margin-left: 30px;">
@@ -142,18 +122,17 @@
                     </div>
                   </div>
 
-
                   <br>
                   <hr>
-
-
 
                   <!-- article a0 -->
                   <div class="row">
                     <div class="col-lg-4">
-                      <div class="myPicturesBox"
-                          <a href="a0.php#a0"><div class="i18n_a0_pic"></div></a>
-                        </div>
+                      <div class="myPicturesBox">
+                          <a href="a0.php#a0">
+                            <div class="i18n_a0_pic"></div>
+                          </a>
+                      </div>
                     </div>
                     <div class="col-lg-8">
                           <div style="margin-left: 30px;">
@@ -164,10 +143,6 @@
                           </div>
                     </div>
                   </div>
-
-
-
-
 
                 </div>
             </div>

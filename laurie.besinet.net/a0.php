@@ -101,8 +101,8 @@
 
                     <!-- plan -->
                     <ul class="breadcrumb">
-                      <li class="active"><a class="i18n_home" href="index.php#work"></a> | </li>
-                      <li><a class="external i18n_blog" href="blog.php#blog"></a> | </li>
+                      <li class="active"><a class="i18n_home" href="index.php#work"></a>&nbsp>&nbsp</li>
+                      <li><a class="external i18n_blog" href="blog.php#blog"></a>&nbsp>&nbsp</li>
                       <li><a class="i18n_a0_title" href="a0.php#a0"></a></li>
                     </ul>
 
@@ -114,15 +114,15 @@
                         <h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2>
                         <span class="i18n_a0_param"></span>
                       </div>
-                      <p class="i18n_a0_intro"></p>
-                      <p class="i18n_a0_content"></p>
-                    </div>
+                      <div class="i18n_a0_intro"></div>
+                      <br><br>
+                      <div class="i18n_a0_content"></div>
 
 
-                    <br><br>
+                    <br>
 
                     <!-- précedent / suivant -->
-                    <ul class="pager">
+                    <ul class="breadcrumb">
                       <li><a href="a1.php#a1"><span class="i18n_next"></span></a></li>
                     </ul>
 
