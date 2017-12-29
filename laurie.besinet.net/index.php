@@ -94,17 +94,17 @@
 
   <!-- Presentation Section -->
   <div id="work" class="page">
-  	<div id="content" class="container" style="  margin-left: auto; margin-right: auto;">
+  	<div id="content" class="container">
     	<!-- Title Page-->
       <div>
-              <div class="title-page">
-                  <h2 class="title i18n_welcome"></h2>
-                  <h3 class="title-description i18n_hello"></h3>
-              </div>
-              <i><p class="i18n_hello2" style="text-align:center"></p></i>
-              <br>
-              <p class="i18n_instructions"></p>
-          </div>
+        <div class="title-page">
+            <h2 class="title i18n_welcome"></h2>
+            <h3 class="i18n_hello"></h3>
+        </div>
+        <i><p class="i18n_hello2" style="text-align:center"></p></i>
+        <br>
+        <p class="i18n_instructions"></p>
+      </div>
 
       <!-- End Title Page -->
 

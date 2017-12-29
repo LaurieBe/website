@@ -671,6 +671,8 @@ nav#navigation-mobile #menu-nav-mobile li.current a {
 
 .title-description {
 	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 /* ==================================================
@@ -1451,6 +1453,14 @@ a.thumbnail:hover,a.thumbnail:focus {
 }
 
 .container {
-	margin-right: 5px;
-  margin-left: 5px;
+	margin-left: auto;
+	 margin-right: auto;
+}
+
+.container ul {
+	margin-left: 25px;
+}
+
+.sansmarge {
+	margin: 0px;
 }

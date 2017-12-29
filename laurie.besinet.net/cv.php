@@ -98,48 +98,54 @@
     <div id="content" class="container">
 
       <!-- Title Page -->
-      <div class="row">
-        <div class="span12">
-          <div class="title-page">
-            <h1 class="title i18n_resume" ></h2>
-          </div>
-          <i><p class="i18n_hello2" style="text-align:center"></p></i>
-          <br>
+      <div>
+        <div class="title-page">
+          <h1 class="title i18n_resume" ></h1>
         </div>
+        <i><p class="i18n_hello2" style="text-align:center"></p></i>
+        <br>
       </div>
       <!-- End Title Page -->
 
-
-      <!--Start Experiences-->
-      <div>
+      <!----------------------------- Start Experiences ----------------------------->
+      <div id="experience">
 
         <!--Start Titre Experiences-->
-        <div id="experience" class="row">
-          <div class="span12">
-            <div class="title-page">
-              <h2 class=" i18n_experiences title-description" style="text-transform: uppercase;"></h2>
-            </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class=" i18n_experiences title-description"></h2>
             <p class="i18n_job_comment"></p>
           </div>
         </div>
+
         <!--Fin Titre Experiences-->
 
         <!--start Weenat-->
         <div>
-
-          <h3 class="i18n_job_wnt_entr"></h3><br>
+          <h3 class="i18n_job_wnt_entr"></h3>
           <blockquote>
-            <i><span><p class="i18n_job_wnt_desc"></p></span></i>
+
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-12">
+                <i><p class="i18n_job_wnt_desc"></p></i>
+              </div>
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-lg-3">
                 <span class="i18n_job_wnt_date1" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_job_wnt_title1"></h4>
               </div>
             </div>
-            <span class="i18n_job_wnt_text1"></span><br><br>
 
+            <div class="row">
+              <div class="col-lg-12 i18n_job_wnt_text1">
+              </div>
+            </div>
+            <br>
 
             <!-- Start Toggle -->
             <div class="accordion" id="toggleArea">
@@ -209,31 +215,41 @@
               <!-- end wnt mission 4-->
             </div>
             <!-- End Toggle -->
-          </blockquote>
 
+          </blockquote>
         </div>
         <!-- End Weenat-->
 
-        <br><br><br>
+        <br>
 
         <!--start Pioneer-->
         <div>
 
           <h3 class="i18n_job_pio_entr"></h3>
           <blockquote>
-            <i><span><p class="i18n_job_pio_desc"></p></span></i>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <i><p class="i18n_job_pio_desc"></p></i>
+              </div>
+            </div>
+            <br>
 
             <!-- Start pio job 1 -->
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-3">
                 <span class="i18n_job_pio_date1" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_job_pio_title1"></h4>
               </div>
             </div>
 
-            <span class="i18n_job_pio_text1"></span><br><br>
+            <div class="row">
+              <div class="col-lg-12 i18n_job_pio_text1">
+              </div>
+            </div>
+            <br>
 
             <!-- start pio mission 1-->
             <div>
@@ -271,15 +287,19 @@
 
             <!-- Start pio job 2 -->
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-3">
                 <span class="i18n_job_pio_date2" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_job_pio_title2"></h4>
               </div>
             </div>
 
-            <span class="i18n_job_pio_text2"></span><br><br>
+            <div class="row">
+              <div class="col-lg-12 i18n_job_pio_text2">
+              </div>
+            </div>
+            <br>
 
 
             <!-- start pio mission 3-->
@@ -302,27 +322,36 @@
         </div>
         <!-- End Pioneer-->
 
-        <br><br><br>
+        <br>
 
         <!--start NS-->
         <div>
 
           <h3 class="i18n_job_ns_entr"></h3>
           <blockquote>
-            <i><span><p class="i18n_job_ns_desc"></p></span></i>
 
+            <div class="row">
+              <div class="col-lg-12">
+                <i><p class="i18n_job_ns_desc"></p></i>
+              </div>
+            </div>
+            <br>
 
             <!-- Start NS job 1 -->
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-3">
                 <span class="i18n_job_ns_date1" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_job_ns_title1"></h4>
               </div>
             </div>
 
-            <span class="i18n_job_ns_text1"></span><br><br>
+            <div class="row">
+              <div class="col-lg-12 i18n_job_ns_text1">
+              </div>
+            </div>
+            <br>
 
             <!-- start NS mission 1-->
             <div>
@@ -344,26 +373,36 @@
         </div>
         <!-- End NS-->
 
-        <br><br><br>
+        <br>
 
         <!--start ane-->
         <div>
 
           <h3 class="i18n_job_ane_entr"></h3>
           <blockquote>
-            <i><span><p class="i18n_job_ane_desc"></p></span></i>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <i><p class="i18n_job_ane_desc"></p></i>
+              </div>
+            </div>
+            <br>
 
             <!-- Start ane job 1 -->
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-3">
                 <span class="i18n_job_ane_date1" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
               <h4 class="spec i18n_job_ane_title1"></h4>
               </div>
             </div>
 
-            <span class="i18n_job_ane_text1"></span><br><br>
+            <div class="row">
+              <div class="col-lg-12 i18n_job_ane_text1">
+              </div>
+            </div>
+            <br>
 
             <!-- start ane mission 1-->
             <div>
@@ -385,26 +424,35 @@
         </div>
         <!-- End ane-->
 
-        <br><br><br>
+        <br>
 
         <!--start Lamouthe-->
         <div>
 
           <h3 class="i18n_job_lam_entr"></h3>
           <blockquote>
-            <i><span><p class="i18n_job_lam_desc"></p></span></i>
+            <div class="row">
+              <div class="col-lg-12">
+                <i><p class="i18n_job_lam_desc"></p></i>
+              </div>
+            </div>
+            <br>
 
             <!-- Start Lamouthe job 1 -->
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-3">
                 <span class="i18n_job_lam_date1" style="line-height: 34px;"></span><br>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_job_lam_title1"></h4>
               </div>
             </div>
 
-            <span class="i18n_job_lam_text1"></span><br><br>
+            <div class="row">
+              <div class="col-lg-12 i18n_job_lam_text1">
+              </div>
+            </div>
+            <br>
 
             <!-- start Lamouthe mission 1-->
             <div>
@@ -426,108 +474,117 @@
         </div>
         <!-- End Lamouthe-->
 
-        <br><br><br>
-        <i><span><p class="i18n_job_ref"></p></span></i>
+        <br>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <i>
+              <p class="i18n_job_ref"></p>
+            </i>
+          </div>
+        </div>
 
       </div>
       <!--End Experiences-->
 
-      <div class="row">
-        <div class="span12">
           <hr>
-        </div>
-      </div>
 
-      <!--Start Etudes-->
+      <!--------------------------- Start Etudes ----------------------------->
       <div>
 
         <!-- Title Section -->
-        <div class="row">
-          <div class="span12">
-            <div class="title-page">
-              <h2 class="title-description i18n_etu" style="text-transform: uppercase;"></h2>
-            </div>
-          </div>
+        <div>
+          <h2 class="title-description i18n_etu"></h2>
         </div>
         <!-- End Title Section -->
 
         <!-- Start Purpan -->
+        <div>
           <h3 class="i18n_etu_pur_eco"></h3>
           <blockquote>
-            <i><span><p class="i18n_etu_pur_desc" style="margin-bottom: 30px"></p></span></i>
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-12">
+                <i><p class="i18n_etu_pur_desc" style="margin-bottom: 30px"></p></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
                 <span class="i18n_etu_pur_date" style="line-height: 34px;"></span>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_etu_pur_titre"></h4>
               </div>
             </div>
-            <span class="i18n_etu_pur_details"></span>
+            <div class="row">
+              <div class="col-lg-12 i18n_etu_pur_details">
+              </div>
+            </div>
           </blockquote>
-          <br><br><br>
+        </div>
         <!-- End Purpan -->
 
-
+        <br>
 
         <!-- Start Fortaleza -->
+        <div>
           <h3 class="i18n_etu_for_eco"></h3>
           <blockquote>
-            <i><span><p class="i18n_etu_for_desc" style="margin-bottom: 30px"></p></span></i>
             <div class="row">
-              <div class="span3">
+              <div class="col-lg-12">
+                <i><p class="i18n_etu_for_desc" style="margin-bottom: 30px"></p></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
                 <span class="i18n_etu_for_date" style="line-height: 34px;"></span>
               </div>
-              <div class="span8">
+              <div class="col-lg-8">
                 <h4 class="spec i18n_etu_for_titre"></h4>
               </div>
             </div>
-            <span class="i18n_etu_for_details"></span>
+            <div class="row">
+              <div class="col-lg-12 i18n_etu_for_details">
+              </div>
+            </div>
           </blockquote>
+        </div>
         <!-- End Fortaleza -->
 
       </div>
       <!--Fin Etudes-->
 
-      <div class="row">
-        <div class="span12">
           <hr>
-        </div>
-      </div>
 
-      <!--Start Compétences-->
+      <!--------------------------- Start Compétences --------------------------->
       <div>
 
         <!-- Title Section -->
-        <div class="row">
-          <div class="span12">
-            <div class="title-page">
-              <h2 class="title-description i18n_comp" style="text-transform: uppercase;"></h2>
-            </div>
-          </div>
+        <div>
+          <h2 class="title-description i18n_comp"></h2>
         </div>
         <!-- End Title Section -->
 
         <!-- start content skills-->
         <div class="row">
-          <div class="span6">
+
+          <div class="col-lg-12">
             <h3 class="i18n_comp_hard"></h3>
-            <div class="i18n_comp_hard_skills">
-            </div><br>
+            <div class="i18n_comp_hard_skills"></div>
+            <br>
           </div>
 
-          <div class="span3">
+          <div class="col-md-6">
             <h3 class="i18n_comp_soft"></h3>
-            <div class="i18n_comp_soft_skills">
-            </div><br>
+            <div class="i18n_comp_soft_skills"></div>
+            <br>
           </div>
 
-          <div class="span3">
+          <div class="col-md-6">
             <h3 class="i18n_comp_lang"></h3>
-            <ul><li class="i18n_comp_lang_skills1"></li></ul>
-            <ul><li class="i18n_comp_lang_skills2"></li></ul>
-            <ul><li class="i18n_comp_lang_skills3"></li></ul>
-            <ul><li class="i18n_comp_lang_skills4"></li></ul>
+            <ul><li class="i18n_comp_lang_skills1"></li>
+            <li class="i18n_comp_lang_skills2"></li>
+            <li class="i18n_comp_lang_skills3"></li>
+            <li class="i18n_comp_lang_skills4"></li></ul>
           </div>
         </div>
         <!-- End content skills-->
@@ -535,23 +592,15 @@
       </div>
       <!--Fin Compétences-->
 
-      <div class="row">
-        <div class="span12">
           <hr>
-        </div>
-      </div>
 
-      <!--Start Projects-->
+      <!--------------------------- Start Projects --------------------------->
       <div>
 
         <!-- Title Section -->
-        <div class="row">
-          <div class="span12">
-            <div class="title-page">
-              <h2 class="title-description i18n_proj" style="text-transform: uppercase;"></h2>
-            </div>
-            <p class="i18n_proj_comment"></p>
-          </div>
+        <div>
+          <h2 class="title-description i18n_proj"></h2>
+          <p class="i18n_proj_comment"></p>
         </div>
         <!-- End Title Section -->
 
@@ -559,7 +608,7 @@
         <div class="row">
 
           <!-- Start Projet 1-->
-        	<div class="span4 profile">
+        	<div class="col-lg-4 col-md-6 col-sm-12 profile">
               <!-- Start photo -->
               <div class="item-thumbs">
                   <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -572,13 +621,13 @@
                 </div>
               <!-- End photo -->
               <h3 class="profile-name i18n_proj_website_title"></h3>
-              <br><br><br>
+              <br>
 
           </div>
           <!-- End Projet 1 -->
 
           <!-- Start Projet 2 -->
-        	<div class="span4 profile">
+        	<div class="col-lg-4 col-md-6 col-sm-12 profile">
             <!-- Start photo -->
             <div class="item-thumbs">
                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -591,13 +640,13 @@
             </div>
             <!-- End photo -->
             <h3 class="profile-name i18n_proj_plastic_title"></h3>
-            <br><br><br>
+            <br>
 
           </div>
           <!-- End Projet 2 -->
 
           <!-- Start Projet 3 -->
-        	<div class="span4 profile">
+        	<div class="col-lg-4 col-md-6 col-sm-12 profile">
             <!-- Start photo -->
             <div class="item-thumbs">
                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -610,7 +659,7 @@
             </div>
             <!-- End photo -->
             <h3 class="profile-name i18n_proj_student_title"></h3>
-            <br><br><br>
+            <br>
 
           </div>
           <!-- End Projet 3 -->
@@ -621,30 +670,21 @@
       </div>
       <!--Fin Projects-->
 
-
-      <div class="row">
-        <div class="span12">
           <hr>
-        </div>
-      </div>
 
-      <!--Start Interets-->
+      <!--------------------------- Start Interets --------------------------->
       <div>
 
         <!-- Title Section -->
-        <div class="row">
-          <div class="span12">
-            <div class="title-page">
-              <h2 class="title-description i18n_hob" style="text-transform: uppercase;"></h2>
-            </div>
-          </div>
+        <div>
+          <h2 class="title-description i18n_hob"></h2>
         </div>
         <!-- End Title Section -->
 
         <!-- start interets -->
         <div class="row">
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -653,10 +693,10 @@
                 <img src="_include/img/profile/profile-01.jpg" alt="Ski">
             </div>
             <h3 class="i18n_hob_winter_title"></h3>
-            <br><br><br>
+            <br>
           </div>
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -665,11 +705,11 @@
                 <img src="_include/img/profile/profile-05.jpg" alt="Dive">
             </div>
             <h3 class="i18n_hob_summer_title"></h3>
-            <br><br><br>
+            <br>
           </div>
 
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -678,10 +718,10 @@
                 <img src="_include/img/profile/profile-02.jpg" alt="Travelling">
             </div>
             <h3 class="i18n_hob_travel_title"></h3>
-            <br><br><br>
+            <br>
           </div>
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -690,10 +730,10 @@
                 <img src="_include/img/profile/profile-03.jpg" alt="DIY">
             </div>
             <h3 class="i18n_hob_diy_text"></h3>
-            <br><br><br>
+            <br>
           </div>
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -702,10 +742,10 @@
                 <img src="_include/img/profile/profile-04.jpg" alt="NTIC">
             </div>
             <h3 class="i18n_hob_ntic_title"></h3>
-            <br><br><br>
+            <br>
           </div>
 
-          <div class="span4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
@@ -714,10 +754,8 @@
                 <img src="_include/img/profile/profile-06.jpg" alt="plants">
             </div>
             <h3 class="i18n_hob_plant_title"></h3>
-            <br><br><br>
+            <br>
           </div>
-
-
 
         </div>
         <!-- End interets -->

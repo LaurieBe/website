@@ -1,4 +1,4 @@
-<footer>
+<footer style="width: auto">
   <a href="#contact"> </a>
   <div id="social-area">
     <div class="container" style="margin-left: auto; margin-right: auto;">

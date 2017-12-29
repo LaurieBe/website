@@ -68,7 +68,7 @@
 ================================================== */
 
 .accordion {
-  	margin-bottom: 20px;
+
 }
 
 .accordion-group {
@@ -99,6 +99,13 @@
 	-ms-transition: all 0.1s linear 0s;
 	-o-transition: all 0.1s linear 0s;
 	transition: all 0.1s linear 0s;
+}
+
+@media(max-width:767px) {
+  .accordion-heading .accordion-toggle {
+    font-size: 14px;
+    padding: 8px;
+  }
 }
 
 .accordion-toggle {
