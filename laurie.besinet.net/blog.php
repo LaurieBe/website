@@ -95,64 +95,65 @@
   <!-- Presentation Section -->
   <div id="blog" class="page">
   	<div id="content" class="container">
-      	<!-- Title Page -->
-        <div class="row">
-            <div class="span12">
-                <div class="title-page">
-                    <h2 class="title i18n_blog"></h2>
-                    <p class="i18n_blogtxt"></p>
-                </div>
-                <br>
-                <div>
-
-                  <!-- article a1 -->
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="myPicturesBox">
-                          <a href="a1.php#a1"><div class="i18n_a1_pic"></div></a>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                          <div style="margin-left: 30px;">
-                            <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
-                            <span class="i18n_a1_intro"></span>
-                            <br>
-                            <a href="a1.php#a1"><span class="i18n_url"></span></a>
-                          </div>
-                    </div>
-                  </div>
-
-                  <br>
-                  <hr>
-
-                  <!-- article a0 -->
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="myPicturesBox">
-                          <a href="a0.php#a0">
-                            <div class="i18n_a0_pic"></div>
-                          </a>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                          <div style="margin-left: 30px;">
-                            <a href="a0.php#a0"><h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2></a>
-                            <span class="i18n_a0_intro"></span>
-                            <br>
-                            <a href="a0.php#a0"><span class="i18n_url"></span></a>
-                          </div>
-                    </div>
-                  </div>
-
-                </div>
-            </div>
+    	<!-- Title Page -->
+      <div class="row">
+        <div class="span12">
+          <div class="title-page">
+            <h2 class="title i18n_blog"></h2>
+            <p class="i18n_blogtxt"></p>
+          </div>
         </div>
-        <!-- End Title Page -->
+      </div>
+      <!-- End Title Page -->
+      <br>
+
+      <!-- articles -->
+      <div>
+
+        <!-- article a1 -->
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="myPicturesBox">
+                <a href="a1.php#a1"><div class="i18n_a1_pic"></div></a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+                <div style="margin-left: 30px;">
+                  <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
+                  <span class="i18n_a1_intro"></span>
+                  <br>
+                  <a href="a1.php#a1"><span class="i18n_url"></span></a>
+                </div>
+          </div>
+        </div>
+        <!-- article a1 -->
+        <br>
+        <hr>
+
+        <!-- article a0 -->
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="myPicturesBox">
+                <a href="a0.php#a0">
+                  <div class="i18n_a0_pic"></div>
+                </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+                <div style="margin-left: 30px;">
+                  <a href="a0.php#a0"><h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2></a>
+                  <span class="i18n_a0_intro"></span>
+                  <br>
+                  <a href="a0.php#a0"><span class="i18n_url"></span></a>
+                </div>
+          </div>
+        </div>
+        <!-- fin article a0 -->
 
       </div>
+      <!-- fin articles -->
     </div>
   </div>
-  <!-- End presentation Section -->
 
 
   <!-- Footer -->

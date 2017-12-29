@@ -640,9 +640,15 @@ nav#navigation-mobile #menu-nav-mobile li.current a {
 
 .page {
 	background: #FAF9F5;
-	padding: 100px 0;
+	padding: 70px 0;
 	position: relative;
 	z-index: 99;
+}
+
+@media(max-width:767px) {
+  .page {
+padding: 20px 0;
+  }
 }
 
 .page-alternate {
