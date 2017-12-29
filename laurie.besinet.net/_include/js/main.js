@@ -386,14 +386,6 @@ BRUSHED.toggle = function(){
 	});
 }
 
-/* ==================================================
-   Tooltip
-================================================== */
-
-BRUSHED.toolTip = function(){
-    $('a[data-toggle=tooltip]').tooltip();
-}
-
 
 /* ==================================================
 	Init
@@ -444,7 +436,6 @@ $(document).ready(function(){
 	BRUSHED.utils();
 	BRUSHED.accordion();
 	BRUSHED.toggle();
-	BRUSHED.toolTip();
 });
 
 $(window).resize(function(){

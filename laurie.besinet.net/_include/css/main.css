@@ -1467,6 +1467,10 @@ a.thumbnail:hover,a.thumbnail:focus {
 	margin-left: 25px;
 }
 
+.container li {
+	margin-bottom: 5px;
+}
+
 .sansmarge {
 	margin: 0px;
 }
