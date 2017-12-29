@@ -481,7 +481,6 @@ header {
 
 header .sticky-nav {
 	position: relative;
-	width: 100%;
 	height: 60px;
 	background: #035E14;
 	z-index: 1001;
@@ -496,6 +495,9 @@ header .sticky-nav.stuck {
 	top: 0;
 	left: 0;
 	z-index: 1001;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 header #logo {
@@ -1446,4 +1448,9 @@ a.thumbnail:hover,a.thumbnail:focus {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+}
+
+.container {
+	margin-right: 5px;
+  margin-left: 5px;
 }

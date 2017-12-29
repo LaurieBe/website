@@ -94,65 +94,61 @@
 
   <!-- Presentation Section -->
   <div id="work" class="page">
-  	<div id="content" class="container">
-      	<!-- Title Page -->
-        <div class="row">
-            <div class="span12">
-                <div class="title-page">
-                    <h2 class="title i18n_welcome"></h2>
-                    <h3 class="title-description i18n_hello"></h3>
-                </div>
-                <i><p class="i18n_hello2" style="text-align:center"></p></i>
-                <br>
-                <p class="i18n_instructions"></p>
-            </div>
-        </div>
-        <!-- End Title Page -->
-
-
-
-        <!-- Portfolio Projects -->
-        <div class="row">
-
-          <div class="span12">
-            <div class="row">
-            	<section id="projects">
-              	<ul id="thumbs">
-
-			            <!-- Item Project and Filter Name -->
-                    <li class="item-thumbs span6">
-                      <h3 class="i18n_resume"></h3>
-                    	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                    	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My resume" href="cv.php#resume" class="external">
-                      	<span class="overlay-img"></span>
-                        <span class="overlay-img-thumb font-icon-plus"></span>
-                      </a>
-                      <!--Thumb Image and Description -->
-                      <img src="_include/img/work/thumbs/image-01.jpg" alt="cv" style="max-width: 100%;">
-                    </li>
-                	<!-- End Item Project -->
-
-			            <!-- Item Project and Filter Name -->
-                	<li class="item-thumbs span6">
-                    <h3 class="i18n_newzealand"></h3>
-                    	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                    	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My Journey in New Zealand" href="blog.php#blog" class="external">
-                        	<span class="overlay-img"></span>
-                          <span class="overlay-img-thumb font-icon-plus"></span>
-                      </a>
-                      <!-- Thumb Image and Description -->
-                      <img src="_include/img/work/thumbs/image-02.jpg" alt="nz" style="max-width: 100%;"  >
-                  </li>
-              	  <!-- End Item Project -->
-
-                </ul>
-              </section>
-
-          	</div>
+  	<div id="content" class="container" style="  margin-left: auto; margin-right: auto;">
+    	<!-- Title Page-->
+      <div>
+              <div class="title-page">
+                  <h2 class="title i18n_welcome"></h2>
+                  <h3 class="title-description i18n_hello"></h3>
+              </div>
+              <i><p class="i18n_hello2" style="text-align:center"></p></i>
+              <br>
+              <p class="i18n_instructions"></p>
           </div>
-        </div>
-        <!-- End Portfolio Projects -->
 
+      <!-- End Title Page -->
+
+      <!-- Portfolio Projects -->
+      <div>
+      	<section id="projects">
+        	<ul id="thumbs">
+            <div class="row">
+
+	            <!-- Item Project and Filter Name -->
+                <li class="item-thumbs col-lg-6">
+                  <h3 class="i18n_resume"></h3>
+
+                	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My resume" href="cv.php#resume" class="external" style="max-width: 525px;">
+                  	<span class="overlay-img"></span>
+                    <span class="overlay-img-thumb font-icon-plus"></span>
+                  </a>
+                  <!--Thumb Image and Description -->
+
+                  <img src="_include/img/work/thumbs/image-01.jpg" alt="cv" style="max-width: 525px;">
+                </li>
+            	<!-- End Item Project -->
+
+	            <!-- Item Project and Filter Name -->
+            	<li class="item-thumbs col-lg-6">
+                <h3 class="i18n_newzealand"></h3>
+
+              	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+              	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My Journey in New Zealand" href="blog.php#blog" class="external" style="max-width: 525px;">
+                  	<span class="overlay-img"></span>
+                    <span class="overlay-img-thumb font-icon-plus"></span>
+                </a>
+
+                <!-- Thumb Image and Description -->
+                <img src="_include/img/work/thumbs/image-02.jpg" alt="nz" style="max-width: 525px;">
+              </li>
+          	  <!-- End Item Project -->
+
+            </div>
+          </ul>
+        </section>
+      </div>
+      <!-- End Portfolio Projects -->
 
       </div>
   </div>

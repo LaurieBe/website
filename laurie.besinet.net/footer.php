@@ -1,7 +1,7 @@
 <footer>
   <a href="#contact"> </a>
   <div id="social-area">
-    <div class="container">
+    <div class="container" style="margin-left: auto; margin-right: auto;">
       <nav id="social">
         <ul style="display: inline-block">
           <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></li>
@@ -25,7 +25,7 @@
       </nav>
     </div>
 
-    <div class="container">
+    <div class="container" style="margin-left: auto; margin-right: auto;">
       <nav>
         <ul><p class="credits">&copy;2017 Website by Laurie Besinet, based on a theme by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>. Pictures by Laurie Besinet unless mentionned.</p></ul>
       </nav>
