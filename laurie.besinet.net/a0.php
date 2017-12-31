@@ -21,11 +21,13 @@
                 <div>
 
                     <!-- plan -->
-                    <ul class="breadcrumb">
-                      <li class="active"><a class="i18n_home" href="index.php#work"></a>&nbsp>&nbsp</li>
-                      <li><a class="external i18n_blog" href="blog.php#blog"></a>&nbsp>&nbsp</li>
-                      <li><a class="i18n_a0_title" href="a0.php#a0"></a></li>
-                    </ul>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="active"><a class="i18n_home" href="index.php#work"></a>&nbsp>&nbsp</li>
+                        <li><a class="external i18n_blog" href="blog.php#blog"></a>&nbsp>&nbsp</li>
+                        <li><a class="i18n_a0_title" href="a0.php#a0"></a></li>
+                      </ol>
+                    </nav>
 
                       <br><br>
 
