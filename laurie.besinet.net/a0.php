@@ -21,11 +21,12 @@
                 <div>
 
                     <!-- plan -->
+                    <br>
                     <nav aria-label="breadcrumb">
                       <ol class="breadcrumb">
-                        <li class="active"><a class="i18n_home btn btn-secondary" role="button" href="index.php#work"></a>&nbsp>&nbsp</li>
-                        <li><a class="external i18n_blog btn btn-secondary" role="button" href="blog.php#blog"></a>&nbsp>&nbsp</li>
-                        <li><a class="i18n_a0_title btn btn-secondary" role="button" href="a0.php#a0"></a></li>
+                        <li class="active"><a class="i18n_home btn btn-secondary" role="button" href="index.php#work"></a></li>
+                        <li><a class="external i18n_blog btn btn-secondary" role="button" href="blog.php#blog"></a></li>
+                        <li><a class="i18n_a0_title active  btn btn-secondary" role="button" aria-current="page"href="a0.php#a0"></a></li>
                       </ol>
                     </nav>
 
