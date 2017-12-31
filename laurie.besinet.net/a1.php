@@ -9,7 +9,7 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
   <!-- Header -->
   <?php include("header.php"); ?>
 
@@ -17,18 +17,7 @@
   <div id="a1" class="page">
   	<div id="content" class="container">
 
-      <nav id="navbar-example2" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#fat">@fat</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#mdo">@mdo</a>
-          </li>
-        </ul>
-      </nav>
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="330">
+      <div>
         <h4 id="fat">@fat</h4>
         <p><br><br><br><br><br><br><br><br><br><br><br><br></p>
         <h4 id="mdo">@mdo</h4>
