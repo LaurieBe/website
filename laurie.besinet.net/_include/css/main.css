@@ -1427,7 +1427,7 @@ footer .credits a:hover {
 
 
 .breadcrumb {
-    background-color: #bc5c6c1a;
+    background-color: transparent;
 		font-size: 15px;
 		position: absolute;
 		left: 50%;
@@ -1474,4 +1474,19 @@ a.thumbnail:hover,a.thumbnail:focus {
 
 .sansmarge {
 	margin: 0px;
+}
+
+.btn-secondary {
+	background-color: #035e14;
+	border-color: #035e14;
+}
+
+.btn-secondary:hover {
+	background-color: #01410d;
+	border-color: #01410d;
+}
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    background-color: #01410d;
+    border-color: #01410d;
+		box-shadow: unset;
 }

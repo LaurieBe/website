@@ -24,9 +24,9 @@
                     <!-- plan -->
                     <nav aria-label="breadcrumb">
                       <ol class="breadcrumb">
-                        <li class="active"><a class="i18n_home" href="index.php#work"></a>&nbsp>&nbsp</li>
-                        <li><a class="external i18n_blog" href="blog.php#blog"></a>&nbsp>&nbsp</li>
-                        <li><a class="i18n_a1_title active" aria-current="page" href="a1.php#a1"></a></li>
+                        <li class="active"><a class="i18n_home  btn btn-secondary" role="button" href="index.php#work"></a></li>
+                        <li><a class="external i18n_blog  btn btn-secondary" role="button" href="blog.php#blog"></a></li>
+                        <li><a class="i18n_a1_title active  btn btn-secondary" role="button" aria-current="page" href="a1.php#a1"></a></li>
                       </ol>
                     </nav>
 
@@ -115,10 +115,22 @@
                     <br><br>
 
                     <!-- précedent / suivant -->
-                    <ul class="breadcrumb">
-                      <li><a href="a0.php#a0"><span class="i18n_previous"></span></a></li>
-                      <!--<li>&nbsp|&nbsp<a href="a2.php#a2"><span class="i18n_next"></span></a></li>-->
-                    </ul>
+                    <div class="d-flex justify-content-center">
+                      <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                        <li>
+                          <a href="a0.php#a0" class="btn btn-secondary" role="button">
+                            <span class="i18n_previous">
+                            </span>
+                          </a>
+                        </li>
+                        <!--li>&nbsp|&nbsp
+                          <a href="a2.php#a2">
+                            <span class="i18n_next"></span>
+                          </a>
+                        </li-->
+                      </ul>
+                    </nav>
 
                 </div>
 

@@ -23,9 +23,9 @@
                     <!-- plan -->
                     <nav aria-label="breadcrumb">
                       <ol class="breadcrumb">
-                        <li class="active"><a class="i18n_home" href="index.php#work"></a>&nbsp>&nbsp</li>
-                        <li><a class="external i18n_blog" href="blog.php#blog"></a>&nbsp>&nbsp</li>
-                        <li><a class="i18n_a0_title" href="a0.php#a0"></a></li>
+                        <li class="active"><a class="i18n_home btn btn-secondary" role="button" href="index.php#work"></a>&nbsp>&nbsp</li>
+                        <li><a class="external i18n_blog btn btn-secondary" role="button" href="blog.php#blog"></a>&nbsp>&nbsp</li>
+                        <li><a class="i18n_a0_title btn btn-secondary" role="button" href="a0.php#a0"></a></li>
                       </ol>
                     </nav>
 
@@ -45,9 +45,13 @@
                     <br>
 
                     <!-- précedent / suivant -->
-                    <ul class="breadcrumb">
-                      <li><a href="a1.php#a1"><span class="i18n_next"></span></a></li>
-                    </ul>
+                    <div class="d-flex justify-content-center">
+                      <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                          <li><a href="a1.php#a1" class="btn btn-secondary" role="button"><span class="i18n_next"></span></a></li>
+                        </ul>
+                      </nav>
+                    </div>
 
                 </div>
 

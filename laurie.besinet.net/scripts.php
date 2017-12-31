@@ -7,7 +7,6 @@
 <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
 <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
 <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="_include/js/slide.js"></script> <!-- slider photo -->
 <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="_include/js/main.js"></script> <!-- Defalit JS -->
 <script src="_include/js/i18next.js"></script> <!-- Translation -->
