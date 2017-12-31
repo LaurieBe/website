@@ -504,6 +504,21 @@ header .sticky-nav.stuck {
 	margin-right: 0px;
 }
 
+header #menu-cv .nav {
+display: block;
+position: relative;
+top: 300px;
+}
+header #menu-cv .nav a {
+color: #fff;
+font-weight: 100;
+font-size: 14px;
+font-family: 'Titillium Web', sans-serif;
+line-height: 28px;
+text-transform: none;
+}
+
+
 header #logo {
 	color: #000000;
 	float: left;

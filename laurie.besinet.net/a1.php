@@ -12,7 +12,10 @@
 <body>
   <!-- Header -->
   <?php include("header.php"); ?>
-
+      </div>
+  </header>
+  <!-- End header -->
+  
   <!-- Presentation Section -->
   <div id="a1" class="page">
   	<div id="content" class="container">

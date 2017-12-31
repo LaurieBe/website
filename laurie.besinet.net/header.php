@@ -45,8 +45,3 @@
           </ul>
         </nav>
       </div>
-
-    </div>
-
-</header>
-<!-- End header -->
