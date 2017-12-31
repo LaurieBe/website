@@ -9,27 +9,13 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+<body>
   <!-- Header -->
   <?php include("header.php"); ?>
 
   <!-- Presentation Section -->
   <div id="a1" class="page">
   	<div id="content" class="container">
-
-      <div>
-        <h4 id="fat">@fat</h4>
-        <p><br><br><br><br><br><br><br><br><br><br><br><br></p>
-        <h4 id="mdo">@mdo</h4>
-        <p>...</p>
-        <h4 id="one">one</h4>
-        <p>...</p>
-        <h4 id="two">two</h4>
-        <p><br><br><br><br><br><br><br><br></p>
-        <h4 id="three">three</h4>
-        <p><br><br><br><br><br><br></p>
-      </div>
-
 
         <div class="row">
             <div class="span12">

@@ -9,20 +9,70 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body>
+<body data-spy="scroll" data-target="#menu-cv" data-offset="170">
   <!-- Header -->
-  <?php include("header.php"); ?>
-  <!--div class="sticky-nav">
-    <nav id="menu-cv" class="navbar navbar-light bg-light">
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a class="nav-link" href="#experience1">experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="#studies1">studies</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills1">skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#project1">project</a></li>
-          <li class="nav-item"><a class="nav-link" href="#interests1">interests</a></li>
-        </ul>
-      </nav>
-    </div-->
+  <!-- This section is for Splash Screen -->
+  <div class="ole">
+    <section id="jSplash">
+      <div id="circle"></div>
+    </section>
+  </div>
+  <!-- End of Splash Screen -->
+
+  <!-- Homepage Slider -->
+  <div id="home-slider">
+      <div class="overlay"></div>
+
+      <!--  si ecran < 500 px -->
+      <div class="slider-text" style="top: 50%;left: 50%;transform: translate(-50%, -50%);width: 100%;margin: 0px;height: 200px;">
+        <div id="slidecaption" style="line-height: 100px;">
+        </div>
+      </div>
+
+    <div class="control-nav">
+            <a id="nextsection" href="#content"><i class="font-icon-arrow-simple-down"></i></a>
+      </div>
+    </div>
+
+  <!-- Header -->
+  <header>
+      <div class="sticky-nav">
+
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav" style="padding-left: 40px;"></a>
+
+        <div>
+          <a id="goUp" href="index.php#home-slider" title="Laurie Besinet" style="line-height: 60px;">
+            <img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: middle;padding-left: 20px;">
+          </a>
+          <nav id="menu">
+            <ul id="menu-nav">
+              <li><a class="external i18n_home" href="index.php#work"></a></li>
+              <li><a class="external i18n_resume" href="cv.php#resume"></a></li>
+              <li><a class="external i18n_blog" href="blog.php#blog"></a></li>
+              <li><a class="i18n_contact" href="#social-area"></a></li>
+              <li>
+                <button class="button button-mini" onclick="i18next.changeLanguage('en')">EN</button>
+                <button class="button button-mini" onclick="i18next.changeLanguage('fr')">FR</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <nav id="menu-cv" class="navbar navbar-light bg-light">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a class="nav-link" href="#experience1">experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#studies1">studies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills1">skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#project1">project</a></li>
+              <li class="nav-item"><a class="nav-link" href="#interests1">interests</a></li>
+            </ul>
+          </nav>
+
+      </div>
+
+  </header>
+  <!-- End header -->
+
 
   <!-- page -->
   <div id="resume" class="page">
