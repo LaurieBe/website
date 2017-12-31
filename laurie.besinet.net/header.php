@@ -1,3 +1,11 @@
+<!-- This section is for Splash Screen -->
+<div class="ole">
+  <section id="jSplash">
+    <div id="circle"></div>
+  </section>
+</div>
+<!-- End of Splash Screen -->
+
 <!-- Homepage Slider -->
 <div id="home-slider">
     <div class="overlay"></div>
@@ -14,7 +22,6 @@
   </div>
 
 <!-- Header -->
-
 <header>
     <div class="sticky-nav">
       <a id="mobile-nav" class="menu-nav" href="#menu-nav" style="padding-left: 40px;"></a>
@@ -36,7 +43,5 @@
             </ul>
           </nav>
         </div>
-
-
 
 </header>
