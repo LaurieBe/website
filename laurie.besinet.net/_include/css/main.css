@@ -439,7 +439,7 @@ h3.spec {
 }
 
 #home-slider #nextsection {
-	background-color: #035E14;
+	background-color: #C9C9C5;
 	margin: 0;
 	position: relative;
 	float:right;
@@ -450,10 +450,13 @@ h3.spec {
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 #home-slider #nextsection:hover {
-	background-color:#BB0B28;
+	background-color:#01410d;
 }
 
 #home-slider #nextsection i {
@@ -541,7 +544,7 @@ nav#menu #menu-nav {
 nav#menu #menu-nav li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 nav#menu #menu-nav li:first-child {
@@ -552,7 +555,7 @@ nav#menu #menu-nav li a {
 	color: #FFFFFF;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 60px;
+	line-height: 45px;
 	display: block;
 	text-transform: uppercase;
 }
@@ -565,7 +568,7 @@ nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover,
 nav#navigation-mobile #menu-nav-mobile li a:hover,
 nav#navigation-mobile #menu-nav-mobile li.current a {
-	color: #011C06;
+//	color: #011C06;
 }
 
 
@@ -1204,7 +1207,7 @@ footer .credits a:hover {
 }
 
 #back-to-top:hover {
-	background-color:#035E14;
+	background-color:#01410d;
 }
 
 #back-to-top i {
@@ -1215,9 +1218,6 @@ footer .credits a:hover {
 	top: 50%;
 	margin-top: -7px;
 	line-height: 1em;
-}
-
-#back-to-top i {
 	margin-left: -7px;
 }
 
@@ -1474,6 +1474,10 @@ a.thumbnail:hover,a.thumbnail:focus {
 
 .sansmarge {
 	margin: 0px;
+}
+
+.btn {
+	cursor: pointer;
 }
 
 .btn-secondary {
