@@ -35,13 +35,23 @@
   <div id="resume" class="page">
     <div id="content" class="container">
 
+      <form>
+        <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
+      </form>
+      <script type="text/javascript">
+      function imprimer_page(){
+        window.print();
+      }
+      </script>
+
+
+
         <!-- Title Page -->
         <div>
           <div class="title-page">
             <h1 class="title i18n_resume" ></h1>
           </div>
           <i><p class="i18n_hello2" style="text-align:center"></p></i>
-          <br>
         </div>
         <!-- End Title Page -->
 
@@ -68,11 +78,11 @@
                   <i><p class="i18n_job_wnt_desc"></p></i>
                 </div>
               </div>
-              <br>
+
 
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_wnt_date1" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_wnt_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                   <h4 class="spec i18n_job_wnt_title1"></h4>
@@ -83,7 +93,7 @@
                 <div class="col-lg-12 i18n_job_wnt_text1">
                 </div>
               </div>
-              <br>
+
 
               <!-- Start Toggle -->
               <div class="accordion" id="toggleArea">
@@ -160,7 +170,7 @@
           </div>
           <!-- End Weenat-->
 
-          <br>
+
 
           <!--start Pioneer-->
           <div>
@@ -173,12 +183,12 @@
                   <i><p class="i18n_job_pio_desc"></p></i>
                 </div>
               </div>
-              <br>
+
 
               <!-- Start pio job 1 -->
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_pio_date1" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_pio_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                   <h4 class="spec i18n_job_pio_title1"></h4>
@@ -189,7 +199,7 @@
                 <div class="col-lg-12 i18n_job_pio_text1">
                 </div>
               </div>
-              <br>
+
 
               <!-- start pio mission 1-->
               <div>
@@ -228,7 +238,7 @@
               <!-- Start pio job 2 -->
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_pio_date2" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_pio_date2" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                   <h4 class="spec i18n_job_pio_title2"></h4>
@@ -239,7 +249,7 @@
                 <div class="col-lg-12 i18n_job_pio_text2">
                 </div>
               </div>
-              <br>
+
 
 
               <!-- start pio mission 3-->
@@ -262,7 +272,7 @@
           </div>
           <!-- End Pioneer-->
 
-          <br>
+
 
           <!--start NS-->
           <div>
@@ -275,12 +285,12 @@
                   <i><p class="i18n_job_ns_desc"></p></i>
                 </div>
               </div>
-              <br>
+
 
               <!-- Start NS job 1 -->
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_ns_date1" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_ns_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                   <h4 class="spec i18n_job_ns_title1"></h4>
@@ -291,7 +301,7 @@
                 <div class="col-lg-12 i18n_job_ns_text1">
                 </div>
               </div>
-              <br>
+
 
               <!-- start NS mission 1-->
               <div>
@@ -313,7 +323,7 @@
           </div>
           <!-- End NS-->
 
-          <br>
+
 
           <!--start ane-->
           <div>
@@ -326,12 +336,12 @@
                   <i><p class="i18n_job_ane_desc"></p></i>
                 </div>
               </div>
-              <br>
+
 
               <!-- Start ane job 1 -->
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_ane_date1" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_ane_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                 <h4 class="spec i18n_job_ane_title1"></h4>
@@ -342,7 +352,7 @@
                 <div class="col-lg-12 i18n_job_ane_text1">
                 </div>
               </div>
-              <br>
+
 
               <!-- start ane mission 1-->
               <div>
@@ -364,7 +374,7 @@
           </div>
           <!-- End ane-->
 
-          <br>
+
 
           <!--start Lamouthe-->
           <div>
@@ -376,12 +386,12 @@
                   <i><p class="i18n_job_lam_desc"></p></i>
                 </div>
               </div>
-              <br>
+
 
               <!-- Start Lamouthe job 1 -->
               <div class="row">
                 <div class="col-lg-3">
-                  <span class="i18n_job_lam_date1" style="line-height: 34px;"></span><br>
+                  <span class="i18n_job_lam_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
                   <h4 class="spec i18n_job_lam_title1"></h4>
@@ -392,7 +402,7 @@
                 <div class="col-lg-12 i18n_job_lam_text1">
                 </div>
               </div>
-              <br>
+
 
               <!-- start Lamouthe mission 1-->
               <div>
@@ -414,7 +424,7 @@
           </div>
           <!-- End Lamouthe-->
 
-          <br>
+
 
           <div class="row">
             <div class="col-lg-12">
@@ -443,7 +453,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-lg-12">
-                  <i><p class="i18n_etu_pur_desc" style="margin-bottom: 30px"></p></i>
+                  <i><span class="i18n_etu_pur_desc" style="margin-bottom: 30px"></span></i>
                 </div>
               </div>
               <div class="row">
@@ -462,7 +472,7 @@
           </div>
           <!-- End Purpan -->
 
-          <br>
+
 
           <!-- Start Fortaleza -->
           <div>
@@ -470,7 +480,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-lg-12">
-                  <i><p class="i18n_etu_for_desc" style="margin-bottom: 30px"></p></i>
+                  <i><span class="i18n_etu_for_desc" style="margin-bottom: 30px"></span></i>
                 </div>
               </div>
               <div class="row">
@@ -508,13 +518,13 @@
             <div class="col-lg-12">
               <h3 class="i18n_comp_hard"></h3>
               <div class="i18n_comp_hard_skills"></div>
-              <br>
+
             </div>
 
             <div class="col-md-6">
               <h3 class="i18n_comp_soft"></h3>
               <div class="i18n_comp_soft_skills"></div>
-              <br>
+
             </div>
 
             <div class="col-md-6">
@@ -558,7 +568,7 @@
                   </div>
                 <!-- End photo -->
                 <h3 class="profile-name i18n_proj_website_title"></h3>
-                <br>
+
 
             </div>
             <!-- End Projet 1 -->
@@ -577,7 +587,7 @@
               </div>
               <!-- End photo -->
               <h3 class="profile-name i18n_proj_plastic_title"></h3>
-              <br>
+
 
             </div>
             <!-- End Projet 2 -->
@@ -596,7 +606,7 @@
               </div>
               <!-- End photo -->
               <h3 class="profile-name i18n_proj_student_title"></h3>
-              <br>
+
 
             </div>
             <!-- End Projet 3 -->
@@ -629,7 +639,7 @@
                   <img src="_include/img/profile/profile-01.jpg" alt="Ski">
               </div>
               <h3 class="i18n_hob_winter_title"></h3>
-              <br>
+
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -641,7 +651,7 @@
                   <img src="_include/img/profile/profile-05.jpg" alt="Dive">
               </div>
               <h3 class="i18n_hob_summer_title"></h3>
-              <br>
+
             </div>
 
 
@@ -654,7 +664,7 @@
                   <img src="_include/img/profile/profile-02.jpg" alt="Travelling">
               </div>
               <h3 class="i18n_hob_travel_title"></h3>
-              <br>
+
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -666,7 +676,7 @@
                   <img src="_include/img/profile/profile-03.jpg" alt="DIY">
               </div>
               <h3 class="i18n_hob_diy_text"></h3>
-              <br>
+
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -678,7 +688,7 @@
                   <img src="_include/img/profile/profile-04.jpg" alt="NTIC">
               </div>
               <h3 class="i18n_hob_ntic_title"></h3>
-              <br>
+
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -690,7 +700,7 @@
                   <img src="_include/img/profile/profile-06.jpg" alt="plants">
               </div>
               <h3 class="i18n_hob_plant_title"></h3>
-              <br>
+
             </div>
 
           </div>

@@ -14,27 +14,27 @@
 
   <!-- Bootstrap -->  <link href="_include/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Main Style -->  <link href="_include/css/main.css" rel="stylesheet">
+  <!-- Main Style -->  <link href="_include/css/main.css" rel="stylesheet" media="screen">
 
-  <!-- Supersized -->  <link href="_include/css/supersized.css" rel="stylesheet">
-  <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+  <!-- Supersized -->  <link href="_include/css/supersized.css" rel="stylesheet" media="screen">
+  <link href="_include/css/supersized.shutter.css" rel="stylesheet" media="screen">
 
-  <!-- FancyBox -->  <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <!-- FancyBox -->  <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet" media="screen">
 
   <!-- Font Icons -->  <link href="_include/css/fonts.css" rel="stylesheet">
 
-  <!-- Shortcodes -->  <link href="_include/css/shortcodes.css" rel="stylesheet">
+  <!-- Shortcodes -->  <link href="_include/css/shortcodes.css" rel="stylesheet" media="screen">
 
   <!-- Responsive -->
-  <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
-  <link href="_include/css/responsive.css" rel="stylesheet">
+  <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+  <link href="_include/css/responsive.css" rel="stylesheet" media="screen">
 
   <!-- Supersized -->
-  <link href="_include/css/supersized.css" rel="stylesheet">
-  <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+  <link href="_include/css/supersized.css" rel="stylesheet" media="screen">
+  <link href="_include/css/supersized.shutter.css" rel="stylesheet" media="screen">
 
-  <!-- Print media="print" -->
-  <link rel="stylesheet" type="text/css" href="_include/css/print.css">
+  <!-- Print -->
+  <link rel="stylesheet" type="text/css" href="_include/css/print.css" media="print">
 
   <!-- Google Font   <link href='_include/css/css?family=Titillium+Web.css' rel='stylesheet' type='text/css'>-->
 

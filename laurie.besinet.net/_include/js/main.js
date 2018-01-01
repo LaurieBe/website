@@ -443,3 +443,17 @@ $(window).resize(function(){
 });
 
 });
+
+/* Highlight du menu */
+
+var cheminComplet = document.location.href;
+var nomDuFichier     = cheminComplet.substring(cheminComplet.lastIndexOf( "/" )+1 );
+var liens = document.getElementsByClassName('menu-nav-lien');
+
+for (var i = 0; i < liens.length; i++) {
+		var urlLien = document.getElementsByClassName('menu-nav-lien')[i].href;
+		console.log('urlLien = ' + urlLien + ' ; cheminComplet = ' + cheminComplet)
+		if (cheminComplet == urlLien) {
+				liens[i].classList.add('active');
+	}
+}

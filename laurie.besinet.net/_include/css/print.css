@@ -1,7 +1,7 @@
 
 @media print {
 
-	.ole, #home-slider, header, #supersized, #back-to-top, .font-icon-plus {
+	.ole, #home-slider, header, #supersized, #back-to-top, .font-icon-plus, .font-icon-minus {
 		display: none !important;
 	}
 
@@ -67,17 +67,17 @@
 	}
 
 	p {
-		margin: 0 0 10px;
+		margin: 0px;
 	}
 
 	blockquote {
 		padding: 5px 15px;
-		font-size: 12px;
+		font-size: 11px;
   	border-left: 2px solid #BB0B28;
 	}
 
 	blockquote p {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.container {
@@ -103,9 +103,10 @@
 	.accordion-heading .accordion-toggle {
 		position: relative;
 	  	display: block;
-	  	padding: 15px;
+	  	padding: 0px;
+			padding-top: 10px;
 		color: #23262C;
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: 600;
 		text-transform: uppercase;
 
@@ -135,7 +136,7 @@
 	    right: 20px;
 	    margin: -8px 0 0 0;
 	    color: #23262C;
-	    font-size: 12px;
+	    font-size: 11px;
 
 		-webkit-transition: all 0.1s linear 0s;
 		-moz-transition: all 0.1s linear 0s;
@@ -282,29 +283,29 @@
 	}
 
 	h1{
-		font-size:20px;
+		font-size:16px;
 	}
 
 	h2{
-		font-size:18px;
-	}
-
-	h3{
 		font-size:14px;
 	}
 
-	h4{
+	h3{
 		font-size:12px;
+	}
+
+	h4{
+		font-size:11px;
 		color: #BB0B28;
 		font-weight: bold;
 	}
 
 	h5{
-		font-size:12px;
+		font-size:11px;
 	}
 
 	h6{
-		font-size:12px;
+		font-size:11px;
 	}
 
 	h3.spec {
@@ -381,7 +382,7 @@
 
 	.type-work {
 		color: #000000;
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: 300;
 		margin-bottom: 30px;
 		line-height: 1em;
@@ -401,7 +402,7 @@
 
 	.work-nav #filters li a {
 		color: #7F8289;
-		font-size: 12px;
+		font-size: 11px;
 		display: block;
 	}
 

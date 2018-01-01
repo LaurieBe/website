@@ -1,5 +1,6 @@
 <!-- Js -->
-<script src="_include/js/jquery.min.js"></script> <!-- jQuery Core -->
+<!-- script src="_include/js/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->

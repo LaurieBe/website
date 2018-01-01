@@ -34,10 +34,10 @@
         </a>
         <nav id="menu">
           <ul id="menu-nav">
-            <li><a class="external i18n_home btn btn-secondary" role="button" href="index.php#work"></a></li>
-            <li><a class="external i18n_resume btn btn-secondary" role="button" href="cv.php#resume"></a></li>
-            <li><a class="external i18n_blog btn btn-secondary" role="button" href="blog.php#blog"></a></li>
-            <li><a class="i18n_contact btn btn-secondary" role="button" href="#social-area"></a></li>
+            <li><a class="menu-nav-lien external i18n_home btn btn-secondary" role="button" href="index.php"></a></li>
+            <li><a class="menu-nav-lien external i18n_resume btn btn-secondary" role="button" href="cv.php"></a></li>
+            <li><a class="menu-nav-lien external i18n_blog btn btn-secondary" role="button" href="blog.php"></a></li>
+            <li><a class="menu-nav-lien i18n_contact btn btn-secondary" role="button" href="#social-area"></a></li>
             <li>
               <button class="btn btn-outline-light btn-sm" type="button" onclick="i18next.changeLanguage('en')">EN</button>
               <button class="btn btn-outline-light btn-sm" type="button" onclick="i18next.changeLanguage('fr')">FR</button>
