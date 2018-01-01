@@ -15,27 +15,16 @@
       </div>
   </header>
   <!-- End header -->
-  
+
   <!-- Presentation Section -->
   <div id="blog" class="page">
   	<div id="content" class="container">
-
-      <!-- plan -->
-      <br>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="active"><a class="i18n_home  btn btn-secondary" role="button" href="index.php#work"></a></li>
-          <li><a class="i18n_blog active  btn btn-secondary" role="button" aria-current="page" href="blog.php#blog"></a></li>
-        </ol>
-      </nav>
-
-        <br><br>
 
     	<!-- Title Page -->
       <div class="row">
         <div class="span12">
           <div class="title-page">
-            <h2 class="title i18n_blog"></h2>
+            <h1 class="title i18n_blog"></h1>
             <p class="i18n_blogtxt"></p>
           </div>
         </div>

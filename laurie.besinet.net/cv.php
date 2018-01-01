@@ -10,29 +10,21 @@
 <?php include("head.php"); ?>
 
 <body data-spy="scroll" data-target="#menu-cv" data-offset="170">
+
   <!-- Header -->
   <?php include("header.php"); ?>
 
-        <!--nav id="menu-cv">
-          <ul>
-            <li><a class="btn btn-secondary" role="button" href="#experience1">experience</a></li>
-            <li><a class="btn btn-secondary" role="button" href="#studies1">studies</a></li>
-            <li><a class="btn btn-secondary" role="button" href="#skills1">skills</a></li>
-            <li><a class="btn btn-secondary" role="button" href="#project1">project</a></li>
-            <li><a class="btn btn-secondary" role="button" href="#interests1">interests</a></li>
-          </ul>
-        </nav-->
-
-
-        <nav id="menu-cv" class="navbar">
-          <ul class="nav">
-            <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#experience1">experience</a></li>
-            <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#studies1">studies</a></li>
-            <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#skills1">skills</a></li>
-            <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#project1">project</a></li>
-            <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#interests1">interests</a></li>
-          </ul>
-        </nav>
+        <div class="hidden-if-small">
+          <nav id="menu-cv" class="submenu-navbar navbar">
+            <ul class="submenu-nav nav">
+              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#experience1">Experiences</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#studies1">Studies</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#skills1">Skills</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#project1">Project</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#interests1">Interests</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
 
   </header>

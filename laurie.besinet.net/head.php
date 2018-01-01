@@ -4,6 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Laurie Besinet</title>
   <meta name="description" content="Laurie Besinet's Website" />
+  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
+  <meta name="date" content="2018-01-1"/>
 
   <!-- Mobile Specifics -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +33,10 @@
   <link href="_include/css/supersized.css" rel="stylesheet">
   <link href="_include/css/supersized.shutter.css" rel="stylesheet">
 
-  <!-- Google Font -->  <link href='_include/css/css?family=Titillium+Web.css' rel='stylesheet' type='text/css'>
+  <!-- Print -->
+  <link rel="stylesheet" type="text/css" media="print" href="_include/css/print.css">
+
+  <!-- Google Font   <link href='_include/css/css?family=Titillium+Web.css' rel='stylesheet' type='text/css'>-->
 
   <!-- Fav Icon -->
   <link rel="shortcut icon" href="#">

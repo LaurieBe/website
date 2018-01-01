@@ -1,3 +1,6 @@
+@media screen {
+
+
 /* ==================================================
    Buttons
 ================================================== */
@@ -290,8 +293,8 @@
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  	background-color: #BB0B28;
-	color: #FFFFFF;
+  	background-color: #01410d;
+	  color: #FFFFFF;
   	text-decoration: none;
   	display: block;
 }
@@ -626,4 +629,6 @@ blockquote small:before {
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
 			transform: rotateY(180deg);
+}
+
 }

@@ -7,7 +7,7 @@
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
-<div id="home-slider">
+<div id="home-slider" class="d-print-none">
   <div class="overlay">
   </div>
 
@@ -17,7 +17,7 @@
   </div>
 
   <div class="control-nav">
-    <a id="nextsection" href="#goUp"><i class="font-icon-arrow-simple-down"></i></a>
+    <a id="nextsection" href="#goUp" title="Go down"><i class="font-icon-arrow-simple-down"></i></a>
   </div>
 
 </div>
@@ -26,7 +26,7 @@
 <header>
     <div class="sticky-nav">
 
-      <a id="mobile-nav" class="menu-nav" href="#menu-nav" style="padding-left: 40px;"></a>
+      <a id="mobile-nav" title="Menu" class="menu-nav" href="#menu-nav" style="padding-left: 40px;"></a>
 
       <div>
         <a id="goUp" href="index.php#home-slider" title="Laurie Besinet" style="line-height: 60px;">
