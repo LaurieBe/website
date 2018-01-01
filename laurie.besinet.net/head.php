@@ -33,8 +33,8 @@
   <link href="_include/css/supersized.css" rel="stylesheet">
   <link href="_include/css/supersized.shutter.css" rel="stylesheet">
 
-  <!-- Print -->
-  <link rel="stylesheet" type="text/css" media="print" href="_include/css/print.css">
+  <!-- Print media="print" -->
+  <link rel="stylesheet" type="text/css" href="_include/css/print.css">
 
   <!-- Google Font   <link href='_include/css/css?family=Titillium+Web.css' rel='stylesheet' type='text/css'>-->
 

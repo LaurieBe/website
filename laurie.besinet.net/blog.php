@@ -30,7 +30,6 @@
         </div>
       </div>
       <!-- End Title Page -->
-      <br>
 
       <!-- articles -->
       <div>
@@ -46,13 +45,11 @@
                 <div style="margin-left: 30px;">
                   <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
                   <span class="i18n_a1_intro"></span>
-                  <br>
                   <a href="a1.php#a1"><span class="i18n_url"></span></a>
                 </div>
           </div>
         </div>
         <!-- article a1 -->
-        <br>
         <hr>
 
         <!-- article a0 -->
@@ -68,7 +65,6 @@
                 <div style="margin-left: 30px;">
                   <a href="a0.php#a0"><h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2></a>
                   <span class="i18n_a0_intro"></span>
-                  <br>
                   <a href="a0.php#a0"><span class="i18n_url"></span></a>
                 </div>
           </div>
