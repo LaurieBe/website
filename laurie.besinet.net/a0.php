@@ -9,7 +9,7 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body>
+<body onload="highligtmenu()">
   <!-- Header -->
   <?php include("header.php"); ?>
       <div class="hidden-if-small">

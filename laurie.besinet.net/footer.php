@@ -1,23 +1,24 @@
 <footer style="width: auto">
   <a href="#contact"> </a>
+  <div id="social-area-title"> <h3 >Contact<h3></div>
   <div id="social-area">
     <div class="container" style="margin-left: auto; margin-right: auto;">
       <nav id="social">
-        <ul style="display: inline-block">
+        <ul>
           <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></li>
           <li><span style="font-weight:bold">laurie@besinet.net &nbsp&nbsp&nbsp&nbsp</span></li></a>
         </ul>
-        <ul style="display: inline-block">
+        <ul>
           <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
           <li>From: Toulouse, FRANCE</li>
           <li>Current: <span style="font-weight:bold">Auckland, NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
         </ul>
-        <ul style="display: inline-block">
+        <ul>
           <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
           <li>FR: +33 6 59 29 05 49</li>
           <li>NZ: <span style="font-weight:bold">+64 2 25 31 69 29 &nbsp&nbsp</span></li>
         </ul>
-        <ul style="display: inline-block">
+        <ul>
           <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
           <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
         </ul>

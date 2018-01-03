@@ -444,16 +444,27 @@ $(window).resize(function(){
 
 });
 
-/* Highlight du menu */
+/* Highlight du menu au chargement de la page + au click sur un bouton du menu */
+function highligtmenu() {
+	var cheminComplet = document.location.href;
+	var nomDuFichier     = cheminComplet.substring(cheminComplet.lastIndexOf( "/" )+1,cheminComplet.lastIndexOf( "#" ));
+	var liens = document.getElementsByClassName('menu-nav-lien');
 
-var cheminComplet = document.location.href;
-var nomDuFichier     = cheminComplet.substring(cheminComplet.lastIndexOf( "/" )+1 );
-var liens = document.getElementsByClassName('menu-nav-lien');
-
-for (var i = 0; i < liens.length; i++) {
-		var urlLien = document.getElementsByClassName('menu-nav-lien')[i].href;
-		console.log('urlLien = ' + urlLien + ' ; cheminComplet = ' + cheminComplet)
-		if (cheminComplet == urlLien) {
-				liens[i].classList.add('active');
+	if (cheminComplet.substring(cheminComplet.lastIndexOf( "#" ) ) == "#social-area"){
+	    document.getElementById('menu-nav-social').classList.add('active');
+	} else {
+		for (var i = 0; i < liens.length; i++) {
+				var urlLienComplet = document.getElementsByClassName('menu-nav-lien')[i].href;
+				var urlLien = urlLienComplet.substring(urlLienComplet.lastIndexOf( "/" )+1,urlLienComplet.lastIndexOf( "#" ));
+				console.log('urlLien = ' + urlLien + ' ; nomDuFichier = ' + nomDuFichier)
+				if (nomDuFichier == urlLien) {
+						liens[i].classList.add('active');
+				}
+	  }
 	}
+}
+
+/* Open print view */
+function imprimer_page(){
+	window.print();
 }

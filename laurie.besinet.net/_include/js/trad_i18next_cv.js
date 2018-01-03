@@ -223,7 +223,7 @@
           "i18n_proj": "Volontariat et projets",
           "i18n_proj_comment": "Cliquer sur les images pour plus de détails :",
           "i18n_proj_website_pic": "<img src=\"_include/img/work/thumbs/image-03.jpg\" style=\"width: 100%;\" alt=\"Pour relever un défi personnel, j'ai réalisé mon site web. Pour cela, j'ai acqui mon nom de domaine que j'ai fait héberger. Je me suis ensuite inititiée au langage HTML, CSS et javascript pour le coder.\">",
-          "i18n_proj_website_title": "Création de mon site web",
+          "i18n_proj_website_title": "Création de mon site",
           "i18n_proj_plastic_pic": "<img src=\"_include/img/work/thumbs/image-04.jpg\" style=\"width: 100%;\" alt=\"Concours d'innovation étudiant au FabLab Toulouse. Avec mon équipe, nous avons imaginé un projet de filière de récupération du plastique. Le projet a été consolidé au travers de workshops, rencontres de professionnels et conférences.<i><br>Photo par Imthaz Ahamed via Unsplash<i>\">",
           "i18n_proj_plastic_title": "Recyclage de plastique",
           "i18n_proj_student_pic": "<img src=\"_include/img/work/thumbs/image-05.jpg\" style=\"width: 100%;\" alt=\"Tout au long de mes études, je me suis impliquée dans l'organisation d'animations, recherche de sponsors, promotion des évènements et des ventes de produits.\">",

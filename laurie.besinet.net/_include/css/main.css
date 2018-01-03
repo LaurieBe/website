@@ -9,6 +9,11 @@ Version: 1.0
 
 @media screen {
 
+	#social-area-title, .hiddentitle {
+		display: none;
+	}
+
+
 	/* ==================================================
 	   Basic Styles
 	================================================== */
@@ -1096,7 +1101,6 @@ Version: 1.0
 	/* ==================================================
 	   Social Area
 	================================================== */
-
 	#social-area {
 	    text-align: center;
 	}
@@ -1104,6 +1108,7 @@ Version: 1.0
 	#social-area #social ul {
 		margin: 0;
 		padding: 0;
+		display: inline-block;
 	}
 
 	#social-area #social ul li {
@@ -1507,11 +1512,10 @@ Version: 1.0
 
 	.btn {
 		cursor: pointer;
-
 	}
 	.btn-secondary {
 		background-color: #035e14;
-		border-color: #035e14;
+		border: none;
 	}
 
 	.btn-secondary:hover {

@@ -9,7 +9,7 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body data-spy="scroll" data-target="#menu-cv" data-offset="170">
+<body onload="highligtmenu()" data-spy="scroll" data-target="#menu-cv" data-offset="170">
 
   <!-- Header -->
   <?php include("header.php"); ?>
@@ -34,17 +34,6 @@
   <!-- page -->
   <div id="resume" class="page">
     <div id="content" class="container">
-
-      <form>
-        <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
-      </form>
-      <script type="text/javascript">
-      function imprimer_page(){
-        window.print();
-      }
-      </script>
-
-
 
         <!-- Title Page -->
         <div>
@@ -275,7 +264,7 @@
 
 
           <!--start NS-->
-          <div>
+          <div class="together">
 
             <h3 class="i18n_job_ns_entr"></h3>
             <blockquote>
@@ -326,7 +315,7 @@
 
 
           <!--start ane-->
-          <div>
+          <div class="together">
 
             <h3 class="i18n_job_ane_entr"></h3>
             <blockquote>
@@ -377,7 +366,7 @@
 
 
           <!--start Lamouthe-->
-          <div>
+          <div class="together">
 
             <h3 class="i18n_job_lam_entr"></h3>
             <blockquote>
@@ -448,7 +437,7 @@
           <!-- End Title Section -->
 
           <!-- Start Purpan -->
-          <div>
+          <div class="together">
             <h3 class="i18n_etu_pur_eco"></h3>
             <blockquote>
               <div class="row">
@@ -475,7 +464,7 @@
 
 
           <!-- Start Fortaleza -->
-          <div>
+          <div class="together">
             <h3 class="i18n_etu_for_eco"></h3>
             <blockquote>
               <div class="row">
@@ -504,7 +493,7 @@
             <hr>
 
         <!--------------------------- Start Compétences --------------------------->
-        <div id="skills1">
+        <div id="skills1"  class="together">
 
           <!-- Title Section -->
           <div>
@@ -542,7 +531,7 @@
             <hr>
 
         <!--------------------------- Start Projects --------------------------->
-        <div id="project1">
+        <div id="project1" class="together">
 
           <!-- Title Section -->
           <div>
@@ -556,6 +545,7 @@
 
             <!-- Start Projet 1-->
           	<div class="col-lg-4 col-md-6 col-sm-12 profile">
+              <h3 class="profile-name i18n_proj_website_title"></h3>
                 <!-- Start photo -->
                 <div class="item-thumbs">
                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -567,14 +557,12 @@
                     <span class="i18n_proj_website_pic"></span>
                   </div>
                 <!-- End photo -->
-                <h3 class="profile-name i18n_proj_website_title"></h3>
-
-
             </div>
             <!-- End Projet 1 -->
 
             <!-- Start Projet 2 -->
           	<div class="col-lg-4 col-md-6 col-sm-12 profile">
+              <h3 class="profile-name i18n_proj_plastic_title"></h3>
               <!-- Start photo -->
               <div class="item-thumbs">
                   <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -586,14 +574,12 @@
                   <span class="i18n_proj_plastic_pic"></span>
               </div>
               <!-- End photo -->
-              <h3 class="profile-name i18n_proj_plastic_title"></h3>
-
-
             </div>
             <!-- End Projet 2 -->
 
             <!-- Start Projet 3 -->
           	<div class="col-lg-4 col-md-6 col-sm-12 profile">
+              <h3 class="profile-name i18n_proj_student_title"></h3>
               <!-- Start photo -->
               <div class="item-thumbs">
                   <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -605,9 +591,6 @@
                   <span class="i18n_proj_student_pic"></span>
               </div>
               <!-- End photo -->
-              <h3 class="profile-name i18n_proj_student_title"></h3>
-
-
             </div>
             <!-- End Projet 3 -->
 
@@ -619,7 +602,7 @@
             <hr>
 
         <!--------------------------- Start Interets --------------------------->
-        <div id="interests1">
+        <div id="interests1" class="together">
 
           <!-- Title Section -->
           <div>
@@ -631,6 +614,7 @@
           <div class="row">
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_winter_title"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -638,11 +622,12 @@
                   </div>
                   <img src="_include/img/profile/profile-01.jpg" alt="Ski">
               </div>
-              <h3 class="i18n_hob_winter_title"></h3>
+
 
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_summer_title"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -650,12 +635,13 @@
                   </div>
                   <img src="_include/img/profile/profile-05.jpg" alt="Dive">
               </div>
-              <h3 class="i18n_hob_summer_title"></h3>
+
 
             </div>
 
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_travel_title"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -663,11 +649,12 @@
                   </div>
                   <img src="_include/img/profile/profile-02.jpg" alt="Travelling">
               </div>
-              <h3 class="i18n_hob_travel_title"></h3>
+
 
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_diy_text"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -675,11 +662,12 @@
                   </div>
                   <img src="_include/img/profile/profile-03.jpg" alt="DIY">
               </div>
-              <h3 class="i18n_hob_diy_text"></h3>
+
 
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_ntic_title"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -687,11 +675,12 @@
                   </div>
                   <img src="_include/img/profile/profile-04.jpg" alt="NTIC">
               </div>
-              <h3 class="i18n_hob_ntic_title"></h3>
+
 
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="i18n_hob_plant_title"></h3>
               <div class="image-wrap">
                   <div class="hover-wrap">
                       <span class="overlay-img"></span>
@@ -699,7 +688,6 @@
                   </div>
                   <img src="_include/img/profile/profile-06.jpg" alt="plants">
               </div>
-              <h3 class="i18n_hob_plant_title"></h3>
 
             </div>
 

@@ -1,10 +1,11 @@
 
 @media print {
 
-	.ole, #home-slider, header, #supersized, #back-to-top, .font-icon-plus, .font-icon-minus {
+	.ole, #home-slider, header, #supersized, #back-to-top, .font-icon-plus, .font-icon-minus, .font-icon-social-twitter, .font-icon-social-linkedin {
 		display: none !important;
 	}
 
+	.slide-content {display: block !important;}
 
 	/* ==================================================
 	   Basic Styles
@@ -17,8 +18,6 @@
 	html, hmtl a{
 		width:100%;
 		font-size: 100%;
-		-webkit-text-size-adjust: 100%;
-		-ms-text-size-adjust: 100%;
 	}
 
 	body{
@@ -26,26 +25,13 @@
 		font-size:11px;
 		font-family: 'Titillium Web', sans-serif;
 		position: relative;
+		line-height: 15px !important;
 	}
 
 
 	a{
 		color:#BB0B28;
 		text-decoration: none;
-		cursor: pointer;
-
-		-webkit-transition: color 0.1s linear 0s;
-		   -moz-transition: color 0.1s linear 0s;
-			 -o-transition: color 0.1s linear 0s;
-			    transition: color 0.1s linear 0s;
-	}
-
-	a:hover,
-	a:active,
-	a:focus{
-		outline: 0;
-		color:#011C06;
-		text-decoration:none;
 	}
 
 	a img {
@@ -74,6 +60,8 @@
 		padding: 5px 15px;
 		font-size: 11px;
   	border-left: 2px solid #BB0B28;
+		page-break-inside: auto;
+		line-height: 15px !important;
 	}
 
 	blockquote p {
@@ -90,9 +78,6 @@
 	.accordion-group {
 	  	margin-bottom: 4px;
 	  	border: none;
-	  	-webkit-border-radius: 0;
-	       -moz-border-radius: 0;
-	          	border-radius: 0;
 	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 	}
 
@@ -109,12 +94,6 @@
 		font-size: 11px;
 		font-weight: 600;
 		text-transform: uppercase;
-
-		-webkit-transition: all 0.1s linear 0s;
-		-moz-transition: all 0.1s linear 0s;
-		-ms-transition: all 0.1s linear 0s;
-		-o-transition: all 0.1s linear 0s;
-		transition: all 0.1s linear 0s;
 	}
 
 	.accordion-heading:hover .accordion-toggle,
@@ -137,12 +116,6 @@
 	    margin: -8px 0 0 0;
 	    color: #23262C;
 	    font-size: 11px;
-
-		-webkit-transition: all 0.1s linear 0s;
-		-moz-transition: all 0.1s linear 0s;
-		-ms-transition: all 0.1s linear 0s;
-		-o-transition: all 0.1s linear 0s;
-		transition: all 0.1s linear 0s;
 	}
 
 	.accordion-heading:hover .accordion-toggle span {
@@ -152,15 +125,6 @@
 	.accordion-heading .accordion-toggle.active span,
 	.accordion-heading:hover .accordion-toggle.inactive span {
 		color: #FFFFFF;
-	}
-
-	.accordion-heading.accordionize .accordion-toggle.active span,
-	.accordion-heading.togglize .accordion-toggle.active span {
-		-webkit-transform: rotate(180deg);
-		-moz-transform: rotate(180deg);
-		-ms-transform: rotate(180deg);
-		-o-transform: rotate(180deg);
-		transform: rotate(180deg);
 	}
 
 	.accordion-heading.togglize .accordion-toggle span {
@@ -179,7 +143,6 @@
 	}
 
 	.accordion-inner {
-		background: #FAF9F5;
 	  	padding: 10px;
 		border: none;
 	  color: #3D3D3C;
@@ -239,27 +202,6 @@
 		outline: 0;
 	}
 
-	input:focus,
-	textarea:focus,
-	input[type="text"]:focus {
-		outline: 0;
-	}
-
-	input:-moz-placeholder,
-	textarea:-moz-placeholder {
-	  color: #7F8289;
-	}
-
-	input:-ms-input-placeholder,
-	textarea:-ms-input-placeholder {
-	  color: #7F8289;
-	}
-
-	input::-webkit-input-placeholder,
-	textarea::-webkit-input-placeholder {
-	  color: #7F8289;
-	}
-
 	/* ==================================================
 	   Code and Pre
 	================================================== */
@@ -270,16 +212,12 @@
 	   Typography
 	================================================== */
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6{
+	h1,	h2,	h3,	h4,	h5,	h6{
 		margin:0 0 10px 0;
 		color:#000000;
 		font-weight:300;
 		font-family: 'Titillium Web', sans-serif;
+		page-break-after: avoid;
 	}
 
 	h1{
@@ -385,7 +323,6 @@
 		font-size: 11px;
 		font-weight: 300;
 		margin-bottom: 30px;
-		line-height: 1em;
 		text-transform: uppercase;
 	}
 
@@ -430,6 +367,11 @@
 		cursor: pointer;
 	}
 
+	.overlay-text-thumb {
+		line-height: 70px;
+	}
+
+
 	/* ==================================================
 	   About Section
 	================================================== */
@@ -465,7 +407,6 @@
 	.social-icons li a{
 		color: #FFFFFF;
 		font-size: 10px;
-		line-height: 1em;
 		width: 16px;
 		height: 16px;
 
@@ -476,11 +417,6 @@
 		   -moz-transition: opacity 0.1s linear 0s;
 			 -o-transition: opacity 0.1s linear 0s;
 			    transition: opacity 0.1s linear 0s;
-	}
-
-	.social-icons li a:hover{
-		opacity: 1;
-		filter: alpha(opacity=100);
 	}
 
 	/* ==================================================
@@ -505,14 +441,12 @@
 	}
 
 	#social-area {
-	    text-align: center;
-			height: 0px!important;
 	}
 
 	#social-area #social ul {
+		display: block;
 		margin: 0;
 		padding: 0;
-		height: 0px!important;
 	}
 
 	#social-area #social ul li {
@@ -520,7 +454,6 @@
 		margin-left: 0px;
 		list-style: none;
 		color: black;
-		height: 0px!important;
 	}
 
 	#social-area #social ul li:first-child {
@@ -528,40 +461,14 @@
 	}
 
 	#social ul li a {
-		display: block;
 		margin: 0;
-		height: 0px!important;
-
-		-webkit-transition: all 400ms ease-out 0s;
-		   -moz-transition: all 400ms ease-out 0s;
-			 -o-transition: all 400ms ease-out 0s;
-			    transition: all 400ms ease-out 0s;
-
-		-webkit-transform: rotateY(180deg);
-		   -moz-transform: rotateY(180deg);
-			-ms-transform: rotateY(180deg);
-			 -o-transform: rotateY(180deg);
-				transform: rotateY(180deg);
 	}
 
 	#social ul li a span {
-		display: inline-block;
 		margin: 0;
 		color: black;
-		height: 0px!important;
 		opacity: 0.3;
 		filter: alpha(opacity=30);
-
-		-webkit-transition: all 400ms ease-out 0s;
-		   -moz-transition: all 400ms ease-out 0s;
-			 -o-transition: all 400ms ease-out 0s;
-			    transition: all 400ms ease-out 0s;
-
-		-webkit-transform: rotateY(180deg);
-		   -moz-transform: rotateY(180deg);
-			-ms-transform: rotateY(180deg);
-			 -o-transform: rotateY(180deg);
-				transform: rotateY(180deg);
 	}
 
 	[class^="font-"]::before, [class*=" font-"]::before {
@@ -576,7 +483,7 @@
 		position: relative;
 		width: 100%;
 		height: auto;
-		text-align: center;
+		padding-top: 30px;
 	}
 
 	footer .credits {
@@ -609,7 +516,11 @@
 	}
 
 	.container li {
-		margin-bottom: 5px;
+		margin-bottom: 0px;
+	}
+
+	.together {
+		page-break-inside: avoid;
 	}
 
 }

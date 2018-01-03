@@ -1,3 +1,5 @@
+<div class="hiddentitle"><h1>Laurie Besinet</h1></div>
+
 <!-- This section is for Splash Screen -->
 <div class="ole">
   <section id="jSplash">
@@ -34,13 +36,16 @@
         </a>
         <nav id="menu">
           <ul id="menu-nav">
-            <li><a class="menu-nav-lien external i18n_home btn btn-secondary" role="button" href="index.php"></a></li>
-            <li><a class="menu-nav-lien external i18n_resume btn btn-secondary" role="button" href="cv.php"></a></li>
-            <li><a class="menu-nav-lien external i18n_blog btn btn-secondary" role="button" href="blog.php"></a></li>
-            <li><a class="menu-nav-lien i18n_contact btn btn-secondary" role="button" href="#social-area"></a></li>
+            <li><a onclick="highligtmenu()" class="menu-nav-lien external i18n_home btn btn-secondary" role="button" href="index.php#goUp"></a></li>
+            <li><a onclick="highligtmenu()" class="menu-nav-lien external i18n_resume btn btn-secondary" role="button" href="cv.php#goUp"></a></li>
+            <li><a onclick="highligtmenu()" class="menu-nav-lien external i18n_blog btn btn-secondary" role="button" href="blog.php#goUp"></a></li>
+            <li><a onclick="highligtmenu()" id="menu-nav-social" class="i18n_contact btn btn-secondary" role="button" href="#social-area"></a></li>
             <li>
               <button class="btn btn-outline-light btn-sm" type="button" onclick="i18next.changeLanguage('en')">EN</button>
               <button class="btn btn-outline-light btn-sm" type="button" onclick="i18next.changeLanguage('fr')">FR</button>
+            </li>
+            <li>
+              <a class="font-icon-print btn btn-secondary" role="button" name="print" onclick="imprimer_page()" style="width: 50px;"></a>
             </li>
           </ul>
         </nav>
