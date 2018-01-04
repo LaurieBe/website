@@ -16,10 +16,13 @@
     <nav class="submenu-navbar" aria-label="breadcrumb navbar">
       <ol class="submenu-nav nav">
         <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="blog.php#blog">
-          <span class="font-icon-arrow-round-up"></span> Retour</a>
+          <span class="font-icon-arrow-round-up"></span>
+          <span class="i18n_back"></span>
+        </a>
         </li>
         <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="a0.php#a0">
-          <span class="font-icon-arrow-round-left"></span> Précedent
+          <span class="font-icon-arrow-round-left"></span>
+          <span class="i18n_previous"></span>
         </a></li>
       </ol>
     </nav>
