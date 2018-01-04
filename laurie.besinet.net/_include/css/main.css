@@ -1513,6 +1513,22 @@ Version: 1.0
 	.btn {
 		cursor: pointer;
 	}
+
+	.btn-primary {
+		background-color: #BB0B28;
+		border: none;
+	}
+
+	.btn-primary:hover {
+		background-color: #95071E;
+		border-color: #95071E;
+	}
+	.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+			background-color: #95071E;
+			border-color: #95071E;
+			box-shadow: unset;
+	}
+
 	.btn-secondary {
 		background-color: #035e14;
 		border: none;

@@ -44,8 +44,8 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a1.php#a1"><h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2></a>
-                  <span class="i18n_a1_intro"></span>
-                  <a href="a1.php#a1"><span class="i18n_url"></span></a>
+                  <p class="i18n_a1_intro"></p>
+                  <a href="a1.php#a1" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
           </div>
         </div>
@@ -64,8 +64,8 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a0.php#a0"><h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2></a>
-                  <span class="i18n_a0_intro"></span>
-                  <a href="a0.php#a0"><span class="i18n_url"></span></a>
+                  <p class="i18n_a0_intro"></p>
+                  <a href="a0.php#a0" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
           </div>
         </div>

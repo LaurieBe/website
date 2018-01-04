@@ -12,7 +12,7 @@
           "i18n_resume": "Resume",
           "i18n_contact": "Contact",
           "i18n_home": "Home",
-          "i18n_blog": "Blog",
+          "i18n_blog": "",
           "i18n_blogtxt": " ",
 
           "i18n_url": " ",
@@ -45,7 +45,7 @@
           "i18n_blog": "Blog",
           "i18n_blogtxt": "Bienvenue,<br> ici je vous présente ce que je rencontre au fur-et-à-mesure de mon voyage en Nouvelle-Zélande et mes découvertes concernant mes centres d'intérêts, à savoir l'agriculture et les nouvelles technologies.<br> Je reçois vos retours toujours avec attention, que ce soit une réaction à un sujet, des questions, etc.",
 
-          "i18n_url": "... suite",
+          "i18n_url": "Lire la suite",
           "i18n_previous": "< Article précédent ",
           "i18n_next": " Article suivant >",
           "i18n_back": "Retour",
