@@ -1,4 +1,4 @@
-<div class="hiddentitle"><h1>Laurie Besinet</h1></div>
+<div class="hiddentitle"><h1>Laurie Besinet</h1><br><p><i>(laurie.besinet.net)</i></p></div>
 
 <!-- This section is for Splash Screen -->
 <div class="ole">
@@ -9,7 +9,7 @@
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
-<div id="home-slider" class="d-print-none">
+<div id="home-slider">
   <div class="overlay">
   </div>
 

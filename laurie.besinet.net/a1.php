@@ -9,7 +9,7 @@
 <!-- Head -->
 <?php include("head.php"); ?>
 
-<body onload="highligtmenu()">
+<body class="together" onload="highligtmenu()">
   <!-- Header -->
   <?php include("header.php"); ?>
   <div class="hidden-if-small">
@@ -35,27 +35,22 @@
   <!-- Presentation Section -->
   <div id="a1" class="page">
   	<div id="content" class="container">
+      <div>
 
-        <div class="row">
-            <div class="span12">
-                <div>
-
-                    <!-- article -->
-                    <div>
-                      <div class="title-page">
-                        <h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2>
-                        <span class="i18n_a1_param"></span>
-                      </div>
-                      <div class="i18n_a1_intro"></div>
-                      <br><br>
-                      <div class="i18n_a1_content"></div>
-                    </div>
-
-              </div>
+          <!-- article -->
+          <div>
+            <div class="title-page">
+              <h2 class="i18n_a1_title title-description" style="text-transform: uppercase;"></h2>
+              <span class="i18n_a1_param"></span>
             </div>
-        </div>
+            <div class="i18n_a1_intro"></div>
+            <br><br>
+            <div class="i18n_a1_content"></div>
+          </div>
+
       </div>
     </div>
+  </div>
   <!-- End presentation Section -->
 
   <!-- Footer -->

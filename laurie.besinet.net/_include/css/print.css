@@ -1,11 +1,29 @@
 
 @media print {
 
-	.ole, #home-slider, header, #supersized, #back-to-top, .font-icon-plus, .font-icon-minus, .font-icon-social-twitter, .font-icon-social-linkedin {
+	.ole,
+	#home-slider,
+	header,
+	#supersized,
+	#back-to-top,
+	.font-icon-plus,
+	.font-icon-minus,
+	.font-icon-social-twitter,
+	.font-icon-social-linkedin,
+	#jpreOverlay,
+	#jSplash,
+	#jpreSlide,
+	#jpreLoader,
+	#jprePercentage,
+	#circle,
+	.breadcrumb,
+	footer .credits,
+	.image-wrap img,
+	.item-thumbs span img,
+	.i18n_proj_comment
+	{
 		display: none !important;
 	}
-
-	.slide-content {display: block !important;}
 
 	/* ==================================================
 	   Basic Styles
@@ -13,11 +31,6 @@
 
 	html, body {
 		height: 100%;
-	}
-
-	html, hmtl a{
-		width:100%;
-		font-size: 100%;
 	}
 
 	body{
@@ -32,14 +45,6 @@
 	a{
 		color:#BB0B28;
 		text-decoration: none;
-	}
-
-	a img {
-		border: none;
-	}
-
-	a > img {
-		vertical-align: bottom;
 	}
 
 	img {
@@ -166,28 +171,6 @@
 		margin: 10px 0;
 	}
 
-	.align_left{
-		float:left;
-		margin:0 25px 0 0px!important;
-	}
-
-	.align_right{
-		float:right;
-		margin:0 0 0 25px!important;
-	}
-
-	.text_align_left {
-		text-align: left;
-	}
-
-	.text_align_center {
-		text-align: center;
-	}
-
-	.text_align_right {
-		text-align: right;
-	}
-
 	.color-text {
 	    color: #BB0B28;
 	}
@@ -213,7 +196,7 @@
 	================================================== */
 
 	h1,	h2,	h3,	h4,	h5,	h6{
-		margin:0 0 10px 0;
+		margin:10px 0 5px 0;
 		color:#000000;
 		font-weight:300;
 		font-family: 'Titillium Web', sans-serif;
@@ -248,57 +231,10 @@
 
 	h3.spec {
 		color: #000000;
-	    font-size: 14px;
-	    font-weight: 300;
-	    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
 	}
-
-
-
-	/* ==================================================
-	   Margin Bottom Sets
-	================================================== */
-
-	.margin-0{
-		margin-bottom:0 !important;
-	}
-
-	.margin-10{
-		margin-bottom:10px !important;
-	}
-
-	.margin-15{
-		margin-bottom:15px !important;
-	}
-
-	.margin-20{
-		margin-bottom:20px !important;
-	}
-
-	.margin-30{
-		margin-bottom:30px !important;
-	}
-
-	.margin-40{
-		margin-bottom:40px !important;
-	}
-
-	.margin-50{
-		margin-bottom:50px !important;
-	}
-
-	.margin-60{
-		margin-bottom:60px !important;
-	}
-
-	.margin-70{
-		margin-bottom:70px !important;
-	}
-
-	.margin-80{
-		margin-bottom:80px !important;
-	}
-
 
 	/* ==================================================
 	   Section Page
@@ -368,21 +304,13 @@
 	}
 
 	.overlay-text-thumb {
-		line-height: 70px;
+		line-height: auto;
 	}
 
 
 	/* ==================================================
 	   About Section
 	================================================== */
-
-	.profile-name {
-		margin-bottom: 15px;
-	}
-
-	.profile-description {
-		margin-bottom: 25px;
-	}
 
 	.image-wrap {
 		position: relative;
@@ -440,9 +368,6 @@
 		max-width: 30%;
 	}
 
-	#social-area {
-	}
-
 	#social-area #social ul {
 		display: block;
 		margin: 0;
@@ -481,34 +406,17 @@
 
 	footer {
 		position: relative;
-		width: 100%;
+		width: auto;
 		height: auto;
 		padding-top: 30px;
-	}
-
-	footer .credits {
-		display: none;
-	}
-
-
-	/* ==================================================
-	   Preloader
-	================================================== */
-
-	#jpreOverlay,	#jSplash,	#jpreSlide, 	#jpreLoader ,	#jprePercentage, #circle {
-		display: none;
 	}
 
 	/* ==================================================
 	   Others
 	==================================================*/
-
-
-	.breadcrumb {display:none;	}
-
 	.container {
 		margin-left: auto;
-		 margin-right: auto;
+		margin-right: auto;
 	}
 
 	.container ul {

@@ -37,6 +37,7 @@ Version: 1.0
 		font-family: 'Titillium Web', sans-serif;
 		line-height:28px;
 		position: relative;
+		display: block;
 	}
 
 
@@ -69,6 +70,7 @@ Version: 1.0
 
 	img {
 		max-width: none;
+		margin: 10px;
 	}
 
 	strong {
@@ -706,6 +708,10 @@ Version: 1.0
 		margin: 0 0 10px 0
 	}
 
+	.title {
+		 text-align: center;
+	}
+
 	.title-page .title-description {
 		font-size: 24px;
 		font-weight: 200;
@@ -1193,7 +1199,7 @@ Version: 1.0
 
 	footer {
 		position: relative;
-		width: 100%;
+		width: auto;
 		height: auto;
 		background: #035E14;
 		text-align: center;

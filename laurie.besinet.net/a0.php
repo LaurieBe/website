@@ -35,23 +35,19 @@
   <!-- Presentation Section -->
   <div id="a0" class="page">
   	<div id="content" class="container">
-      <div class="row">
-        <div class="span12">
+      <div>
+
+          <!-- article -->
           <div>
-
-              <!-- article -->
-              <div>
-                <div class="title-page">
-                  <h2 class="i18n_a0_title title-description" style="text-transform: uppercase;"></h2>
-                  <span class="i18n_a0_param"></span>
-                </div>
-                <div class="i18n_a0_intro"></div>
-                <br><br>
-                <div class="i18n_a0_content"></div>
-              </div>
-
+            <div class="title-page">
+              <h2 class="i18n_a0_title title-description"></h2>
+              <span class="i18n_a0_param"></span>
+            </div>
+            <div class="i18n_a0_intro"></div>
+            <br><br>
+            <div class="i18n_a0_content"></div>
           </div>
-        </div>
+
       </div>
     </div>
   </div>
