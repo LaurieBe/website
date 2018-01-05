@@ -34,6 +34,24 @@
       <!-- articles -->
       <div>
 
+        <!-- article a2 -->
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="myPicturesBox">
+                <a href="a2.php#a2"><div class="i18n_a2_pic"></div></a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+                <div style="margin-left: 30px;">
+                  <a href="a2.php#a2"><h2 class="i18n_a2_title title-description"></h2></a>
+                  <p class="i18n_a2_intro"></p>
+                  <a href="a2.php#a2" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
+                </div>
+          </div>
+        </div>
+        <!-- article a2 -->
+        <hr>
+
         <!-- article a1 -->
         <div class="row">
           <div class="col-lg-4">

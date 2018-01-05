@@ -24,6 +24,10 @@
           <span class="font-icon-arrow-round-left"></span>
           <span class="i18n_previous"></span>
         </a></li>
+        <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="a2.php#a2">
+          <span class="i18n_next"></span>
+          <span class="font-icon-arrow-round-right"></span>
+        </a></li>
       </ol>
     </nav>
   </div>

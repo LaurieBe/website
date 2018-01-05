@@ -32,7 +32,7 @@
 
       <div>
         <a id="goUp" href="index.php#home-slider" title="Laurie Besinet" style="line-height: 60px;">
-          <img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: middle;padding-left: 20px;">
+          <img src="_include/img/LB logo nb fond transp.png" style="max-height: 40px;vertical-align: middle;padding-left: 20px; margin: 8px;">
         </a>
         <nav id="menu">
           <ul id="menu-nav">
