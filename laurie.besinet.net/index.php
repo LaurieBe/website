@@ -6,7 +6,28 @@
 <!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 
 <!-- Head -->
-<?php include("head.php"); ?>
+<head>
+  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
+  <meta name="date" content="2018-01-01"/>
+  <title>Personal website | Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="Personal website about agronomy and technology">
+  <link rel="canonical" href="https://laurie.besinet.net/index.php">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Personal website | Laurie Besinet | Agro &amp; Tech">
+  <meta property="og:description" content="Personal website about agronomy and technology">
+  <meta property="og:url" content="https://laurie.besinet.net/index.php">
+  <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
+  <meta property="article:tag" content="AgTech">
+  <meta property="article:tag" content="Agronomy">
+  <meta property="article:tag" content="New technology">
+  <meta property="article:section" content="AgTech">
+  <meta property="article:published_time" content="2018-01-01T13:01:11+01:00">
+  <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:image" content="http://laurie.besinet/_include/img/slider-images/image01.jpg">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1169">
+  <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
   <!-- Header -->

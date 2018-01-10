@@ -7,7 +7,28 @@
 <html lang="en-US"> <!--<![endif]-->
 
 <!-- Head -->
-<?php include("head.php"); ?>
+<head>
+  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
+  <meta name="date" content="2018-01-05"/>
+  <title>AgTech in New Zealand - Autogrow | Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="I met several AgTech companies in New Zealand. This article is about my meeting with Darryn Keiller and Jeffrey Law who lead Autogrow.">
+  <link rel="canonical" href="https://laurie.besinet.net/a2.php">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AgTech in New Zealand - Autogrow | Laurie Besinet | Agro &amp; Tech">
+  <meta property="og:description" content="I met several AgTech companies in New Zealand. This article is about my meeting with Darryn Keiller and Jeffrey Law who lead Autogrow.">
+  <meta property="og:url" content="https://laurie.besinet.net/a2.php">
+  <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
+  <meta property="article:tag" content="AgTech">
+  <meta property="article:tag" content="New Zealand">
+  <meta property="article:tag" content="Indoor Agriculture">
+  <meta property="article:section" content="AgTech">
+  <meta property="article:published_time" content="2018-01-05T13:01:11+01:00">
+  <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:image" content="http://laurie.besinet/_include/img/nz/img27.JPG">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1169">
+  <?php include("head.php"); ?>
 
 <body class="together" onload="highligtmenu()">
   <!-- Header -->
@@ -49,6 +70,48 @@
           </div>
 
       </div>
+
+
+
+      <!-- share -->
+      <div id="share-buttons">
+        <div><h3>Share the page</h3></div>
+        <ul>
+          <li>
+            <!-- Facebook -->
+            <a href="http://www.facebook.com/sharer.php?u=https://laurie.besinet.net/a2.php#a2" target="_blank">
+              <span class="font-icon-social-facebook"></span>
+            </a>
+          </li>
+          <li>
+            <!--------------------------------- PB LinkedIn -->
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://laurie.besinet.net/a2.php#a2" target="_blank">
+              <span class="font-icon-social-linkedin"></span>
+            </a>
+          </li>
+          <li>
+            <!----------------------------------- Twitter  -->
+            <a href="https://twitter.com/share?hashtags=AgTech&amp;text=AgTech%20in%20New%20Zealand%20-%20Autogrow&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa2.php&amp;via=lauriebesinet" target="_blank">
+              <span class="font-icon-social-twitter"></span>
+            </a>
+          </li>
+          <li>
+            <!-- Print -->
+            <a name="print" onclick="imprimer_page()" alt="print">
+              <span class="font-icon-print"></span>
+            </a>
+          </li>
+          <li>
+            <!-- Email -->
+            <a href="mailto:laurie@besinet.net?Subject=Article AgTech in New Zealand - Autogrow&amp;Body=Your%20comment%20">
+              <span class="font-icon-social-email"></span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- End share -->
+
     </div>
   </div>
   <!-- End presentation Section -->

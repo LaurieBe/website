@@ -11,8 +11,28 @@
 
 <body onload="highligtmenu()" data-spy="scroll" data-target="#menu-cv" data-offset="170">
 
-  <!-- Header -->
-  <?php include("header.php"); ?>
+  <head>
+    <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
+    <meta name="date" content="2018-01-01"/>
+    <title>CV | Laurie Besinet | Agro &amp; Tech</title>
+    <meta name="description" content="My Experiences, Studies, Skills, Projects and Interest">
+    <link rel="canonical" href="https://laurie.besinet.net/cv.php">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="CV | Laurie Besinet | Agro &amp; Tech">
+    <meta property="og:description" content="My Experiences, Studies, Skills, Projects and Interest">
+    <meta property="og:url" content="https://laurie.besinet.net/cv.php">
+    <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
+    <meta property="article:tag" content="Experiences">
+    <meta property="article:tag" content="Studies">
+    <meta property="article:tag" content="Skills">
+    <meta property="article:section" content="AgTech">
+    <meta property="article:published_time" content="2017-12-27T13:01:11+01:00">
+    <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
+    <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+    <meta property="og:image" content="http://laurie.besinet/_include/img/slider-images/image01.jpg">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="1169">
+    <?php include("head.php"); ?>
 
         <div class="hidden-if-small">
           <nav id="menu-cv" class="submenu-navbar navbar">

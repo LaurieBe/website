@@ -1,11 +1,5 @@
-<head>
-
   <!-- Meta Tags -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Laurie Besinet</title>
-  <meta name="description" content="Laurie Besinet's Website" />
-  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
-  <meta name="date" content="2018-01-1"/>
 
   <!-- Mobile Specifics -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

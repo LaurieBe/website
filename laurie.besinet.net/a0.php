@@ -6,8 +6,27 @@
 <!--[if gt IE 8]><!-->
 <html lang="en-US"> <!--<![endif]-->
 
-<!-- Head -->
-<?php include("head.php"); ?>
+<head>
+  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
+  <meta name="date" content="2018-01-01"/>
+  <title>The great departure | Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="In this article are the questions I might have asked myself before travelling until New Zealand and how it was organized.">
+  <link rel="canonical" href="https://laurie.besinet.net/a0.php">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The great departure | Laurie Besinet | Agro &amp; Tech">
+  <meta property="og:description" content="In this article are the questions I might have asked myself before travelling until New Zealand and how it was organized.">
+  <meta property="og:url" content="https://laurie.besinet.net/a0.php">
+  <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
+  <meta property="article:tag" content="Travel">
+  <meta property="article:tag" content="New Zealand">
+  <meta property="article:section" content="Travel">
+  <meta property="article:published_time" content="2017-12-20T13:01:11+01:00">
+  <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:image" content="http://laurie.besinet/_include/img/nz/frtonz.png">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1169">
+  <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
   <!-- Header -->
