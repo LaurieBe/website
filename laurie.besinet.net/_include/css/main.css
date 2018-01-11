@@ -778,17 +778,21 @@ Version: 1.0
 
 	#thumbs li {
 		list-style-type: none;
+		padding: 0;
+		margin: 0;
 	}
 
 	.item-thumbs {
 		position: relative;
 		overflow: hidden;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 		cursor: pointer;
 	}
 
 	.item-thumbs a + img {
 		width: 100%;
+		padding: 0;
+		margin: 0;
 	}
 
 	.item-thumbs .hover-wrap {
@@ -863,12 +867,16 @@ Version: 1.0
 	.image-wrap {
 		position: relative;
 		overflow: hidden;
-		margin-bottom: 25px;
+		padding: 0;
+		margin: 0;
 		cursor: pointer;
 	}
 
 	.image-wrap img {
 		width: 100%;
+		padding: 0;
+		margin: 0;
+
 	}
 
 	.image-wrap  .hover-wrap {
