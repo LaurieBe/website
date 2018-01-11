@@ -31,9 +31,23 @@
 
 <body onload="highligtmenu()">
   <!-- Header -->
-  <?php include("header.php"); ?>
+    <!-- Homepage Slider -->
+      <div id="home-slider">
+        <div class="overlay">
+        </div>
+        <!--  si ecran < 500 px -->
+        <div class="slider-text" style="top: 50%;left: 50%;transform: translate(-50%, -50%);width: 100%;margin: 0px;height: 200px;">
+          <div id="slidecaption" style="line-height: 100px;"></div>
+        </div>
+        <div class="control-nav">
+          <a id="nextsection" href="#goUp" title="Go down"><i class="font-icon-arrow-simple-down"></i></a>
+        </div>
+
       </div>
-  </header>
+
+    <?php include("header.php"); ?>
+        </div>
+    </header>
   <!-- End header -->
 
   <!-- Presentation Section -->

@@ -31,7 +31,7 @@
 <body onload="highligtmenu()">
   <!-- Header -->
   <?php include("header.php"); ?>
-      <div class="hidden-if-small">
+      <!--div class="hidden-if-small">
         <nav class="submenu-navbar" aria-label="breadcrumb navbar">
           <ol class="submenu-nav nav">
             <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="blog.php#blog">
@@ -45,7 +45,7 @@
             </a></li>
           </ol>
         </nav>
-      </div>
+      </div-->
 
     </div>
   </header>
@@ -60,12 +60,89 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a0_title title-description"></h2>
-              <span class="i18n_a0_param"></span>
+              <span class="i18n_a0_param text-muted font-italic"></span>
             </div>
             <div class="i18n_a0_intro"></div>
             <br><br>
             <div class="i18n_a0_content"></div>
           </div>
+          <!-- End article-->
+
+          <!-- share -->
+          <hr>
+          <div id="share-area">
+            <div class="share-links">
+              <ul>
+                <li>
+                  <div class="share-title">Share</div>
+                </li>
+                <li><!-- Facebook --> <!---- NO ARTICLE ---->
+                  <a title="Share with Facebook" href="http://www.facebook.com/sharer.php?u=https://laurie.besinet.net/a0.php" target="_blank">
+                    <span class="font-icon-social-facebook"></span>
+                  </a>
+                </li>
+                <li><!--------------------------------- PB LinkedIn --> <!---- NO ARTICLE ---->
+                  <a title="Share with LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://laurie.besinet.net/a0.php#a0" target="_blank">
+                    <span class="font-icon-social-linkedin"></span>
+                  </a>
+                </li>
+                <li><!----------------------------------- Twitter  --> <!---- NO ARTICLE ---->
+                  <a title="Share with twitter" href="https://twitter.com/share?hashtags=NewZealand&amp;text=From%20France%20to%20New%20Zealand&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa0.php&amp;via=lauriebesinet" target="_blank">
+                    <span class="font-icon-social-twitter"></span>
+                  </a>
+                </li>
+                <li><!-- Print -->
+                  <a name="print" onclick="imprimer_page()" title="Print">
+                    <span alt="print" class="font-icon-print"></span>
+                  </a>
+                </li>
+                <li><!-- Email --> <!---- NO ARTICLE ---->
+                  <a title="Send by email" href="mailto:laurie@besinet.net?Subject=Your article : The great departure&amp;Body=Your%20comment%20">
+                    <span class="font-icon-social-email"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- End share -->
+
+
+          <!--navigation -->
+          <hr>
+          <div id="navigation-area" class="row">
+
+            <div class="text_align_left col-lg-6">
+              <div>
+                <div>
+                  <a class="turning" title="Back to the list" href="blog.php">
+                    <span class="font-icon-arrow-round-left"> </span>
+                  </a>
+                  <a class="no-turning" title="Back to the list" href="blog.php">
+                    <span class="i18n_back"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="text_align_right col-lg-6">
+              <div>
+                <div>
+                  <a class="turning" title="Next" href="a1.php#a1"><!---- NO ARTICLE ---->
+                    <span class="font-icon-arrow-round-right"> </span>
+                  </a>
+                  <a class="no-turning" title="Next" href="a1.php#a1"><!---- NO ARTICLE ---->
+                    <span class="i18n_next"></span>
+                  </a>
+                </div>
+                <br>
+                <div class="i18n_a1_title text-muted font-italic"></div> <!---- NO ARTICLE ---->
+              </div>
+            </div>
+
+          </div>
+          <!--End navigation -->
+
 
       </div>
     </div>

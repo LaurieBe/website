@@ -28,7 +28,7 @@
 
     <div class="container">
       <nav>
-        <ul><p class="credits">&copy;2017 Website by Laurie Besinet, based on a theme by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>. Pictures by Laurie Besinet unless mentionned.</p></ul>
+        <ul><p class="credits">&copy;2018 Website by Laurie Besinet, based on a theme by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>. Pictures by Laurie Besinet unless mentionned.</p></ul>
       </nav>
     </div>
 

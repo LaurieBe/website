@@ -70,7 +70,7 @@ Version: 1.0
 
 	img {
 		max-width: none;
-		margin: 10px;
+		margin: 20px;
 	}
 
 	strong {
@@ -211,7 +211,7 @@ Version: 1.0
 	h4,
 	h5,
 	h6{
-		margin: 20px 0 10px 0;
+		margin: 30px 0 20px 0;
 		color:#000000;
 		font-weight:300;
 		font-family: 'Titillium Web', sans-serif;
@@ -481,6 +481,15 @@ Version: 1.0
 		margin-left: -7px;
 	}
 
+	#goUp:hover,
+	#goUp.active {
+	}
+
+	#goUp:hover #goUp-logo,
+	#goUp.active #goUp-logo {
+		color: #FFFFFF;
+		opacity: 0.6;
+	}
 
 	/* ==================================================
 	   Header
@@ -1463,26 +1472,26 @@ Version: 1.0
 	/* ==================================================
 	   Share buttons
 	================================================== */
-	#share-buttons {
-		margin-top: 100px;
-	}
-	#share-buttons ul {
+	#share-area ul  {
 		margin: 0;
-		padding: 0;
 	}
 
-	#share-buttons ul li {
+	#share-area ul li {
 		display: inline-block;
 		margin: 15px;
 		list-style: none;
 		text-align: center;
 	}
 
-	#share-buttons ul li:first-child {
+	#navigation-area div {
+		display: inline-block;
+	}
+
+	#share-area ul li:first-child, #navigation-area ul li:first-child {
 		margin-left: 0;
 	}
 
-	#share-buttons ul li a {
+	#share-area ul li a {
 		display: block;
 		width: 50px;
 		height: 50px;
@@ -1501,8 +1510,41 @@ Version: 1.0
 				transform: rotateY(0deg);
 	}
 
-	#share-buttons ul li a span {
+	#navigation-area div .turning {
 		display: inline-block;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+
+		background: #FAF9F5;
+
+		-webkit-transition: all 400ms ease-out 0s;
+		   -moz-transition: all 400ms ease-out 0s;
+			 -o-transition: all 400ms ease-out 0s;
+			    transition: all 400ms ease-out 0s;
+
+		-webkit-transform: rotateY(0deg);
+		   -moz-transform: rotateY(0deg);
+			-ms-transform: rotateY(0deg);
+			 -o-transform: rotateY(0deg);
+				transform: rotateY(0deg);
+	}
+
+#navigation-area div .no-turning, 	#share-area .share-title {
+	color: #035e14;
+	font-weight: bold;
+	opacity: 0.6;
+}
+
+#navigation-area div .no-turning:hover,
+#navigation-area div .no-turning:active,
+#navigation-area div .no-turning:focus {
+	opacity: 1;
+}
+
+	#share-area ul li a span, #navigation-area div .turning span {
+		display: inline-block;
+		font-family: 'Titillium Web', sans-serif;
 		margin: 0;
 		color: #023D0D;
 		font-size: 25px;
@@ -1523,8 +1565,10 @@ Version: 1.0
 				transform: rotateY(0deg);
 	}
 
-	#share-buttons ul li:hover a,
-	#share-buttons ul li.active a {
+	#share-area ul li:hover a,
+	#share-area ul li.active a,
+	#navigation-area div:hover .turning,
+	#navigation-area div.active .turning {
 		background-color: #035E14;
 
 		-webkit-transform: rotateY(180deg);
@@ -1534,8 +1578,10 @@ Version: 1.0
 			    transform: rotateY(180deg);
 	}
 
-	#share-buttons ul li:hover a span,
-	#share-buttons ul li.active a span {
+	#share-area ul li:hover a span,
+	#share-area ul li.active a span,
+	#navigation-area div:hover .turning span,
+	#navigation-area div.active .turning span {
 		color: #FFFFFF;
 		opacity: 1;
 		filter: alpha(opacity=100);
@@ -1546,6 +1592,7 @@ Version: 1.0
 			 -o-transform: rotateY(180deg);
 				transform: rotateY(180deg);
 	}
+
 
 
 	/* ==================================================
