@@ -128,11 +128,11 @@
             <div class="text_align_right col-lg-6">
               <div>
                 <div>
-                  <a class="turning" title="Next" href="a1.php#a1"><!---- NO ARTICLE ---->
-                    <span class="font-icon-arrow-round-right"> </span>
-                  </a>
                   <a class="no-turning" title="Next" href="a1.php#a1"><!---- NO ARTICLE ---->
                     <span class="i18n_next"></span>
+                  </a>
+                  <a class="turning" title="Next" href="a1.php#a1"><!---- NO ARTICLE ---->
+                    <span class="font-icon-arrow-round-right"> </span>
                   </a>
                 </div>
                 <br>

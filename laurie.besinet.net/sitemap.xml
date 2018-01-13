@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://laurie.besinet.net/</loc>
+
+      <lastmod>2018-01-10</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/cv.php</loc>
+
+     <lastmod>2017-12-20</lastmod>
+
+     <changefreq>monthly</changefreq>
+
+     <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/blog.php</loc>
+
+     <lastmod>2018-01-13</lastmod>
+
+     <changefreq>weekly</changefreq>
+
+     <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/a0.php</loc>
+
+     <lastmod>2017-12-20</lastmod>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/a1.php</loc>
+
+     <lastmod>2017-12-27</lastmod>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/a2.php</loc>
+
+     <lastmod>2017-12-05</lastmod>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/a3.php</loc>
+
+     <lastmod>2017-12-13</lastmod>
+
+   </url>
+
+
+</urlset>
