@@ -101,7 +101,7 @@
                   </a>
                 </li>
                 <li><!-- Email --> <!---- NO ARTICLE ---->
-                  <a title="Send by email" href="mailto:laurie@besinet.net?Subject=First month in Auckland&amp;Body=Your%20comment%20">
+                  <a title="Send by email" href="mailto:?Subject=&amp;Body=https://laurie.besinet.net/a1.php">
                     <span class="font-icon-social-email"></span>
                   </a>
                 </li>

@@ -97,7 +97,7 @@
                   </a>
                 </li>
                 <li><!-- Email --> <!---- NO ARTICLE ---->
-                  <a title="Send by email" href="mailto:laurie@besinet.net?Subject=Your article : The great departure&amp;Body=Your%20comment%20">
+                  <a title="Send by email" href="mailto:?Subject=&amp;Body=https://laurie.besinet.net/a0.php">
                     <span class="font-icon-social-email"></span>
                   </a>
                 </li>

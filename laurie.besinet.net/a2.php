@@ -102,7 +102,7 @@
               </a>
             </li>
             <li><!-- Email --> <!---- NO ARTICLE ---->
-              <a title="Send by email" href="mailto:laurie@besinet.net?Subject=Article AgTech in New Zealand - Autogrow&amp;Body=Your%20comment%20">
+              <a title="Send by email" href="mailto:?Subject=&amp;Body=https://laurie.besinet.net/a2.php">
                 <span class="font-icon-social-email"></span>
               </a>
             </li>
@@ -130,20 +130,21 @@
           </div>
         </div>
 
-        <!--div class="text_align_right col-lg-6">
+        <div class="text_align_right col-lg-6">
           <div>
             <div>
-              <a class="turning" title="Next" href="a2.php#a2">
-                <span class="font-icon-arrow-round-right"> </span>
-              </a>
-              <a class="no-turning" title="Next" href="a2.php#a2">
+              <a class="no-turning" title="Next" href="a3.php#a3">
                 <span class="i18n_next"></span>
+              </a>
+              <a class="turning" title="Next" href="a3.php#a3">
+                <span class="font-icon-arrow-round-right"> </span>
               </a>
             </div>
             <br>
-            <div class="i18n_a2_title text-muted font-italic"></div>
+            <div class="i18n_a3_title text-muted font-italic"></div>
           </div>
-        </div-->
+        </div>
+
       </div>
       <!--End navigation -->
 
