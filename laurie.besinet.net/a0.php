@@ -109,9 +109,8 @@
 
 
           <!--navigation -->
-          <hr>
           <div id="navigation-area" class="row">
-
+            <hr>
             <div class="text_align_left col-lg-6">
               <div>
                 <div>

@@ -20,7 +20,8 @@
 	footer .credits,
 	.image-wrap img,
 	.item-thumbs span img,
-	.i18n_proj_comment
+	.i18n_proj_comment,
+	#share-area
 	{
 		display: none !important;
 	}
@@ -42,15 +43,20 @@
 	}
 
 
-	a{
+	a {
 		color:#BB0B28;
 		text-decoration: none;
 	}
 
 	img {
-		max-width: 300px;
-		max-height: 150px;
+		max-width: 200px;
+		max-height: 300px;
 		margin: 10px;
+	}
+
+	.myPicture-large {
+		max-width: 300px !important;
+		max-height: 1000px !important;
 	}
 
 	strong {

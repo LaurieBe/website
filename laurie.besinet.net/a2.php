@@ -113,9 +113,10 @@
       <!-- End share -->
 
       <!--navigation -->
-      <hr>
+
       <div id="navigation-area" class="row">
-        <div class="text_align_left col-lg-6">
+      <hr>
+      <div class="text_align_left col-lg-6">
           <div>
             <div>
               <a class="turning" title="Previous" href="a1.php#a1"><!---- NO ARTICLE ---->

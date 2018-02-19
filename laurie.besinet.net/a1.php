@@ -73,8 +73,8 @@
           <!--End article-->
 
           <!-- share -->
-          <hr>
           <div id="share-area">
+            <hr>
             <div class="share-links">
               <ul>
                 <li>

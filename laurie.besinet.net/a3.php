@@ -74,8 +74,8 @@
 
 
       <!-- share -->
-      <hr>
       <div id="share-area">
+        <hr>
         <div class="share-links">
           <ul>
             <li>
@@ -130,7 +130,7 @@
           </div>
         </div>
 
-        <!--div class="text_align_right col-lg-6">
+        <div class="text_align_right col-lg-6">
           <div>
             <div>
               <a class="no-turning" title="Next" href="a4.php#a4">
@@ -143,7 +143,7 @@
             <br>
             <div class="i18n_a4_title text-muted font-italic"></div>
           </div>
-        </div-->
+        </div>
 
       </div>
       <!--End navigation -->
