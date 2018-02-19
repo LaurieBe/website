@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
@@ -67,6 +66,14 @@
      <loc>https://laurie.besinet.net/a3.php</loc>
 
      <lastmod>2017-12-13</lastmod>
+
+   </url>
+
+   <url>
+
+     <loc>https://laurie.besinet.net/a4.php</loc>
+
+     <lastmod>2018-02-18</lastmod>
 
    </url>
 
