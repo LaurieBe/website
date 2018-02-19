@@ -23,7 +23,7 @@
   <meta property="article:published_time" content="2017-12-20T13:01:11+01:00">
   <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
   <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
-  <meta property="og:image" content="http://laurie.besinet/_include/img/nz/frtonz.png">
+  <meta property="og:image" content="https://laurie.besinet.net/_include/img/nz/frtonz.png">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
   <?php include("head.php"); ?>

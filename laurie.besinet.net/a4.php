@@ -10,12 +10,12 @@
 <head>
   <meta name="keywords" content="software, data, analysis, gestion de donneés, données, analyse, logiciel, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet, elastic, ElasticSuite, elasticsearch, kibana, logstash, beats"/>
   <meta name="date" content="2018-02-18"/>
-  <title>Elastic Infography - Software Technology | Laurie Besinet | Agro &amp; Tech</title>
-  <meta name="description" content="This article is about the company Regen. I met Bridgit Hawkins, CEO, who told me about the company's solutions for better environmental management in breeding.">
+  <title>Elastic Infography | Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="Elastic is a set of free softwares for data acquisition, storage and analysis. I have summarized my observations in a infography: how it works and the pro / cons of its use.">
   <link rel="canonical" href="https://laurie.besinet.net/a4.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Elastic Infography - Software Technology | Laurie Besinet | Agro &amp; Tech">
-  <meta property="og:description" content="This article is about the company Regen. I met Bridgit Hawkins, CEO, who told me about the company's solutions for better environmental management in breeding.">
+  <meta property="og:description" content="Elastic is a set of free softwares for data acquisition, storage and analysis. I have summarized my observations in a infography: how it works and the pro / cons of its use.">
   <meta property="og:url" content="https://laurie.besinet.net/a4.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
   <meta property="article:tag" content="Technology">
@@ -24,7 +24,7 @@
   <meta property="article:published_time" content="2018-02-18T13:01:11+01:00">
   <meta property="article:modified_time" content="2018-02-18T15:23:05+01:00">
   <meta property="og:updated_time" content="2018-02-18T15:23:05+01:00">
-  <meta property="og:image" content="http://laurie.besinet/_include/img/nz/infographie2_small.png">
+  <meta property="og:image" content="https://laurie.besinet.net/_include/img/nz/infographie2_small_en.png">
   <meta property="og:image:width" content="1150">
   <meta property="og:image:height" content="756">
   <?php include("head.php"); ?>
@@ -91,7 +91,7 @@
               </a>
             </li>
             <li><!----------------------------------- Twitter  --> <!---- NO ARTICLE ---->
-              <a title="Share with twitter" href="https://twitter.com/share?hashtags=IT&amp;text=1%20Infographie%20pour%20comprendre%20@ElasticFR%20en%201%20minute&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa4.php&amp;via=lauriebesinet" target="_blank">
+              <a title="Share with twitter" href="https://twitter.com/share?hashtags=IT&amp;text=La%20gestion%20des%20données%20avec%20@ElasticFR%20en%201%20minute&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa4.php&amp;via=lauriebesinet" target="_blank">
                 <span class="font-icon-social-twitter"></span>
               </a>
             </li>
