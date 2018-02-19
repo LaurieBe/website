@@ -11,11 +11,11 @@
   <meta name="date" content="2018-01-01"/>
   <title>First month in Auckland | Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="My first month in Auckland was divided between the first essential purchases and administrative formalities and visiting the city and the region.">
-  <link rel="canonical" href="https://laurie.besinet.net/a0.php">
+  <link rel="canonical" href="https://laurie.besinet.net/a1.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="First month in Auckland | Laurie Besinet | Agro &amp; Tech">
   <meta property="og:description" content="My first month in Auckland was divided between the first essential purchases and administrative formalities and visiting the city and the region.">
-  <meta property="og:url" content="https://laurie.besinet.net/a0.php">
+  <meta property="og:url" content="https://laurie.besinet.net/a1.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
   <meta property="article:tag" content="Travel">
   <meta property="article:tag" content="New Zealand">
@@ -23,7 +23,7 @@
   <meta property="article:published_time" content="2017-12-27T13:01:11+01:00">
   <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
   <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
-  <meta property="og:image" content="https://laurie.besinet.net/_include/img/nz/frtonz.png">
+  <meta property="og:image" content="https://laurie.besinet.net/_include/img/nz/img01.JPG">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
   <?php include("head.php"); ?>
@@ -86,8 +86,8 @@
                   </a>
                 </li>
                 <li><!--------------------------------- PB LinkedIn --> <!---- NO ARTICLE ---->
-                  <a title="Share with LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://laurie.besinet.net/a1.php#a1" target="_blank">
-                    <span class="font-icon-social-linkedin"></span>
+                  <a title="Share with LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://laurie.besinet.net/a1.php#a1&title=First%20month%20in%20Aucklandsummary=My%20first%20month%20in%20Auckland%20between%20the%20first%20essential%20purchases%20&%20formalities%20and%20visiting%20the%20city%20&%20the%20region&source=https://www.linkedin.com/in/lauriebesinet/" target="_blank">
+                    <span class="font-icon-social-linkedin"></span> 
                   </a>
                 </li>
                 <li><!----------------------------------- Twitter  --> <!---- NO ARTICLE ---->

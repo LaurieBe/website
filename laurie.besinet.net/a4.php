@@ -10,12 +10,12 @@
 <head>
   <meta name="keywords" content="software, data, analysis, gestion de donneés, données, analyse, logiciel, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet, elastic, ElasticSuite, elasticsearch, kibana, logstash, beats"/>
   <meta name="date" content="2018-02-18"/>
-  <title>Elastic Infography | Laurie Besinet | Agro &amp; Tech</title>
-  <meta name="description" content="Elastic is a set of free softwares for data acquisition, storage and analysis. I have summarized my observations in a infography: how it works and the pro / cons of its use.">
+  <title>Elastic en Infographie | Elastic Infography | Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="Infographie : fonctionnement, avantages et freins de la suite Elastic pour l'acquisition, stockage et analyse de données variées | Infography: Use and pro and cons of Elastic Suite, a softwares package for data acquisition, storage and analyzis.">
   <link rel="canonical" href="https://laurie.besinet.net/a4.php">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Elastic Infography - Software Technology | Laurie Besinet | Agro &amp; Tech">
-  <meta property="og:description" content="Elastic is a set of free softwares for data acquisition, storage and analysis. I have summarized my observations in a infography: how it works and the pro / cons of its use.">
+  <meta property="og:title" content="Elastic en Infographie | Elastic Infography | Laurie Besinet | Agro &amp; Tech">
+  <meta property="og:description" content="Infographie : fonctionnement, avantages et freins de la suite Elastic pour l'acquisition, stockage et analyse de données variées | Infography: Use, pro and cons of Elastic Suite, a softwares package for data acquisition, storage and analyzis.">
   <meta property="og:url" content="https://laurie.besinet.net/a4.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
   <meta property="article:tag" content="Technology">
@@ -91,7 +91,7 @@
               </a>
             </li>
             <li><!----------------------------------- Twitter  --> <!---- NO ARTICLE ---->
-              <a title="Share with twitter" href="https://twitter.com/share?hashtags=IT&amp;text=La%20gestion%20des%20données%20avec%20@ElasticFR%20en%201%20minute&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa4.php&amp;via=lauriebesinet" target="_blank">
+              <a title="Share with twitter" href="https://twitter.com/share?hashtags=ElasticStack&amp;text=Infographie%20La%20gestion%20des%20données%20avec%20@ElasticFR%20/%20Infographic:%20Data%20management%20with%20@elastic&amp;url=https%3A%2F%2Flaurie.besinet.net%2Fa4.php&amp;via=lauriebesinet" target="_blank">
                 <span class="font-icon-social-twitter"></span>
               </a>
             </li>

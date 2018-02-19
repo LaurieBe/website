@@ -11,11 +11,11 @@
   <meta name="date" content="2018-01-01"/>
   <title>Articles | Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="Welcome, here I present to you what I have seen through my New Zealand travel and my centers of interest, agriculture and new technologies.">
-  <link rel="canonical" href="https://laurie.besinet.net/a0.php">
+  <link rel="canonical" href="https://laurie.besinet.net/blog.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Articles | Laurie Besinet | Agro &amp; Tech">
   <meta property="og:description" content="Welcome, here I present to you what I have seen through my New Zealand travel and my centers of interest, agriculture and new technologies.">
-  <meta property="og:url" content="https://laurie.besinet.net/a0.php">
+  <meta property="og:url" content="https://laurie.besinet.net/blog.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
   <meta property="article:tag" content="AgTech">
   <meta property="article:tag" content="New Zealand">
