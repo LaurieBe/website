@@ -737,15 +737,6 @@ Version: 1.0
 	   Section Portfolio
 	================================================== */
 
-	.type-work {
-		color: #000000;
-		font-size: 24px;
-		font-weight: 300;
-		margin-bottom: 30px;
-		line-height: 1em;
-		text-transform: uppercase;
-	}
-
 	.work-nav #filters {
 		margin: 0;
 		padding: 0;
@@ -755,20 +746,19 @@ Version: 1.0
 	.work-nav #filters li {
 		margin: 0 0 30px 0;
 		padding: 0;
+		display: inline-block;
 	}
 
 	.work-nav #filters li a {
-		color: #7F8289;
-		font-size: 16px;
 		display: block;
 	}
 
 	.work-nav #filters li a:hover {
-		color: #FFFFFF;
+
 	}
 
 	.work-nav #filters li a.selected {
-		color: #BB0B28;
+
 	}
 
 	#thumbs {
@@ -1691,18 +1681,25 @@ Version: 1.0
 		cursor: pointer;
 	}
 
+	.btn:focus {
+		box-shadow: none;
+		color: #fff;
+	}
+
 	.btn-primary {
 		background-color: #BB0B28;
 		border: none;
 	}
 
 	.btn-primary:hover {
-		background-color: #95071E;
-		border-color: #95071E;
+		background-color: #BB0B28;
+		border-color: #BB0B28;
+		box-shadow: 0 0 0 .2rem rgba(118, 4, 23, 0.21);
 	}
+
 	.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-			background-color: #95071E;
-			border-color: #95071E;
+			background-color: #760417;
+			border-color: #760417;
 			box-shadow: unset;
 	}
 

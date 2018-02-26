@@ -56,6 +56,7 @@
   	<div id="content" class="container">
       <div>
 
+        <div>
           <!-- article -->
           <div>
             <div class="title-page">

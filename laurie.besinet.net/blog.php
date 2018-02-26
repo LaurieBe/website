@@ -35,9 +35,11 @@
   </header>
   <!-- End header -->
 
+
   <!-- Presentation Section -->
   <div id="blog" class="page">
   	<div id="content" class="container">
+
 
     	<!-- Title Page -->
       <div class="row">
@@ -51,28 +53,33 @@
       <!-- End Title Page -->
 
       <!-- articles -->
-      <div>
+      <div id="articles">
 
         <!-- article a4 -->
-        <div class="row">
+        <div class="row article filtre1">
           <div class="col-lg-4">
             <div class="myPicturesBox">
-                <a href="a4.php#a4"><div class="i18n_a4_pic"></div></a>
+              <a href="a4.php#a4"><div class="i18n_a4_pic"></div></a>
             </div>
           </div>
           <div class="col-lg-8">
-                <div style="margin-left: 30px;">
-                  <a href="a4.php#a4"><h2 class="i18n_a4_title title-description"></h2></a>
-                  <p class="i18n_a4_intro"></p>
-                  <a href="a4.php#a4" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
-                </div>
+            <div style="margin-left: 30px;">
+              <a href="a4.php#a4"><h2 class="i18n_a4_title title-description"></h2></a>
+              <div class="d-flex justify-content-center mb-3">
+                <a href="a4.php#a4" role="button" style="/*! align-content: center; *//*! text-align: center; */" class="btn btn-primary btn-sm justify-content-center">
+                  <span class="small i18n_url" style="/*! text-align: center; *//*! align-content: center; */">Read more</span>
+                </a>
+              </div>
+              <p class="i18n_a4_intro"></p>
+              <a href="a4.php#a4" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
+            </div>
           </div>
+          <hr>
         </div>
         <!-- article a4 -->
-        <hr>
 
         <!-- article a3 -->
-        <div class="row">
+        <div class="row article filtre1">
           <div class="col-lg-4">
             <div class="myPicturesBox">
                 <a href="a3.php#a3"><div class="i18n_a3_pic"></div></a>
@@ -85,9 +92,9 @@
                   <a href="a3.php#a3" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
           </div>
+          <hr>
         </div>
         <!-- article a3 -->
-        <hr>
 
 
         <!-- article a2 -->
