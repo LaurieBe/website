@@ -52,11 +52,23 @@
       </div>
       <!-- End Title Page -->
 
+      <!-- filters -->
+      <div  class="listfilters row d-flex justify-content-center mb-3">
+        <ul id="filters">
+          <li><a onclick="filtre(this);" href="#filters" id="all" class="active btn btn-secondary btn-sm" role="button"><span class="small">all</span></a></li>
+          <li><a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span class="small">#Agriculture</span></a></li>
+          <li><a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span class="small">#Technology</span></a></li>
+          <li><a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span class="small">#Travels</span></a></li>
+        </ul>
+      </div>
+      <!-- end filters -->
+
+
       <!-- articles -->
       <div id="articles">
 
         <!-- article a4 -->
-        <div class="row article filtre1">
+        <div class="row article techn">
           <div class="col-lg-4">
             <div class="myPicturesBox">
               <a href="a4.php#a4"><div class="i18n_a4_pic"></div></a>
@@ -65,10 +77,8 @@
           <div class="col-lg-8">
             <div style="margin-left: 30px;">
               <a href="a4.php#a4"><h2 class="i18n_a4_title title-description"></h2></a>
-              <div class="d-flex justify-content-center mb-3">
-                <a href="a4.php#a4" role="button" style="/*! align-content: center; *//*! text-align: center; */" class="btn btn-primary btn-sm justify-content-center">
-                  <span class="small i18n_url" style="/*! text-align: center; *//*! align-content: center; */">Read more</span>
-                </a>
+              <div class="listfilters d-flex justify-content-center mb-3">
+                <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span class="small">#Technology</span></a>
               </div>
               <p class="i18n_a4_intro"></p>
               <a href="a4.php#a4" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
@@ -79,7 +89,7 @@
         <!-- article a4 -->
 
         <!-- article a3 -->
-        <div class="row article filtre1">
+        <div class="row article agri tech">
           <div class="col-lg-4">
             <div class="myPicturesBox">
                 <a href="a3.php#a3"><div class="i18n_a3_pic"></div></a>
@@ -88,6 +98,10 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a3.php#a3"><h2 class="i18n_a3_title title-description"></h2></a>
+                  <div  class="listfilters row d-flex justify-content-center mb-3">
+                      <ul><li><a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span class="small">#Agriculture</span></a></li>
+                      <li><a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span class="small">#Technology</span></a></li></ul>
+                  </div>
                   <p class="i18n_a3_intro"></p>
                   <a href="a3.php#a3" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
@@ -98,7 +112,7 @@
 
 
         <!-- article a2 -->
-        <div class="row">
+        <div class="row article agri tech">
           <div class="col-lg-4">
             <div class="myPicturesBox">
                 <a href="a2.php#a2"><div class="i18n_a2_pic"></div></a>
@@ -107,16 +121,20 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a2.php#a2"><h2 class="i18n_a2_title title-description"></h2></a>
+                  <div  class="listfilters row d-flex justify-content-center mb-3">
+                    <ul><li><a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span class="small">#Agriculture</span></a></li>
+                    <li><a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span class="small">#Technology</span></a></li></ul>
+                  </div>
                   <p class="i18n_a2_intro"></p>
                   <a href="a2.php#a2" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
           </div>
+          <hr>
         </div>
         <!-- article a2 -->
-        <hr>
 
         <!-- article a1 -->
-        <div class="row">
+        <div class="row article travel">
           <div class="col-lg-4">
             <div class="myPicturesBox">
                 <a href="a1.php#a1"><div class="i18n_a1_pic"></div></a>
@@ -125,16 +143,19 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a1.php#a1"><h2 class="i18n_a1_title title-description"></h2></a>
+                  <div  class="listfilters row d-flex justify-content-center mb-3">
+                    <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span class="small">#Travels</span></a>
+                  </div>
                   <p class="i18n_a1_intro"></p>
                   <a href="a1.php#a1" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
           </div>
+          <hr>
         </div>
         <!-- article a1 -->
-        <hr>
 
         <!-- article a0 -->
-        <div class="row">
+        <div class="row article travel">
           <div class="col-lg-4">
             <div class="myPicturesBox">
                 <a href="a0.php#a0">
@@ -145,6 +166,9 @@
           <div class="col-lg-8">
                 <div style="margin-left: 30px;">
                   <a href="a0.php#a0"><h2 class="i18n_a0_title title-description"></h2></a>
+                  <div  class="listfilters row d-flex justify-content-center mb-3">
+                    <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span class="small">#Travels</span></a>
+                  </div>
                   <p class="i18n_a0_intro"></p>
                   <a href="a0.php#a0" class="btn btn-primary" role="button"><span class="i18n_url"></span></a>
                 </div>
@@ -163,6 +187,7 @@
   <!-- scripts -->
   <?php include("scripts.php"); ?>
   <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
+  <script src="_include/js/main_test.js"></script>
 
 </body>
 </html>

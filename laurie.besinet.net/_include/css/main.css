@@ -1709,13 +1709,22 @@ Version: 1.0
 	}
 
 	.btn-secondary:hover {
-		background-color: #01410d;
-		border-color: #01410d;
+		background-color: #035e14;
+		border-color: #035e14;
+		box-shadow: 0 0 0 .2rem rgba(3, 94, 20, 0.35);
 	}
 	.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
 	    background-color: #01410d;
 	    border-color: #01410d;
 			box-shadow: unset;
+	}
+
+	.listfilters {
+		list-style: none;
+	}
+
+	.listfilters li {
+		display: inline-block;
 	}
 
 	@media(max-width:767px) {
