@@ -1727,6 +1727,13 @@ Version: 1.0
 		display: inline-block;
 	}
 
+	.page ul[id], .page .container div[id] {
+    padding-top: 100px;
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+	}
+
 	@media(max-width:767px) {
 		.hidden-if-small {
 				visibility: hidden;

@@ -5,12 +5,12 @@ function filtre (myElement) {
 
   if (id_filtre == "all") {
     for(var i=0;i<articles.length;i++)
-    articles[i].style.display='initial';
+    articles[i].style.display='flex';
   }
   else {
       for(var i=0;i<articles.length;i++)
         if (articles[i].className.includes(id_filtre)){
-          articles[i].style.display='initial';
+          articles[i].style.display='flex';
         }
         else {
           articles[i].style.display='none';
