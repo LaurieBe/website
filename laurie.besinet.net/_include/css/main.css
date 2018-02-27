@@ -1727,7 +1727,7 @@ Version: 1.0
 		display: inline-block;
 	}
 
-	.page ul[id], .page .container div[id] {
+	.page #filters[id], #resume #content div[id] {
     padding-top: 100px;
     position: relative;
     top: -100px;

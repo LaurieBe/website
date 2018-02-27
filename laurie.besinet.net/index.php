@@ -119,6 +119,9 @@
   <!-- scripts -->
   <?php include("scripts.php"); ?>
   <script src="_include/js/trad_i18next.js"></script> <!-- Translation -->
+  <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+  <script src="_include/js/supersized.js"></script> <!-- Slider -->
+
 
 </body>
 </html>

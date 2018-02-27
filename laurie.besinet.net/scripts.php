@@ -2,7 +2,6 @@
 <!-- script src="_include/js/jquery.min.js"></script> <!-- jQuery Core -->
 <script src="_include/js/jquery.min.js"></script>
 <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
 <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
 <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
