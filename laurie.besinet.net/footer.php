@@ -11,7 +11,7 @@
         <ul>
           <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
           <li>From: Toulouse, FRANCE</li>
-          <li>Current: <span style="font-weight:bold">Auckland, NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
+          <li>Current: <span style="font-weight:bold">NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
         </ul>
         <ul>
           <li><a title="Phone"><span class="font-icon-phone"></span></a></li>

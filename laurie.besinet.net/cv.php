@@ -42,6 +42,11 @@
               <li class="nav-item"><a class="nav-link btn btn-secondary i18n_comp" role="button" href="#skills1">Skills</a></li>
               <li class="nav-item"><a class="nav-link btn btn-secondary i18n_projects" role="button" href="#project1">Project</a></li>
               <li class="nav-item"><a class="nav-link btn btn-secondary i18n_hob" role="button" href="#interests1">Interests</a></li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary " onclick="imprimer_page()" title="Print" style="color: white;" name="print" role="button">
+                  <span alt="print" class="font-icon-print"></span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
