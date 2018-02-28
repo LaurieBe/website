@@ -26,13 +26,13 @@ function filtre (myElement) {
   //"all" Filter case
   if (id_filtre == "all") {
     for(var i=0;i<articles.length;i++)
-    articles[i].style.display='flex';
+    articles[i].style.display='inline-block';
   }
   //one filter case
   else {
       for(var i=0;i<articles.length;i++)
         if (articles[i].className.includes(id_filtre)){
-          articles[i].style.display='flex';
+          articles[i].style.display='inline-block';
         }
         else {
           articles[i].style.display='none';

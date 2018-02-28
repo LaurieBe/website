@@ -728,7 +728,6 @@ Version: 1.0
 	}
 
 	.title-description {
-		font-size: 24px;
 		text-transform: uppercase;
 		text-align: center;
 	}
@@ -736,31 +735,6 @@ Version: 1.0
 	/* ==================================================
 	   Section Portfolio
 	================================================== */
-
-	.work-nav #filters {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-
-	.work-nav #filters li {
-		margin: 0 0 30px 0;
-		padding: 0;
-		display: inline-block;
-	}
-
-	.work-nav #filters li a {
-		display: block;
-	}
-
-	.work-nav #filters li a:hover {
-
-	}
-
-	.work-nav #filters li a.selected {
-
-	}
-
 	#thumbs {
 		margin: 0;
 		padding: 0;
@@ -1721,6 +1695,7 @@ Version: 1.0
 
 	.listfilters {
 		list-style: none;
+		margin-bottom: 50px;
 	}
 
 	.listfilters li {
@@ -1740,6 +1715,44 @@ Version: 1.0
 	  }
 	}
 
+	#filters h3{
+		margin: 0;
+		margin-right: 20px;
+	}
 
+.card-img-top {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
 
+.card-img-top img {
+	margin: 0;
+	height: 100%;
+	max-height: 400px;
+}
+
+.card-body {
+	background: white;
+}
+
+.card-title {
+	font-size: 18px;
+	margin: 0px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.card-columns {
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
