@@ -37,11 +37,11 @@
         <div class="hidden-if-small">
           <nav id="menu-cv" class="submenu-navbar navbar">
             <ul class="submenu-nav nav">
-              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#experience1">Experiences</a></li>
-              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#studies1">Studies</a></li>
-              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#skills1">Skills</a></li>
-              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#project1">Project</a></li>
-              <li class="nav-item"><a class="nav-link btn btn-secondary" role="button" href="#interests1">Interests</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary i18n_experiences" role="button" href="#experience1">Experiences</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary i18n_etu" role="button" href="#studies1">Studies</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary i18n_comp" role="button" href="#skills1">Skills</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary i18n_projects" role="button" href="#project1">Project</a></li>
+              <li class="nav-item"><a class="nav-link btn btn-secondary i18n_hob" role="button" href="#interests1">Interests</a></li>
             </ul>
           </nav>
         </div>

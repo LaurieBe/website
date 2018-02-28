@@ -367,7 +367,7 @@ BRUSHED.utils = function(){
 
 /* ==================================================
    Accordion
-==================================================
+==================================================*/
 
 BRUSHED.accordion = function(){
 	var accordion_trigger = $('.accordion-heading.accordionize');
@@ -445,7 +445,7 @@ $(document).ready(function(){
 
 	BRUSHED.nav();
 	BRUSHED.mobileNav();
-	//BRUSHED.listenerMenu();
+	BRUSHED.listenerMenu();
 	BRUSHED.menu();
 	BRUSHED.goSection();
 	BRUSHED.goUp();
@@ -455,7 +455,7 @@ $(document).ready(function(){
 	//BRUSHED.tweetFeed();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
-	//BRUSHED.accordion();
+	BRUSHED.accordion();
 	BRUSHED.toggle();
 });
 

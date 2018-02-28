@@ -41,18 +41,13 @@
   	<div id="content" class="container">
 
     	<!-- Title Page -->
-      <div class="row">
-        <div class="span12">
-          <div class="title-page">
-            <h1 class="title i18n_blog"></h1>
-            <p class="i18n_blogtxt"></p>
-          </div>
-        </div>
+      <div class="title-page">
+        <h1 class="title i18n_blog"></h1>
+        <p class="i18n_blogtxt"></p>
       </div>
       <!-- End Title Page -->
 
       <!-- filters -->
-      <div>
         <div  class="listfilters row d-flex justify-content-center">
           <ul id="filters">
             <li style="vertical-align: top;"><h3 class="title-description">Categories</h3></li>
@@ -62,114 +57,120 @@
             <li><a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span>#Travels</span></a></li>
           </ul>
         </div>
-      </div>
       <!-- end filters -->
 
       <!-- articles -->
-      <div id="articles" class="container card-columns">
+      <div id="articles">
 
-            <div class="card article techn">
-              <div class="mb-4 box-shadow">
-                <a href="a4.php#a4">
-                  <figure class="card-img-top i18n_a4_pic">
-                    <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
-                  </figure>
+        <!-- article à la une -->
+
+        <!-- a4 -->
+        <div class="card article techn">
+          <div class="mb-4 box-shadow">
+            <a href="a4.php#a4">
+              <figure class="card-img-top i18n_a4_pic">
+                <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
+              </figure>
+            </a>
+            <div class="card-body">
+              <a href="a4.php#a4">
+                <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
+              </a>
+              <p class="card-text i18n_a4_intro">
+                <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
+              </p>
+              <div class="row">
+                <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Technology</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- liste des articles -->
+        <div class="card-columns">
+          <!-- a3 -->
+          <div class="card article techn agri">
+            <div class="mb-4 box-shadow">
+              <a href="a3.php#a3">
+                <figure class="card-img-top i18n_a3_pic"></figure>
+              </a>
+              <div class="card-body">
+                <a href="a3.php#a3">
+                  <h2 class="card-title i18n_a3_title title-description"></h2>
                 </a>
-                <div class="card-body">
-                  <a href="a4.php#a4">
-                    <h2 class="card-title i18n_a4_title title-description">Software Technology : ElasticSuite</h2>
-                  </a>
-                  <p class="card-text i18n_a4_intro">
-                    <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary"><span>Read More</span></a>
+                <p class="card-text i18n_a3_intro"></p>
+                <div class="row">
+                  <a href="a3.php#a3" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                  <div class="btn-group col-auto" role="group">
+                    <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
                     <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="card article techn agri">
-              <div class="mb-4 box-shadow">
-                <a href="a3.php#a3">
-                  <figure class="card-img-top i18n_a3_pic"></figure>
-                </a>
-                <div class="card-body">
-                  <a href="a3.php#a3">
-                    <h2 class="card-title i18n_a3_title title-description"></h2>
-                  </a>
-                  <p class="card-text i18n_a3_intro"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <a href="a3.php#a3" role="button" class="btn btn-sm btn-outline-secondary"><span>Read More</span></a>
-                    <div class="btn-group" role="group">
-                      <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
-                      <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card article techn agri">
-              <div class="mb-4 box-shadow">
+          </div>
+          <!-- a2 -->
+          <div class="card article techn agri">
+            <div class="mb-4 box-shadow">
+              <a href="a2.php#a2">
+                <figure class="card-img-top i18n_a2_pic"></figure>
+              </a>
+              <div class="card-body">
                 <a href="a2.php#a2">
-                  <figure class="card-img-top i18n_a2_pic" style="height: 272px;"></figure>
+                  <h2 class="card-title i18n_a2_title title-description"></h2>
                 </a>
-                <div class="card-body">
-                  <a href="a2.php#a2">
-                    <h2 class="card-title i18n_a2_title title-description"></h2>
-                  </a>
-                  <p class="card-text i18n_a2_intro"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <a href="a2.php#a2" role="button" class="btn btn-sm btn-outline-secondary"><span>Read More</span></a>
-                    <div class="btn-group" role="group">
-                      <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
-                      <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
-                    </div>
+                <p class="card-text i18n_a2_intro"></p>
+                <div class="row">
+                  <a href="a2.php#a2" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                  <div class="btn-group col-auto" role="group">
+                    <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
+                    <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="card article travel">
-              <div class="mb-4 box-shadow">
+          </div>
+          <!-- a1 -->
+          <div class="card article travel">
+            <div class="mb-4 box-shadow">
+              <a href="a1.php#a1">
+                <figure class="card-img-top i18n_a1_pic"></figure>
+              </a>
+              <div class="card-body">
                 <a href="a1.php#a1">
-                  <figure class="card-img-top i18n_a1_pic" style="height: 323px; max-height: 323px;"></figure>
+                  <h2 class="card-title i18n_a1_title title-description"></h2>
                 </a>
-                <div class="card-body">
-                  <a href="a1.php#a1">
-                    <h2 class="card-title i18n_a1_title title-description"></h2>
-                  </a>
-                  <p class="card-text i18n_a1_intro"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <a href="a1.php#a1" role="button" class="btn btn-sm btn-outline-secondary"><span>Read More</span></a>
-                    <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span>#Travels</span></a>
-                  </div>
+                <p class="card-text i18n_a1_intro"></p>
+                <div class="row ">
+                  <a href="a1.php#a1" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                  <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
                 </div>
               </div>
             </div>
-
-            <div class="card article travel">
-              <div class="mb-4 box-shadow">
+          </div>
+          <!-- a0 -->
+          <div class="card article travel">
+            <div class="mb-4 box-shadow">
+              <a href="a0.php#a0">
+                <figure class="card-img-top i18n_a0_pic"></figure>
+              </a>
+              <div class="card-body">
                 <a href="a0.php#a0">
-                  <figure class="card-img-top i18n_a0_pic"></figure>
+                  <h2 class="card-title i18n_a0_title title-description"></h2>
                 </a>
-                <div class="card-body">
-                  <a href="a0.php#a0">
-                    <h2 class="card-title i18n_a0_title title-description"></h2>
-                  </a>
-                  <p class="card-text i18n_a0_intro"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <a href="a0.php#a0" role="button" class="btn btn-sm btn-outline-secondary"><span>Read More</span></a>
-                    <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span>#Travels</span></a>
-                  </div>
+                <p class="card-text i18n_a0_intro"></p>
+                <div class="row">
+                  <a href="a0.php#a0" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                  <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
                 </div>
               </div>
             </div>
+          </div>
 
         </div>
-        <!-- End articles -->
+      </div>
+      <!-- End articles -->
 
       </div>
     </div>

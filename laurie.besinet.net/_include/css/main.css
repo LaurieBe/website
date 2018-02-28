@@ -1651,6 +1651,11 @@ Version: 1.0
 		margin: 0px;
 	}
 
+	.badge-primary {
+    color: #fff;
+    background-color: #BB0B28;
+}
+
 	.btn {
 		cursor: pointer;
 	}
@@ -1715,10 +1720,19 @@ Version: 1.0
 	  }
 	}
 
+	/* ==================================================
+		 Blog
+	==================================================*/
+
 	#filters h3{
 		margin: 0;
 		margin-right: 20px;
 	}
+
+.card .row {
+	margin-left: 0;
+	margin-right: 0;
+}
 
 .card-img-top {
 	width: 100%;
@@ -1726,18 +1740,44 @@ Version: 1.0
 	margin: 0;
 }
 
-.card-img-top img {
+.card-columns .card-img-top img {
 	margin: 0;
 	height: 100%;
 	max-height: 400px;
+}
+
+.card-img-top img {
+	margin: 0;
+	height: 100%;
+	max-height: 650px;
 }
 
 .card-body {
 	background: white;
 }
 
+.card-body .justify-content-between {
+	margin: 0;
+}
+
+.card-body .btn {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.card-body .btn-group {
+    padding-left: 0px;
+}
+
 .card-title {
-	font-size: 18px;
+	font-size: 26px;
+	margin: 0px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.card-columns .card-title {
+	font-size: 20px;
 	margin: 0px;
 	margin-bottom: 15px;
 	text-align: left;
@@ -1746,13 +1786,12 @@ Version: 1.0
 .card-columns {
     -webkit-column-count: 2;
     column-count: 2;
+		margin-top: 1.25rem;
 }
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
+	@media(max-width:767px){
+	.card-columns {
+		-webkit-column-count: 1;
+    column-count: 1;
   }
 }
