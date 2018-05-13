@@ -182,7 +182,7 @@
   <!-- scripts -->
   <?php include("scripts.php"); ?>
   <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
-  <script src="_include/js/main_test.js"></script>
+  <script src="_include/js/filter.js"></script>
 
 </body>
 </html>

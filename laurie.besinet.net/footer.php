@@ -14,11 +14,6 @@
           <li>Current: <span style="font-weight:bold">NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
         </ul>
         <ul>
-          <li><a title="Phone"><span class="font-icon-phone"></span></a></li>
-          <li>FR: +33 6 59 29 05 49</li>
-          <li>NZ: <span style="font-weight:bold">+64 2 25 31 69 29 &nbsp&nbsp</span></li>
-        </ul>
-        <ul>
           <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
           <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
         </ul>
@@ -28,7 +23,7 @@
 
     <div>
       <nav>
-        <ul><p class="credits">&copy;2018 Website by Laurie Besinet, based on a theme by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>. Pictures by Laurie Besinet unless mentionned.</p></ul>
+        <ul><p class="credits">&copy;2018 Website by Laurie Besinet, pictures by Laurie Besinet unless mentionned.</p></ul>
       </nav>
     </div>
 
