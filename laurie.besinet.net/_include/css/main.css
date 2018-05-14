@@ -234,6 +234,7 @@ Version: 1.0
 		font-size:20px;
 		color: #BB0B28;
 		font-weight: bold;
+		margin: 20px 0 20px 0;
 	}
 
 	h5{
@@ -328,7 +329,7 @@ Version: 1.0
 		width: 1170px;
 		text-align: center;
 		z-index: 2;
-		top: 35%;
+		top: 45%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
@@ -798,7 +799,7 @@ Version: 1.0
 	.thumbs-landpage {
 		max-width: 100%;
 		padding: 0;
-		margin-top: 35px;
+		margin-top: 5px;
 		margin-bottom: 10px;
 	}
 
@@ -1147,14 +1148,14 @@ Version: 1.0
 	}
 
 	#social-area #social ul {
-		margin: 0;
+		margin: 0px 30px;
 		padding: 0;
 		display: inline-block;
 	}
 
 	#social-area #social ul li {
 		display: inline-block;
-		margin-left: 30px;
+		margin: 0px;
 		list-style: none;
 		color: #FFFFFF;
 	}
@@ -1768,6 +1769,78 @@ Version: 1.0
 				visibility: hidden;
 	  }
 	}
+
+	/* ==================================================
+		 Carousel
+	==================================================*/
+
+	#myCarousel {
+	    margin-bottom: 30px;
+	    margin-top: 30px;
+			}
+
+.carousel-indicators{
+	width: auto;
+}
+
+	.carousel-indicators-sub{
+		width: 10px!important;
+		height: 10px!important;
+		margin: 1px!important;
+	}
+
+	@media(min-width:992px){
+		.carousel-inner {
+			height: 440px;
+		}
+		.carousel-inner .item div img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media(max-width:991px){
+		.carousel-inner {
+			height: 300px;
+		}
+	}
+
+.carousel-inner .carousel-caption{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 40px;
+	background: #cacac999;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+	@media (max-width: 767px) {
+		.carousel-inner .carousel-caption{
+			position: absolute;
+		}
+		.carousel-inner .carousel-caption h2 {
+			font-size: 20px;
+		}
+	}
+
+	.carousel-inner .item {
+		height: inherit;
+	}
+
+	.carousel-inner .item div img {
+			margin-top: 0;
+		}
+
+	.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
 
 	/* ==================================================
 		 Blog

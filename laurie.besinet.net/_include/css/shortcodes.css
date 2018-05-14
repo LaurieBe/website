@@ -93,9 +93,7 @@
   	padding: 15px;
 	background:#C9C9C5;
 	color: #23262C;
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
+	font-weight: bolder;
 
 	-webkit-transition: all 0.1s linear 0s;
 	-moz-transition: all 0.1s linear 0s;

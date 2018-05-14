@@ -33,15 +33,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="_include/js/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
-
   <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
@@ -54,9 +45,7 @@
         <div class="slider-text">
           <div class="jumbotron" style="background: none;opacity: 1;">
             <div class="slide-content" style="line-height: 80px;">Laurie Besinet</div>
-            <p class="lead" style="color: white;">Agricultures</p>
-            <p class="lead" style="color: white;">Technologies</p>
-            <p class="lead" style="color: white;">Découvertes</p>
+            <p class="lead" style="color: white;margin: 15px;">Agronome spécialisée en Agri-tech</p>
           </div>
         </div>
         <div class="control-nav">
@@ -71,44 +60,48 @@
   <!-- End header -->
 
   <!---------------------- Presentation ---------------------->
-  <div id="work">
+  <div id="index">
 
-      <!---------------------- Partie Bienvenue -->
+      <!---------------------- Partie BIENVENUE -->
       <div class="page">
         <div id="content" class="container">
-          <div class="row">
+          <br>
+          <div class="row media">
             <!-- Picture -->
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <img src="_include/img/photo_profil.png" alt="profil" style="max-width: 100%; margin: 0;">
+            <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
+              <img class="" src="_include/img/photo_profil.png" alt="profil" style="max-width: 100%; margin: 0;">
             </div>
             <!-- Text -->
-            <div class="col-lg-8 col-md-6 col-sm-12">
+            <div class="col-lg-8 col-md-6 col-sm-12 media-body">
               <h2>Bienvenue</h2>
-              <div><p>Passionnée par l'agriculture et les nouvelles technologies, je me spécialise dans ces domaines dans l'idée de connecter toujours plus l'agriculture. </p></div>
+              <div>
+                <p>Passionnée par l'agriculture et les nouvelles technologies, je me spécialise dans la combinaison de ces domaines dans l'idée de connecter toujours plus l'agriculture pour une utilisation de nos ressources optimale et durable. </p>
+                <p>J'ai créé ce site par curiosité pour le web et pour partager sur mes centres d'intérêt que sont l'agriculture et les nouvelles technologies.</p>
+              </div>
            </div>
          </div>
         </div>
       </div>
       <!-- End Partie Bienvenue -->
 
-      <!---------------------- Partie Situation Actuelle -->
+      <!---------------------- Partie SITUATION ACTUELLE -->
       <div class="page-alternate">
         <div id="content" class="container">
-          <div class="row">
+          <div class="row media">
 
             <!-- Text -->
-            <div class="col-lg-8 col-md-6 col-sm-12">
+            <div class="col-lg-8 col-md-6 col-sm-12 media-body">
               <h2>Situation actuelle</h2>
               <div>
-                <p>Après avoir été responsable de projets dans la startup Weenat alliant nouvelles technologies et agronomie, puis découvert la Nouvelle-Zélande pendant plusieurs mois, j'intègrerai sous peu l'entreprise Smag en tant que chef produit.</p>
-                <p>>>> Plus de détails sur mon parcours ...</p>
+                <p>J'intègrerai sous peu l'entreprise <strong>Smag</strong> en tant que chef produit. Cela fait suite à 2 années responsable de projets dans la startup <strong>Weenat</strong> qui allie nouvelles technologies et agronomie et la découverte de la <strong>Nouvelle-Zélande</strong> pendant plusieurs mois où j'ai aidé à l'organisation d'évènements sur les nouvelles technologies.</p>
+                <a href="cv.php#goUp">>>> Plus de détails sur mon parcours ...</a>
               </div>
             </div>
             <!-- End text -->
 
             <!-- image -->
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <li class="item-thumbs thumbs-landpage col-lg-6">
+            <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
+              <li class="item-thumbs thumbs-landpage">
                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My resume" href="cv.php#resume" class="external" style="max-width: 525px;">
                   <span class="overlay-img"></span>
@@ -125,76 +118,59 @@
       </div>
       <!-- End Partie Situation Actuelle -->
 
-      <!---------------------- Partie intérêts / projets ?? -->
+      <!---------------------- Partie PROJETS -->
       <div class="page">
-        <div id="content" class="container">
+        <div class="container">
           <div>
             <h2>Centres d'intérêts</h2>
-            <div>Mes passions tournent autour</div>
-            <ul>
-              <li>le design bijoux que de meubles ;</li>
-              <li>de la découverte de nouvelles technologies ;</li>
-              <li>de sports en nature, comme le ski, la plongée ou la randonnée</li>
-            </ul>
-            <div>Elles donnent lieu à divers projets comme</div
-              <ul>
-                <li>de la création, aussi bien de bijoux que de meubles ;</li>
-                <li>la réalisation de mon site web ;</li>
-                <li>de sports en nature, comme le ski, la plongée ou la randonnée</li>
-              </ul>
-           </div>
+            <div>
+              <p>Mes projets personnels sont répartis entre la découverte de <strong>nouvelles technologies</strong> ; les <strong>sports au contact de la nature</strong> comme le ski, la plongée ou la randonnée ; et l'<strong>organisation d'évènements</strong> avec l'association des anciens étudiants de ma promotion. </p>
+              <a href="cv.php#project1">>>> Plus de détails sur mes projets ...</a>
+            </div>
+          </div>
         </div>
       </div>
 
 
-      <!---------------------- Partie Articles -->
+      <!---------------------- Partie ARTICLES -->
       <div class="page-alternate">
-
         <div class="container">
-          <br>
+          <h2>Derniers articles</h2>
+
+          <!-- Carousel -->
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-              <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-              <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="0" class="carousel-indicators-sub active"></li>
+              <li data-target="#myCarousel" data-slide-to="1" class="carousel-indicators-sub"></li>
+              <li data-target="#myCarousel" data-slide-to="2" class="carousel-indicators-sub"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
 
-              <div class="item">
-                <img alt="Chania" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1635785bbdf%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1635785bbdf%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22245.5%22%20y%3D%22220.1%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="460" height="345">
-                <div class="carousel-caption">
-                  <h3>Chania</h3>
-                  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+              <a href="a4.php#a4" class="item active">
+                <div class="i18n_a4_pic">
+                  <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
                 </div>
-              </div>
+                <div class="carousel-caption">
+                  <h2><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
+                </div>
+              </a>
 
-              <div class="item active">
-                <img alt="Chania" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1635785bbdf%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1635785bbdf%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22245.5%22%20y%3D%22220.1%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="460" height="345">
+              <a href="a3.php#a3" class="item">
+                <div class="i18n_a3_pic"></div>
                 <div class="carousel-caption">
-                  <h3>Chania</h3>
-                  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                  <h2><span class="i18n_a3_title"></span></h2>
                 </div>
-              </div>
+              </a>
 
-              <div class="item">
-                <img alt="Flower" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1635785bbdf%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1635785bbdf%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22245.5%22%20y%3D%22220.1%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="460" height="345">
+              <a href="a2.php#a2" class="item">
+                <div class="i18n_a2_pic"></div>
                 <div class="carousel-caption">
-                  <h3>Flowers</h3>
-                  <p>Beautiful flowers in Kolymbari, Crete.</p>
+                  <h2><span class="i18n_a2_title"></span></h2>
                 </div>
-              </div>
-
-              <div class="item">
-                <img alt="Flower" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1635785bbdf%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1635785bbdf%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22245.5%22%20y%3D%22220.1%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="460" height="345">
-                <div class="carousel-caption">
-                  <h3>Flowers</h3>
-                  <p>Beautiful flowers in Kolymbari, Crete.</p>
-                </div>
-              </div>
+              </a>
 
             </div>
 
@@ -207,74 +183,34 @@
               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
+
           </div>
-        </div>
-        <span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;moz-extension://0333c942-83ae-4157-9be6-1dc1165720aa/data/shared/img/buffer-hover-icon@1x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer; top: 243px; left: 525.6px;"></span>
 
-
-        <div id="content" class="container">
+          <!-- More articles -->
           <div>
-            <h2>Derniers articles</h2>
-            <!-- liste des articles -->
-            <div class="card-columns-landpage">
-              <!-- a4 -->
-              <div class="card article techn">
-                <div class=" box-shadow">
-                  <a href="a4.php#a4">
-                    <figure class="card-img-top i18n_a4_pic">
-                      <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
-                    </figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a4.php#a4">
-                      <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
-                    </a>
-                    <div class="row">
-                      <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a3 -->
-              <div class="card article techn agri">
-                <div class=" box-shadow">
-                  <a href="a3.php#a3">
-                    <figure class="card-img-top i18n_a3_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a3.php#a3">
-                      <h2 class="card-title i18n_a3_title title-description"></h2>
-                    </a>
-                    <div class="row">
-                      <a href="a3.php#a3" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a2 -->
-              <div class="card article techn agri">
-                <div class=" box-shadow">
-                  <a href="a2.php#a2">
-                    <figure class="card-img-top i18n_a2_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a2.php#a2">
-                      <h2 class="card-title i18n_a2_title title-description"></h2>
-                    </a>
-                    <div class="row">
-                      <a href="a2.php#a2" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+            <a href="blog.php">>>> Tous les articles ...</a>
           </div>
-          <!-- End liste articles -->
-           </div>
+
         </div>
       </div>
       <!-- End Partie Articles -->
+
+
+      <!---------------------- Partie FLUX TWITTER ? -->
+      <div class="page">
+        <div id="content" class="container">
+          <div>
+            <h2>Flux Twitter</h2>
+            <div>Les derniers Teets</div>
+            <div>Bla</div>
+            <div>Bla</div>
+            <div>Bla</div>
+           </div>
+        </div>
+      </div>
+
+
+
 
   </div>
   <!-- End Presentation -->

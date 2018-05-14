@@ -95,7 +95,7 @@
 
 
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_wnt_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -107,7 +107,6 @@
                 <div class="col-lg-12 i18n_job_wnt_text1">
                 </div>
               </div>
-
 
               <!-- Start Toggle -->
               <div class="accordion" id="toggleArea">
@@ -180,10 +179,15 @@
               </div>
               <!-- End Toggle -->
 
+              <!-- portfolio -->
+              <div>
+
+              http://www.franceagrimer.fr/content/download/43382/413099/file/P3A%20-%20fiche%20laur%C3%A9at%20-%20SFIM.pdf
+            </div>
+
             </blockquote>
           </div>
           <!-- End Weenat-->
-
 
 
           <!--start Pioneer-->
@@ -201,7 +205,7 @@
 
               <!-- Start pio job 1 -->
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_pio_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -244,6 +248,23 @@
                   </div>
                 </div>
                 <div class="skills">#VideoEditing</div>
+
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 col-md-6 col-sm-12 profile">
+                      <!-- Start photo -->
+                      <div class="item-thumbs">
+                          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="video" href="_include/img/profile/profile-01.jpg">
+                              <span class="overlay-img"></span>
+                              <span class="overlay-img-thumb font-icon-plus"></span>
+                          </a>
+                          <!-- Thumb Image and Description -->
+                          <div><img src="_include/img/profile/profile-01.jpg"></img></div>
+                        </div>
+                      <!-- End photo -->
+                    </div>
+                </div>
+
               </div>
               <!-- end pio mission 2-->
               <!-- End pio job 1 -->
@@ -251,7 +272,7 @@
 
               <!-- Start pio job 2 -->
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_pio_date2" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -287,7 +308,6 @@
           <!-- End Pioneer-->
 
 
-
           <!--start NS-->
           <div class="together">
 
@@ -303,7 +323,7 @@
 
               <!-- Start NS job 1 -->
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_ns_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -338,7 +358,6 @@
           <!-- End NS-->
 
 
-
           <!--start ane-->
           <div class="together">
 
@@ -354,7 +373,7 @@
 
               <!-- Start ane job 1 -->
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_ane_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -404,7 +423,7 @@
 
               <!-- Start Lamouthe job 1 -->
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 align-self-center">
                   <span class="i18n_job_lam_date1" style="line-height: 34px;"></span>
                 </div>
                 <div class="col-lg-8">
@@ -582,7 +601,7 @@
                     <span class="i18n_proj_website_pic"></span>
                   </div>
                 <!-- End photo -->
-            </div>
+              </div>
             <!-- End Projet 1 -->
 
             <!-- Start Projet 2 -->
@@ -647,8 +666,6 @@
                   </div>
                   <img src="_include/img/profile/profile-01.jpg" alt="Ski">
               </div>
-
-
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">

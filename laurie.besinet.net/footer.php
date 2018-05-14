@@ -5,13 +5,15 @@
     <div>
       <nav id="social">
         <ul>
+          <li><div>Contact</div></li>
+        </ul>
+        <ul>
           <li><a href="mailto:laurie@besinet.net"><span class="font-icon-email_2"></span></li>
-          <li><span style="font-weight:bold">laurie@besinet.net &nbsp&nbsp&nbsp&nbsp</span></li></a>
+          <li><span style="font-weight:bold">laurie@besinet.net </span></li></a>
         </ul>
         <ul>
           <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
-          <li>From: Toulouse, FRANCE</li>
-          <li>Current: <span style="font-weight:bold">NEW ZEALAND &nbsp&nbsp&nbsp&nbsp</span></li>
+          <li>Montpellier</span></li>
         </ul>
         <ul>
           <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
