@@ -530,11 +530,24 @@ blockquote small:before {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
+    margin: 20px 0px;
 }
+
+@media (max-width:767px) {
+  .video-container {
+  padding-bottom: 56%;
+  }
+}
+
+@media (min-width:768px) {
+  .video-container {
+  padding-bottom: 30%;
+  }
+}
+
 
 .video-container iframe,
 .video-container object,

@@ -244,26 +244,18 @@
                   <div id="collapseSix" class="accordion-body collapse">
                     <div class="accordion-inner">
                       <span class="i18n_job_pio_proj2"></span>
+                      <!-- video -->
+                      <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-8 video-container">
+                          <iframe style="width: inherit;" src="https://www.youtube.com/embed/CDAEPZEYtn4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <!-- end video -->
                     </div>
                   </div>
                 </div>
                 <div class="skills">#VideoEditing</div>
 
-                <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-6 col-sm-12 profile">
-                      <!-- Start photo -->
-                      <div class="item-thumbs">
-                          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                          <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="video" href="_include/img/profile/profile-01.jpg">
-                              <span class="overlay-img"></span>
-                              <span class="overlay-img-thumb font-icon-plus"></span>
-                          </a>
-                          <!-- Thumb Image and Description -->
-                          <div><img src="_include/img/profile/profile-01.jpg"></img></div>
-                        </div>
-                      <!-- End photo -->
-                    </div>
-                </div>
 
               </div>
               <!-- end pio mission 2-->
@@ -601,7 +593,7 @@
                     <span class="i18n_proj_website_pic"></span>
                   </div>
                 <!-- End photo -->
-              </div>
+            </div>
             <!-- End Projet 1 -->
 
             <!-- Start Projet 2 -->
@@ -666,6 +658,8 @@
                   </div>
                   <img src="_include/img/profile/profile-01.jpg" alt="Ski">
               </div>
+
+
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12">

@@ -196,7 +196,7 @@
       <!-- End Partie Articles -->
 
 
-      <!---------------------- Partie FLUX TWITTER ? -->
+      <!---------------------- Partie FLUX TWITTER ? >
       <div class="page">
         <div id="content" class="container">
           <div>
@@ -208,6 +208,7 @@
            </div>
         </div>
       </div>
+      <!--end Partie twitter -->
 
 
 

@@ -17,6 +17,8 @@
         </ul>
         <ul>
           <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+        </ul>
+        <ul>
           <li><a href="http://www.linkedin.com/in/lauriebesinet" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
         </ul>
 
