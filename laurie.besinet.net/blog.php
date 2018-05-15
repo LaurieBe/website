@@ -47,6 +47,8 @@
       </div>
       <!-- End Title Page -->
 
+
+
       <!-- filters -->
         <div  class="listfilters row d-flex justify-content-center">
           <ul id="filters">
@@ -64,31 +66,153 @@
 
         <!-- article à la une -->
 
-        <!-- a4 -->
-        <div class="card article techn">
-          <div class="mb-4 box-shadow">
-            <a href="a4.php#a4">
-              <figure class="card-img-top i18n_a4_pic">
-                <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
-              </figure>
-            </a>
-            <div class="card-body">
-              <a href="a4.php#a4">
-                <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
-              </a>
-              <p class="card-text i18n_a4_intro">
-                <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
-              </p>
-              <div class="row">
-                <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Technology</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <!-- liste des articles -->
         <div class="card-columns">
+
+          <!-- Voyage NZ -->
+          <div class="card post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="logospot">
+                <img class="logo" src="_include/img/logo/new-zealand.png"/>
+              </div>
+              <img src="_include/img/profile/profile-03.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category">Perso</div>
+              <h3>Découverte de la Nouvelle-Zélande</h3>
+              <h4>Nouveau pays, nouvelles rencontres, nouvelle culture</h4>
+              <div class="description">
+                <p>Blablab albalbabablb al ablbaabl lb alba lab alb alba blabalblabalbalbalb lba lba ba alba lblbalbalba alba lblblablba labalbalblba bla.
+                </p>
+                <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                  <span>Read More</span>
+                </a>
+              </div>
+              <!--div class="post-meta">
+                <div class="row">
+                  <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                  <div class="col-6"><i>+ de détails</i></div>
+                </div>
+              </div-->
+            </div>
+          </div>
+
+          <!-- Weenat OAD -->
+          <div class="card post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="logospot">
+                <img class="logo" src="_include/img/logo/weenat.png"/>
+              </div>
+              <img src="_include/img/profile/profile-03.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category">Pro</div>
+              <h3>Responsable projets</h3>
+              <h4>Création et développement des OAD</h4>
+              <div class="description">
+                <p>Weenat permet aux agriculteurs d'optimiser leurs ressources en leur fournissant des informations localisées au champ pour conforter leurs décisions. Dans cette jeune TPE j'avais beaucoup de responsabilités.
+                </p>
+                <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                  <span>Read More</span>
+                </a>
+              </div>
+              <!--div class="post-meta">
+                <div class="row">
+                  <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                  <div class="col-6"><i>+ de détails</i></div>
+                </div>
+              </div-->
+            </div>
+          </div>
+
+          <!-- Purpan -->
+          <div class="card post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="logospot">
+                <img class="logo" src="_include/img/logo/purpan.png"/>
+              </div>
+              <img src="_include/img/profile/profile-02.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category">Etu</div>
+              <h3>Diplôme d'Ingéneur en Agriculture</h3>
+              <h4>Ecole d'ingénieurs de Purpan</h4>
+              <div class="description">
+                <p>jhfjhhhhh
+                </p>
+                <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                  <span>Read More</span>
+                </a>
+              </div>
+              <!--div class="post-meta">
+                <div class="row">
+                  <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                  <div class="col-6"><i>+ de détails</i></div>
+                </div>
+              </div-->
+            </div>
+          </div>
+
+          <!-- Post-->
+          <div class="card post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="logospot">
+                <img class="logo" src="_include/img/logo/weenat.png"/>
+              </div>
+              <img src="_include/img/profile/profile-01.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category">Pro</div>
+              <h3>jsdh dksjf</h3>
+              <h4>kjehf zeolfi oizef h</h4>
+              <div class="description">
+                <p>jhfjhhhhh
+                </p>
+                <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                  <span>Read More</span>
+                </a>
+              </div>
+              <!--div class="post-meta">
+                <div class="row">
+                  <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                  <div class="col-6"><i>+ de détails</i></div>
+                </div>
+              </div-->
+            </div>
+          </div>
+
+          <!-- a4 -->
+          <div class="card article techn">
+            <div class="mb-4 box-shadow">
+              <a href="a4.php#a4">
+                <figure class="card-img-top i18n_a4_pic">
+                  <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
+                </figure>
+              </a>
+              <div class="card-body">
+                <a href="a4.php#a4">
+                  <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
+                </a>
+                <p class="card-text i18n_a4_intro">
+                  <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
+                </p>
+                <div class="row">
+                  <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                  <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Technology</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- a3 -->
           <div class="card article techn agri">
             <div class="mb-4 box-shadow">
@@ -183,6 +307,8 @@
   <?php include("scripts.php"); ?>
   <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
   <script src="_include/js/filter.js"></script>
+  <script src="_include/js/card.js"></script>
+
 
 </body>
 </html>
