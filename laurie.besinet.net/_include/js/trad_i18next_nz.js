@@ -5,6 +5,7 @@
     resources: {
       en: {
         translation: {
+          /*
           "i18n_title": "Laurie Bésinet",
           "i18n_welcome": "Welcome",
           "i18n_hello": "Actually agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I'm looking for new challenges, that's why I leave soon to discover a country, its peoples, its cultures and its agricultures : New-Zealand",
@@ -14,7 +15,7 @@
           "i18n_home": "Home",
           "i18n_blog": "Blog",
           "i18n_blogtxt": "Welcome, here I present to you what I have seen through my New Zealand travel and my centers of interest, agriculture and new technologies.<br> I always receive your feedback with attention, whether it would be a reaction, a new topic, questions, etc... <br> Good reading!",
-
+*/
           "i18n_url": "Read more",
 
           "i18n_previous": "Previous article",
@@ -56,6 +57,7 @@
       },
       fr: {
         translation: {
+          /*
           "i18n_title": "Laurie Bésinet",
           "i18n_welcome": "Bienvenue",
           "i18n_hello": "Je suis actuellement agronome dans une startup alliant nouvelles technologies et agronomie. <br> A la recherche permanente de nouveaux défis, je pars bientôt à la découverte d'un nouveau pays, ses gens, ses cultures et ses agricultures : la Nouvelle-Zélande",
@@ -65,7 +67,7 @@
           "i18n_home": "Accueil",
           "i18n_blog": "Blog",
           "i18n_blogtxt": "Bienvenue,<br> ici je vous présente ce que je rencontre au fur-et-à-mesure de mon voyage en Nouvelle-Zélande et mes découvertes concernant mes centres d'intérêts, à savoir l'agriculture et les nouvelles technologies.<br> Je reçois vos retours toujours avec attention, que ce soit une réaction à un sujet, des questions, etc.<br> Bonne lecture !",
-
+*/
           "i18n_url": "Lire la suite",
           "i18n_previous": " Article précédent ",
           "i18n_next": " Article suivant ",

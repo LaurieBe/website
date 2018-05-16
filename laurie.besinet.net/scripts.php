@@ -16,5 +16,10 @@
 <script src="_include/js/placeholder.js"></script>
 <script src="_include/js/util.js"></script>
 <script src="_include/js/scrollspy.js"></script> <!-- scrollspy -->
+<script src="_include/js/trad_i18next.js"></script> <!-- Translation -->
+<script src="_include/js/filter.js"></script>
+<script src="_include/js/card.js"></script>
+<script src="_include/js/loadmore.js"></script>
+
 
 <!-- End Js -->

@@ -2,7 +2,7 @@
   var cards = document.getElementsByClassName('card-invisible');
 
   // show the first 5
-  for (i = 0; i < 2; i++) {
+  for (i = 0; i < 3; i++) {
       cards.item(i).classList.remove('card-invisible');
     }
 
