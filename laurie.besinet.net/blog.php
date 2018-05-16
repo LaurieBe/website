@@ -47,8 +47,6 @@
       </div>
       <!-- End Title Page -->
 
-
-
       <!-- filters -->
         <div  class="listfilters row d-flex justify-content-center">
           <ul id="filters">
@@ -308,6 +306,7 @@
   <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
   <script src="_include/js/filter.js"></script>
   <script src="_include/js/card.js"></script>
+  <script src="_include/js/loadmore.js"></script>
 
 
 </body>

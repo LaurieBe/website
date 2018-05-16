@@ -135,61 +135,260 @@
       <!---------------------- Partie ARTICLES -->
       <div class="page-alternate">
         <div class="container">
-          <h2>Derniers articles</h2>
 
-          <!-- Carousel -->
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="carousel-indicators-sub active"></li>
-              <li data-target="#myCarousel" data-slide-to="1" class="carousel-indicators-sub"></li>
-              <li data-target="#myCarousel" data-slide-to="2" class="carousel-indicators-sub"></li>
-            </ol>
+          <!-- Title Page -->
+          <div class="title-page">
+            <h1 class="">Portfolio</h1>
+            <p class="i18n_blogtxt"></p>
+          </div>
+          <!-- End Title Page -->
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+          <!-- filters -->
+            <div  class="listfilters row d-flex justify-content-center">
+              <ul id="filters">
+                <li style="vertical-align: top;"><h3 class="title-description">Categories</h3></li>
+                <li><a onclick="filtre(this);" href="#filters" id="all" class="active btn btn-secondary btn-sm" role="button"><span>#All</span></a></li>
+                <li><a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span>#Agriculture</span></a></li>
+                <li><a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a></li>
+                <li><a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm " role="button"><span>#Travels</span></a></li>
+              </ul>
+            </div>
+          <!-- end filters -->
 
-              <a href="a4.php#a4" class="item active">
-                <div class="i18n_a4_pic">
-                  <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
+          <!-- articles -->
+          <div id="articles">
+
+            <!-- liste des articles -->
+            <div class="card-columns">
+
+              <!-- Voyage NZ -->
+              <div class="card card-invisible post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/new-zealand.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-03.jpg"/>
                 </div>
-                <div class="carousel-caption">
-                  <h2><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category">Perso</div>
+                  <h3>Découverte de la Nouvelle-Zélande</h3>
+                  <h4>Nouveau pays, nouvelles rencontres, nouvelle culture</h4>
+                  <div class="description">
+                    <p>Blablab albalbabablb al ablbaabl lb alba lab alb alba blabalblabalbalbalb lba lba ba alba lblbalbalba alba lblblablba labalbalblba bla.
+                    </p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta">
+                    <div class="row">
+                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                      <div class="col-6"><i>+ de détails</i></div>
+                    </div>
+                  </div-->
                 </div>
-              </a>
+              </div>
 
-              <a href="a3.php#a3" class="item">
-                <div class="i18n_a3_pic"></div>
-                <div class="carousel-caption">
-                  <h2><span class="i18n_a3_title"></span></h2>
+              <!-- Weenat OAD -->
+              <div class="card card-invisible post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-03.jpg"/>
                 </div>
-              </a>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category">Pro</div>
+                  <h3>Responsable projets</h3>
+                  <h4>Création et développement des OAD</h4>
+                  <div class="description">
+                    <p>Weenat permet aux agriculteurs d'optimiser leurs ressources en leur fournissant des informations localisées au champ pour conforter leurs décisions. Dans cette jeune TPE j'avais beaucoup de responsabilités.
+                    </p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta">
+                    <div class="row">
+                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                      <div class="col-6"><i>+ de détails</i></div>
+                    </div>
+                  </div-->
+                </div>
+              </div>
 
-              <a href="a2.php#a2" class="item">
-                <div class="i18n_a2_pic"></div>
-                <div class="carousel-caption">
-                  <h2><span class="i18n_a2_title"></span></h2>
+              <!-- Purpan -->
+              <div class="card card-invisible post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/purpan.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-02.jpg"/>
                 </div>
-              </a>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category">Etu</div>
+                  <h3>Diplôme d'Ingéneur en Agriculture</h3>
+                  <h4>Ecole d'ingénieurs de Purpan</h4>
+                  <div class="description">
+                    <p>jhfjhhhhh
+                    </p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta">
+                    <div class="row">
+                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                      <div class="col-6"><i>+ de détails</i></div>
+                    </div>
+                  </div-->
+                </div>
+              </div>
+
+              <!-- Post-->
+              <div class="card card-invisible post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-01.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category">Pro</div>
+                  <h3>jsdh dksjf</h3>
+                  <h4>kjehf zeolfi oizef h</h4>
+                  <div class="description">
+                    <p>jhfjhhhhh
+                    </p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta">
+                    <div class="row">
+                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
+                      <div class="col-6"><i>+ de détails</i></div>
+                    </div>
+                  </div-->
+                </div>
+              </div>
+
+              <!-- a4 -->
+              <div class="card card-invisible article techn">
+                <div class="mb-4 box-shadow">
+                  <a href="a4.php#a4">
+                    <figure class="card-img-top i18n_a4_pic">
+                      <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
+                    </figure>
+                  </a>
+                  <div class="card-body">
+                    <a href="a4.php#a4">
+                      <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
+                    </a>
+                    <p class="card-text i18n_a4_intro">
+                      <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
+                    </p>
+                    <div class="row">
+                      <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                      <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Technology</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- a3 -->
+              <div class="card card-invisible article techn agri">
+                <div class="mb-4 box-shadow">
+                  <a href="a3.php#a3">
+                    <figure class="card-img-top i18n_a3_pic"></figure>
+                  </a>
+                  <div class="card-body">
+                    <a href="a3.php#a3">
+                      <h2 class="card-title i18n_a3_title title-description"></h2>
+                    </a>
+                    <p class="card-text i18n_a3_intro"></p>
+                    <div class="row">
+                      <a href="a3.php#a3" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                      <div class="btn-group col-auto" role="group">
+                        <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
+                        <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- a2 -->
+              <div class="card card-invisible article techn agri">
+                <div class="mb-4 box-shadow">
+                  <a href="a2.php#a2">
+                    <figure class="card-img-top i18n_a2_pic"></figure>
+                  </a>
+                  <div class="card-body">
+                    <a href="a2.php#a2">
+                      <h2 class="card-title i18n_a2_title title-description"></h2>
+                    </a>
+                    <p class="card-text i18n_a2_intro"></p>
+                    <div class="row">
+                      <a href="a2.php#a2" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                      <div class="btn-group col-auto" role="group">
+                        <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
+                        <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- a1 -->
+              <div class="card card-invisible article travel">
+                <div class="mb-4 box-shadow">
+                  <a href="a1.php#a1">
+                    <figure class="card-img-top i18n_a1_pic"></figure>
+                  </a>
+                  <div class="card-body">
+                    <a href="a1.php#a1">
+                      <h2 class="card-title i18n_a1_title title-description"></h2>
+                    </a>
+                    <p class="card-text i18n_a1_intro"></p>
+                    <div class="row ">
+                      <a href="a1.php#a1" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                      <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- a0 -->
+              <div class="card card-invisible article travel">
+                <div class="mb-4 box-shadow">
+                  <a href="a0.php#a0">
+                    <figure class="card-img-top i18n_a0_pic"></figure>
+                  </a>
+                  <div class="card-body">
+                    <a href="a0.php#a0">
+                      <h2 class="card-title i18n_a0_title title-description"></h2>
+                    </a>
+                    <p class="card-text i18n_a0_intro"></p>
+                    <div class="row">
+                      <a href="a0.php#a0" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
+                      <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <a href="#loadmore" onclick="loadmore()" id="loadmore">Load More</a>
 
           </div>
-
-          <!-- More articles -->
-          <div>
-            <a href="blog.php">>>> Tous les articles ...</a>
-          </div>
+          <!-- End articles -->
 
         </div>
       </div>
@@ -226,6 +425,8 @@
   <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
   <script src="_include/js/supersized.js"></script> <!-- Slider -->
   <script src="_include/js/filter.js"></script>
+  <script src="_include/js/loadmore.js"></script>
+
 
 </body>
 </html>

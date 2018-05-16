@@ -1934,13 +1934,12 @@ Version: 1.0
 }
 }
 
-	@media(max-width:767px){
+@media(max-width:767px){
 	.card-columns {
 		-webkit-column-count: 1;
     column-count: 1;
   }
 }
-
 
 /* ==================================================
    Buttons
@@ -3077,7 +3076,7 @@ blockquote small:before {
 		max-height: 45px;
 		position: absolute;
 		top: 50%; left: 50%;
-  	transform: translate(-50%, -50%); 
+  	transform: translate(-50%, -50%);
 	}
 
 	.post-module .post-content {
@@ -3131,7 +3130,13 @@ blockquote small:before {
 		text-decoration: none;
 	}
 
+	.card-invisible {
+		display: none!important;
+	}
 
+	.visible {
+		display: inline-block!important;
+	}
 
 
 
