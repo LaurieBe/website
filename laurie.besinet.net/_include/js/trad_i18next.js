@@ -252,6 +252,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
         // CV
 
+        //Pro
         "i18n_job_comment": "Du plus récent au plus ancien :",
 
         "i18n_job_wnt_cate": "Pro",
@@ -271,7 +272,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_job_wnt_mission4": "Communication et marketing<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
 
         "i18n_job_pio_cate": "Pro",
-        "i18n_job_pio_sum": "",
+        "i18n_job_pio_sum": "blablab alba",
         "i18n_job_pio_entr": "Dupont Pioneer",
         "i18n_job_pio_desc": "<a target=\"_blank\" href=\"https://www.pioneer.com\">www.pioneer.com</a> | Plus de 10,000 employés dans le monde | Aussonne (31), FRANCE <br> Dupont Pioneer est un semencier international spécialisé dans le maïs, tournesol, colza et soja.",
         "i18n_job_pio_date1": "Mai - Dec 2015",
@@ -283,7 +284,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_job_pio_proj2": "J'ai piloté le projet pour monter une video présentant un nouveau type de sac de semences. Celle-ci a été vue quasiment 3 000 fois sur Youtube.  ",
 
         "i18n_job_pio_cate2": "Pro",
-        "i18n_job_pio_sum2": "",
+        "i18n_job_pio_sum2": "bla blabalba",
         "i18n_job_pio_entr2": "Dupont Pioneer",
         "i18n_job_pio_date2": "Mai - Dec 2014",
         "i18n_job_pio_title2": "Stagiaire Agronome",
@@ -317,8 +318,11 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
         "i18n_job_ref": "Références disponibles sur demande",
 
+        //Etudes
         "i18n_etu": "Etudes",
 
+        "i18n_etu_pur_cate": "Etu",
+        "i18n_etu_pur_sum": "blabla",
         "i18n_etu_pur_eco": "Ecole d'Ingénieurs de PURPAN",
         "i18n_etu_pur_desc": "<a target=\"_blank\" href=\"https://www.purpan.fr\">www.purpan.fr</a> | Toulouse (31), FRANCE",
         "i18n_etu_pur_date": "2010 – 2015",

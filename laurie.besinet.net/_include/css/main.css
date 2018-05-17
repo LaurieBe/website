@@ -3071,24 +3071,6 @@ blockquote small:before {
 		margin-right: 0;
 	}
 
-	.card-img-top {
-		width: 100%;
-		display: block;
-		margin: 0;
-	}
-
-	.card-columns .card-img-top img {
-		margin: 0;
-		height: 100%;
-		max-height: 400px;
-	}
-
-	.card-img-top img {
-		margin: 0;
-		height: 100%;
-		max-height: 650px;
-	}
-
 	.card-body {
 		background: white;
 	}
@@ -3106,44 +3088,9 @@ blockquote small:before {
 			padding-left: 0px;
 	}
 
-	.card-title {
-		font-size: 26px;
-		margin: 0px;
-		margin-bottom: 15px;
-		text-align: left;
-	}
-
-	.card-columns .card-title {
-		font-size: 20px;
-		margin: 0px;
-		margin-bottom: 15px;
-		text-align: left;
-	}
-
-	.card-columns {
-			-webkit-column-count: 3;
-			column-count: 3;
-			margin-top: 1.25rem;
-			column-gap: 3rem;
-	}
-
-	.card-columns .card {
-			margin-bottom: 3rem;
-	}
-
-
-	@media(max-width:1200px){
-	.card-columns {
-		-webkit-column-count: 2;
-		column-count: 2;
-	}
-	}
-
-	@media(max-width:767px){
-		.card-columns {
-			-webkit-column-count: 1;
-			column-count: 1;
-		}
+	.row .card {
+			margin: 30px auto;
+			width: 320px;
 	}
 
 	/* Button */

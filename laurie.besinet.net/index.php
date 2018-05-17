@@ -167,87 +167,7 @@
           <!-- articles -->
           <div id="articles">
             <!-- liste des articles -->
-            <div class="card-columns">
-
-              <!-- Weenat OAD ///  MODELE /// -->
-              <div class="card card-invisible article post-module pro agri tech">
-                <!-- Thumbnail-->
-                <div class="thumbnail">
-                  <div class="logospot">
-                    <img class="logo" src="_include/img/logo/weenat.png"/>
-                  </div>
-                  <img src="_include/img/profile/profile-03.jpg"/>
-                </div>
-                <!-- Post Content-->
-                <div class="post-content">
-                  <div class="category i18n_job_wnt_cate">Pro</div>
-                  <!-- /// rôle / quoi ?  -->
-                  <h3 class="i18n_job_wnt_title1">Responsable projets</h3>
-                  <!-- /// organisme / où ? -->
-                  <h4 class="i18n_job_wnt_entr">Création et développement des OAD</h4>
-                  <div class="description">
-                    <p class="i18n_job_wnt_sum">Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle.
-                      Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.
-                    </p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
-                  </div>
-                  <!--div class="post-meta"></div-->
-                </div>
-              </div>
-
-              <!-- Pioneer Mktg -->
-              <div class="card card-invisible article post-module pro agri">
-                <!-- Thumbnail-->
-                <div class="thumbnail">
-                  <div class="logospot">
-                    <img class="logo" src="_include/img/logo/weenat.png"/>
-                  </div>
-                  <img src="_include/img/profile/profile-03.jpg"/>
-                </div>
-                <!-- Post Content-->
-                <div class="post-content">
-                  <div class="category i18n_job_pio_cate"></div>
-                  <!-- /// rôle / quoi ?  -->
-                  <h3 class="i18n_job_pio_title1"></h3>
-                  <!-- /// organisme / où ? -->
-                  <h4 class="i18n_job_pio_entr"></h4>
-                  <div class="description">
-                    <p class="i18n_job_pio_sum"></p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
-                  </div>
-                  <!--div class="post-meta"></div-->
-                </div>
-              </div>
-
-              <!-- Pioneer mildiou -->
-              <div class="card card-invisible article post-module pro agri">
-                <!-- Thumbnail-->
-                <div class="thumbnail">
-                  <div class="logospot">
-                    <img class="logo" src="_include/img/logo/weenat.png"/>
-                  </div>
-                  <img src="_include/img/profile/profile-03.jpg"/>
-                </div>
-                <!-- Post Content-->
-                <div class="post-content">
-                  <div class="category i18n_job_pio_cate2"></div>
-                  <!-- /// rôle / quoi ?  -->
-                  <h3 class="i18n_job_pio_title2"></h3>
-                  <!-- /// organisme / où ? -->
-                  <h4 class="i18n_job_pio_entr2"></h4>
-                  <div class="description">
-                    <p class="i18n_job_pio_sum2"></p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
-                  </div>
-                  <!--div class="post-meta"></div-->
-                </div>
-              </div>
+            <div class="row">
 
               <!-- Voyage NZ -->
               <div class="card card-invisible article post-module perso travel">
@@ -266,8 +186,8 @@
                   <div class="description">
                     <p>Blablab albalbabablb al ablbaabl lb alba lab alb alba blabalblabalbalbalb lba lba ba alba lblbalbalba alba lblblablba labalbalblba bla.
                     </p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
-                      <span>Read More</span>
+                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>Read More +</span>
                     </a>
                   </div>
                   <!--div class="post-meta">
@@ -279,6 +199,58 @@
                 </div>
               </div>
 
+              <!-- Weenat OAD ///  MODELE /// -->
+              <div class="card card-invisible article post-module pro agri tech">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/cards/weenat.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_wnt_cate">Pro</div>
+                  <!-- /// rôle / quoi ?  -->
+                  <h3 class="i18n_job_wnt_title1">Responsable projets</h3>
+                  <!-- /// organisme / où ? -->
+                  <h4 class="i18n_job_wnt_entr">Création et développement des OAD</h4>
+                  <div class="description">
+                    <p class="i18n_job_wnt_sum">Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle.
+                      Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.
+                    </p>
+                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>Plus de détails +</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Pioneer Mktg -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/pioneer.png"/>
+                  </div>
+                  <img src="_include/img/cards/pioneer_mktg.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_pio_cate"></div>
+                  <h3 class="i18n_job_pio_title1"></h3>
+                  <h4 class="i18n_job_pio_entr"></h4>
+                  <div class="description">
+                    <p class="i18n_job_pio_sum"></p>
+                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>Plus de détails +</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
               <!-- Purpan -->
               <div class="card card-invisible article post-module studies agri">
                 <!-- Thumbnail-->
@@ -286,28 +258,49 @@
                   <div class="logospot">
                     <img class="logo" src="_include/img/logo/purpan.png"/>
                   </div>
-                  <img src="_include/img/profile/profile-02.jpg"/>
+                  <img src="_include/img/cards/purpan.png"/>
                 </div>
                 <!-- Post Content-->
                 <div class="post-content">
-                  <div class="category">Etu</div>
-                  <h3>Diplôme d'Ingénieur en Agriculture</h3>
-                  <h4>Ecole d'ingénieurs de Purpan</h4>
+                  <div class="category i18n_etu_pur_cate"></div>
+                  <h3 class="i18n_etu_pur_titre"></h3>
+                  <h4 class="i18n_etu_pur_eco"></h4>
                   <div class="description">
-                    <p>jhfjhhhhh
-                    </p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                    <p class="i18n_etu_pur_sum"></p>
+                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>Plus de détails +</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Pioneer mildiou -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/pioneer.png"/>
+                  </div>
+                  <img src="_include/img/cards/pioneer_mildiou.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_pio_cate2"></div>
+                  <!-- /// rôle / quoi ?  -->
+                  <h3 class="i18n_job_pio_title2"></h3>
+                  <!-- /// organisme / où ? -->
+                  <h4 class="i18n_job_pio_entr2"></h4>
+                  <div class="description">
+                    <p class="i18n_job_pio_sum2"></p>
+                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
                       <span>Read More</span>
                     </a>
                   </div>
-                  <!--div class="post-meta">
-                    <div class="row">
-                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
-                      <div class="col-6"><i>+ de détails</i></div>
-                    </div>
-                  </div-->
+                  <!--div class="post-meta"></div-->
                 </div>
               </div>
+
               <!-- Post-->
               <div class="card card-invisible article post-module pro">
                 <!-- Thumbnail-->
@@ -325,7 +318,7 @@
                   <div class="description">
                     <p>jhfjhhhhh
                     </p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
                       <span>Read More</span>
                     </a>
                   </div>
@@ -337,7 +330,7 @@
                   </div-->
                 </div>
               </div>
-              <!-- a4 -->
+              <!-- a4 >
               <div class="card card-invisible article techn blogpost">
                 <div class="mb-4 box-shadow">
                   <a href="a4.php#a4">
@@ -359,7 +352,7 @@
                   </div>
                 </div>
               </div>
-              <!-- a3 -->
+              <!-- a3 >
               <div class="card card-invisible article techn agri blogpost">
                 <div class="mb-4 box-shadow">
                   <a href="a3.php#a3">
@@ -380,7 +373,7 @@
                   </div>
                 </div>
               </div>
-              <!-- a2 -->
+              <!-- a2 >
               <div class="card card-invisible article techn agri blogpost">
                 <div class="mb-4 box-shadow">
                   <a href="a2.php#a2">
@@ -401,7 +394,7 @@
                   </div>
                 </div>
               </div>
-              <!-- a1 -->
+              <!-- a1 >
               <div class="card card-invisible article travel blogpost">
                 <div class="mb-4 box-shadow">
                   <a href="a1.php#a1">
@@ -419,7 +412,7 @@
                   </div>
                 </div>
               </div>
-              <!-- a0 -->
+              <!-- a0 >
               <div class="card card-invisible article travel blogpost">
                 <div class="mb-4 box-shadow">
                   <a href="a0.php#a0">
@@ -437,7 +430,7 @@
                   </div>
                 </div>
               </div>
-
+-->
             </div>
 
 
