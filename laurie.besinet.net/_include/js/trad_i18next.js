@@ -199,7 +199,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_partII_proj_text": "Mes projets personnels sont répartis entre la découverte de <strong>nouvelles technologies</strong> ; les <strong>sports au contact de la nature</strong> comme le ski, la plongée ou la randonnée ; et l'<strong>organisation d'évènements</strong> avec l'association des anciens étudiants de ma promotion. ",
         //Part III
         "i18n_partIII_title": "Portfolio",
-        "i18n_partIII_text": "Ci-dessous sont présentés sous forme de portfolio mes différents projets répartis dans différentes catégories (professionnels, personnels, éducatifs ou bien des articles) et différents thèmes (l'agriculture, les technologies et l'international)",
+        "i18n_partIII_text": "Ci-dessous sont rassemblés sous forme de portfolio mes différents projets répartis dans différentes catégories (professionnels, personnels, éducatifs ou bien des articles) et différents thèmes (l'agriculture, les technologies et l'international)",
           //filters
           "i18n_filters_title": "Filtrer",
           "i18n_filters_category": "Catégories",
@@ -254,6 +254,8 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
         "i18n_job_comment": "Du plus récent au plus ancien :",
 
+        "i18n_job_wnt_cate": "Pro",
+        "i18n_job_wnt_sum": "Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle. Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.",
         "i18n_job_wnt_entr": "Weenat",
         "i18n_job_wnt_desc": "<a target=\"_blank\" href=\"http://www.weenat.com\">www.weenat.com</a> | 5 à 15 employés | Nantes (44), FRANCE <br> Weenat permet aux agriculteurs d'optimiser leurs ressources en leur fournissant des informations localisées au champ pour conforter leurs décisions.",
         "i18n_job_wnt_date1": "Jan 2016 - Oct 2017",
@@ -268,6 +270,8 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_job_wnt_proj4": "J'ai aussi travaillé sur des sujets de communication et marketing : <br> - Veille technologique, concurrencielle, etc. <br> - Partage de nouvelles à propos de l'entreprise et des innovations du secteur AgTech sur les réseaux sociaux (twitter, facebook, site web) <br> - Participation aux salons et évènements (Salon Internation de l'Agriculture, Salon International du Machinisme Agricole, ...) <br> - Rédaction des documents de communications, des fiches techniques et des modes d'emploi en tant que responsable produit",
         "i18n_job_wnt_mission4": "Communication et marketing<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
 
+        "i18n_job_pio_cate": "Pro",
+        "i18n_job_pio_sum": "",
         "i18n_job_pio_entr": "Dupont Pioneer",
         "i18n_job_pio_desc": "<a target=\"_blank\" href=\"https://www.pioneer.com\">www.pioneer.com</a> | Plus de 10,000 employés dans le monde | Aussonne (31), FRANCE <br> Dupont Pioneer est un semencier international spécialisé dans le maïs, tournesol, colza et soja.",
         "i18n_job_pio_date1": "Mai - Dec 2015",
@@ -277,6 +281,10 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_job_pio_proj1": "Le livret de résultats est le document phare de l'année. Dans un premier temps, j'ai rassemblé les données techniques et les témoignages d'agriculteurs, puis les ai organisés et verbalisés. Ensuite j'ai organisé l'impression en plusieur centaines de copies et les ai fait envoyer aux agriculteurs français.",
         "i18n_job_pio_mission2": "Video de Promotion <span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
         "i18n_job_pio_proj2": "J'ai piloté le projet pour monter une video présentant un nouveau type de sac de semences. Celle-ci a été vue quasiment 3 000 fois sur Youtube.  ",
+
+        "i18n_job_pio_cate2": "Pro",
+        "i18n_job_pio_sum2": "",
+        "i18n_job_pio_entr2": "Dupont Pioneer",
         "i18n_job_pio_date2": "Mai - Dec 2014",
         "i18n_job_pio_title2": "Stagiaire Agronome",
         "i18n_job_pio_text2": "Mon objectif était de fournir un support technique aux agents terrain sur le mildiou du maïs:",

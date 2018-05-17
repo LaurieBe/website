@@ -1,34 +1,22 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<html lang="en-US">
 
 <!-- Head -->
 <head>
-  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet"/>
-  <meta name="date" content="2018-01-01"/>
-  <title>Personal website | Laurie Besinet | Agro &amp; Tech</title>
-  <meta name="description" content="Personal website about agronomy and technology">
+  <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet, lorie"/>
+  <meta name="date" content="2018-05-20"/>
+  <title>Laurie Besinet | Agro &amp; Tech</title>
+  <meta name="description" content="Laurie's  website about agronomy and technology">
   <link rel="canonical" href="https://laurie.besinet.net/index.php">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Personal website | Laurie Besinet | Agro &amp; Tech">
-  <meta property="og:description" content="Personal website about agronomy and technology">
+  <meta property="og:title" content="Laurie Besinet | Agro &amp; Tech">
+  <meta property="og:description" content="Laurie's website about agronomy and technology">
   <meta property="og:url" content="https://laurie.besinet.net/index.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
-  <meta property="article:tag" content="AgTech">
-  <meta property="article:tag" content="Agronomy">
-  <meta property="article:tag" content="New technology">
-  <meta property="article:section" content="AgTech">
-  <meta property="article:published_time" content="2018-01-01T13:01:11+01:00">
-  <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
-  <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-05-20T15:23:05+01:00">
   <meta property="og:image" content="https://laurie.besinet.net/_include/img/slider-images/image01.jpg">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
-
-
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="_include/js/jquery.min.js"></script>
@@ -59,7 +47,7 @@
   </header>
   <!-- End header -->
 
-  <!---------------------- Presentation ---------------------->
+  <!---------------------- CONTENT ---------------------->
   <div id="index">
 
       <!---------------------- Partie I BIENVENUE -->
@@ -181,6 +169,86 @@
             <!-- liste des articles -->
             <div class="card-columns">
 
+              <!-- Weenat OAD ///  MODELE /// -->
+              <div class="card card-invisible article post-module pro agri tech">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-03.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_wnt_cate">Pro</div>
+                  <!-- /// rôle / quoi ?  -->
+                  <h3 class="i18n_job_wnt_title1">Responsable projets</h3>
+                  <!-- /// organisme / où ? -->
+                  <h4 class="i18n_job_wnt_entr">Création et développement des OAD</h4>
+                  <div class="description">
+                    <p class="i18n_job_wnt_sum">Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle.
+                      Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.
+                    </p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Pioneer Mktg -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-03.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_pio_cate"></div>
+                  <!-- /// rôle / quoi ?  -->
+                  <h3 class="i18n_job_pio_title1"></h3>
+                  <!-- /// organisme / où ? -->
+                  <h4 class="i18n_job_pio_entr"></h4>
+                  <div class="description">
+                    <p class="i18n_job_pio_sum"></p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Pioneer mildiou -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  </div>
+                  <img src="_include/img/profile/profile-03.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_pio_cate2"></div>
+                  <!-- /// rôle / quoi ?  -->
+                  <h3 class="i18n_job_pio_title2"></h3>
+                  <!-- /// organisme / où ? -->
+                  <h4 class="i18n_job_pio_entr2"></h4>
+                  <div class="description">
+                    <p class="i18n_job_pio_sum2"></p>
+                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
               <!-- Voyage NZ -->
               <div class="card card-invisible article post-module perso travel">
                 <!-- Thumbnail-->
@@ -197,36 +265,6 @@
                   <h4>Nouveau pays, nouvelles rencontres, nouvelle culture</h4>
                   <div class="description">
                     <p>Blablab albalbabablb al ablbaabl lb alba lab alb alba blabalblabalbalbalb lba lba ba alba lblbalbalba alba lblblablba labalbalblba bla.
-                    </p>
-                    <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
-                  </div>
-                  <!--div class="post-meta">
-                    <div class="row">
-                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
-                      <div class="col-6"><i>+ de détails</i></div>
-                    </div>
-                  </div-->
-                </div>
-              </div>
-
-              <!-- Weenat OAD -->
-              <div class="card card-invisible article post-module pro agri tech">
-                <!-- Thumbnail-->
-                <div class="thumbnail">
-                  <div class="logospot">
-                    <img class="logo" src="_include/img/logo/weenat.png"/>
-                  </div>
-                  <img src="_include/img/profile/profile-03.jpg"/>
-                </div>
-                <!-- Post Content-->
-                <div class="post-content">
-                  <div class="category">Pro</div>
-                  <h3 class="i18n_job_wnt_title1">Responsable projets</h3>
-                  <h4>Création et développement des OAD</h4>
-                  <div class="description">
-                    <p>Weenat permet aux agriculteurs d'optimiser leurs ressources en leur fournissant des informations localisées au champ pour conforter leurs décisions. Dans cette jeune TPE j'avais beaucoup de responsabilités.
                     </p>
                     <a href="#" role="button" class="btn btn-sm btn-secondary col-auto mr-auto">
                       <span>Read More</span>
@@ -270,7 +308,6 @@
                   </div-->
                 </div>
               </div>
-
               <!-- Post-->
               <div class="card card-invisible article post-module pro">
                 <!-- Thumbnail-->
@@ -300,7 +337,6 @@
                   </div-->
                 </div>
               </div>
-
               <!-- a4 -->
               <div class="card card-invisible article techn blogpost">
                 <div class="mb-4 box-shadow">
@@ -323,7 +359,6 @@
                   </div>
                 </div>
               </div>
-
               <!-- a3 -->
               <div class="card card-invisible article techn agri blogpost">
                 <div class="mb-4 box-shadow">
