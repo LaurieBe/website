@@ -2936,7 +2936,7 @@ blockquote small:before {
 		display: block;
 		background: #FFFFFF;
 		min-width: 270px;
-		height: 450px;
+		height: 405px;
 		-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
 		-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
 		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -3091,6 +3091,13 @@ blockquote small:before {
 	.row .card {
 			margin: 30px auto;
 			width: 320px;
+	}
+
+	.card .description p {
+		max-height: 100px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin: 0 0 15px;
 	}
 
 	/* Button */

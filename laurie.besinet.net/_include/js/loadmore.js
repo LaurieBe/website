@@ -3,7 +3,7 @@
   var i = 0
 
   // show the first
-  for (i = 0; i < 6; i++) {
+  for (i = 0; i < 9; i++) {
       cards.item(0).classList.remove('card-invisible');
     }
 

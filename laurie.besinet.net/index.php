@@ -169,33 +169,148 @@
             <!-- liste des articles -->
             <div class="row">
 
-              <!-- Voyage NZ -->
-              <div class="card card-invisible article post-module perso travel">
+              <!-- TechWeek -->
+              <div class="card card-invisible article post-module perso travel tech">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot" style="right: 90px;">
+                    <img class="logo" src="_include/img/logo/techweek.png"/>
+                  </div>
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/new-zealand.png"/>
+                  </div>
+
+                  <img src="_include/img/cards/techweek.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_proj_techweek_cate"></div>
+                  <h3 class="i18n_proj_techweek_title"></h3>
+                  <h4 class="i18n_proj_techweek_subtitle"></h4>
+                  <div class="description">
+                    <p class="i18n_proj_techweek_sum"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- a4 Elastic -->
+              <div class="card card-invisible article post-module blogpost tech">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <img src="_include/img/cards/a4.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_a4_cate"></div>
+                  <h3 class="i18n_a4_title"></h3>
+                  <h4 class="i18n_a4_subtitle"></h4>
+                  <div class="description">
+                    <p class="i18n_a4_intro"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- a3 Regen -->
+              <div class="card card-invisible article post-module blogpost travel agri tech">
                 <!-- Thumbnail-->
                 <div class="thumbnail">
                   <div class="logospot">
                     <img class="logo" src="_include/img/logo/new-zealand.png"/>
                   </div>
-                  <img src="_include/img/profile/profile-03.jpg"/>
+                  <img src="_include/img/cards/a3.jpg"/>
                 </div>
                 <!-- Post Content-->
                 <div class="post-content">
-                  <div class="category">Perso</div>
-                  <h3>Découverte de la Nouvelle-Zélande</h3>
-                  <h4>Nouveau pays, nouvelles rencontres, nouvelle culture</h4>
+                  <div class="category i18n_a3_cate"></div>
+                  <h3 class="i18n_a3_title"></h3>
+                  <h4 class="i18n_a3_subtitle"></h4>
                   <div class="description">
-                    <p>Blablab albalbabablb al ablbaabl lb alba lab alb alba blabalblabalbalbalb lba lba ba alba lblbalbalba alba lblblablba labalbalblba bla.
-                    </p>
-                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Read More +</span>
-                    </a>
+                    <p class="i18n_a3_intro"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
-                  <!--div class="post-meta">
-                    <div class="row">
-                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
-                      <div class="col-6"><i>+ de détails</i></div>
-                    </div>
-                  </div-->
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- a2 Autogrow -->
+              <div class="card card-invisible article post-module blogpost travel agri tech">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/new-zealand.png"/>
+                  </div>
+                  <img src="_include/img/cards/a2.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_a2_cate"></div>
+                  <h3 class="i18n_a2_title"></h3>
+                  <h4 class="i18n_a2_subtitle"></h4>
+                  <div class="description">
+                    <p class="i18n_a2_intro"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- a1 Auckland -->
+              <div class="card card-invisible article post-module blogpost travel">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/new-zealand.png"/>
+                  </div>
+                  <img src="_include/img/cards/a1.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_a1_cate"></div>
+                  <h3 class="i18n_a1_title"></h3>
+                  <h4 class="i18n_a1_subtitle"></h4>
+                  <div class="description">
+                    <p class="i18n_a1_intro"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- a0 Départ -->
+              <div class="card card-invisible article post-module blogpost travel">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/new-zealand.png"/>
+                  </div>
+                  <img src="_include/img/cards/a0.png"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_a0_cate"></div>
+                  <h3 class="i18n_a0_title"></h3>
+                  <h4 class="i18n_a0_subtitle"></h4>
+                  <div class="description">
+                    <p class="i18n_a0_intro"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
                 </div>
               </div>
 
@@ -219,9 +334,9 @@
                     <p class="i18n_job_wnt_sum">Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle.
                       Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.
                     </p>
-                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Plus de détails +</span>
-                    </a>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
                   <!--div class="post-meta"></div-->
                 </div>
@@ -243,9 +358,9 @@
                   <h4 class="i18n_job_pio_entr"></h4>
                   <div class="description">
                     <p class="i18n_job_pio_sum"></p>
-                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Plus de détails +</span>
-                    </a>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
                   <!--div class="post-meta"></div-->
                 </div>
@@ -267,16 +382,16 @@
                   <h4 class="i18n_etu_pur_eco"></h4>
                   <div class="description">
                     <p class="i18n_etu_pur_sum"></p>
-                    <a href="#" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Plus de détails +</span>
-                    </a>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
                   <!--div class="post-meta"></div-->
                 </div>
               </div>
 
               <!-- Pioneer mildiou -->
-              <div class="card card-invisible article post-module pro agri">
+              <div class="card card-invisible article post-module pro agri tech">
                 <!-- Thumbnail-->
                 <div class="thumbnail">
                   <div class="logospot">
@@ -293,154 +408,125 @@
                   <h4 class="i18n_job_pio_entr2"></h4>
                   <div class="description">
                     <p class="i18n_job_pio_sum2"></p>
-                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
                   <!--div class="post-meta"></div-->
                 </div>
               </div>
 
-              <!-- Post-->
-              <div class="card card-invisible article post-module pro">
+              <!-- UFC -->
+              <div class="card card-invisible article post-module studies agri travel">
                 <!-- Thumbnail-->
                 <div class="thumbnail">
-                  <div class="logospot">
-                    <img class="logo" src="_include/img/logo/weenat.png"/>
+                  <div class="logospot" style="right: 90px;">
+                    <img class="logo" src="_include/img/logo/ufc.png"/>
                   </div>
-                  <img src="_include/img/profile/profile-01.jpg"/>
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/brazil.png"/>
+                  </div>
+
+                  <img src="_include/img/cards/ufc.jpg"/>
                 </div>
                 <!-- Post Content-->
                 <div class="post-content">
-                  <div class="category">Pro</div>
-                  <h3>jsdh dksjf</h3>
-                  <h4>kjehf zeolfi oizef h</h4>
+                  <div class="category i18n_etu_for_cate"></div>
+                  <h3 class="i18n_etu_for_titre"></h3>
+                  <h4 class="i18n_etu_for_eco"></h4>
                   <div class="description">
-                    <p>jhfjhhhhh
-                    </p>
-                    <a href="#" role="button" class="d-flex justify-content-end col-auto mr-auto">
-                      <span>Read More</span>
-                    </a>
+                    <p class="i18n_etu_for_sum"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
                   </div>
-                  <!--div class="post-meta">
-                    <div class="row">
-                      <div class="col-6"><i>#OAD #travail en équipe</i></div>
-                      <div class="col-6"><i>+ de détails</i></div>
-                    </div>
-                  </div-->
+                  <!--div class="post-meta"></div-->
                 </div>
               </div>
-              <!-- a4 >
-              <div class="card card-invisible article techn blogpost">
-                <div class="mb-4 box-shadow">
-                  <a href="a4.php#a4">
-                    <figure class="card-img-top i18n_a4_pic">
-                      <img src="./_include/img/nz/infographie2_small_en.png" alt="" />
-                    </figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a4.php#a4">
-                      <h2 class="card-title title-description"><span class="badge badge-primary">New</span>&nbsp;&nbsp;<span class="i18n_a4_title">Software Technology : ElasticSuite</span></h2>
-                    </a>
-                    <p class="card-text i18n_a4_intro">
-                      <a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.
-                    </p>
-                    <div class="row">
-                      <a href="a4.php#a4" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                      <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Technology</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a3 >
-              <div class="card card-invisible article techn agri blogpost">
-                <div class="mb-4 box-shadow">
-                  <a href="a3.php#a3">
-                    <figure class="card-img-top i18n_a3_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a3.php#a3">
-                      <h2 class="card-title i18n_a3_title title-description"></h2>
-                    </a>
-                    <p class="card-text i18n_a3_intro"></p>
-                    <div class="row">
-                      <a href="a3.php#a3" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                      <div class="btn-group col-auto" role="group">
-                        <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
-                        <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a2 >
-              <div class="card card-invisible article techn agri blogpost">
-                <div class="mb-4 box-shadow">
-                  <a href="a2.php#a2">
-                    <figure class="card-img-top i18n_a2_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a2.php#a2">
-                      <h2 class="card-title i18n_a2_title title-description"></h2>
-                    </a>
-                    <p class="card-text i18n_a2_intro"></p>
-                    <div class="row">
-                      <a href="a2.php#a2" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                      <div class="btn-group col-auto" role="group">
-                        <a onclick="filtre(this);" href="#filters" id="agri" class="btn btn-secondary btn-sm " role="button"><span >#Agriculture</span></a>
-                        <a onclick="filtre(this);" href="#filters" id="tech" class="btn btn-secondary btn-sm " role="button"><span>#Technology</span></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a1 >
-              <div class="card card-invisible article travel blogpost">
-                <div class="mb-4 box-shadow">
-                  <a href="a1.php#a1">
-                    <figure class="card-img-top i18n_a1_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a1.php#a1">
-                      <h2 class="card-title i18n_a1_title title-description"></h2>
-                    </a>
-                    <p class="card-text i18n_a1_intro"></p>
-                    <div class="row ">
-                      <a href="a1.php#a1" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                      <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- a0 >
-              <div class="card card-invisible article travel blogpost">
-                <div class="mb-4 box-shadow">
-                  <a href="a0.php#a0">
-                    <figure class="card-img-top i18n_a0_pic"></figure>
-                  </a>
-                  <div class="card-body">
-                    <a href="a0.php#a0">
-                      <h2 class="card-title i18n_a0_title title-description"></h2>
-                    </a>
-                    <p class="card-text i18n_a0_intro"></p>
-                    <div class="row">
-                      <a href="a0.php#a0" role="button" class="btn btn-sm btn-outline-secondary col-auto mr-auto"><span>Read More</span></a>
-                      <a onclick="filtre(this);" href="#filters" id="travel" class="btn btn-secondary btn-sm col-auto" role="button"><span>#Travels</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
--->
-            </div>
 
+              <!-- N&S -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/nutritionetsante.png"/>
+                  </div>
+                  <img src="_include/img/cards/nutritionetsante.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_ns_cate"></div>
+                  <h3 class="i18n_job_ns_title1"></h3>
+                  <h4 class="i18n_job_ns_entr"></h4>
+                  <div class="description">
+                    <p class="i18n_job_ns_sum"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Ané -->
+              <div class="card card-invisible article post-module pro agri travel">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot" style="right: 90px;">
+                    <img class="logo" src="_include/img/logo/ane.png"/>
+                  </div>
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/united-states.png"/>
+                  </div>
+
+                  <img src="_include/img/cards/ane2.png"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_ane_cate"></div>
+                  <h3 class="i18n_job_ane_title1"></h3>
+                  <h4 class="i18n_job_ane_entr"></h4>
+                  <div class="description">
+                    <p class="i18n_job_ane_sum"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+              <!-- Lamouthe -->
+              <div class="card card-invisible article post-module pro agri">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="logospot">
+                    <img class="logo" src="_include/img/logo/lamouthe.png"/>
+                  </div>
+                  <img src="_include/img/cards/lamouthe.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category i18n_job_lam_cate"></div>
+                  <h3 class="i18n_job_lam_title1"></h3>
+                  <h4 class="i18n_job_lam_entr"></h4>
+                  <div class="description">
+                    <p class="i18n_job_lam_sum"></p>
+                    <!--a href="#" class="d-flex justify-content-end col-auto mr-auto">
+                      <span>... Plus de détails +</span>
+                    </a-->
+                  </div>
+                  <!--div class="post-meta"></div-->
+                </div>
+              </div>
+
+            </div>
 
             <div style="margin: 20px auto 0 auto;width: 50px;">
               <a  onclick="loadmore()" id="loadmore">
                 <span class="font-icon-plus"></span>
               </a>
             </div>
-
-
 
           </div>
           <!-- End articles -->
