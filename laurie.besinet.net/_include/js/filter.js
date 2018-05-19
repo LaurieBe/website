@@ -1,4 +1,5 @@
 function filtre (myElement) {
+
   //filter detection
   var id_filtre = myElement.id;
 
@@ -38,4 +39,16 @@ function filtre (myElement) {
           articles[i].style.display='none';
         }
       }
+
+  /* effet rotation
+  var actives = all_articles.getElementsByClassName('card');
+    for(var i=0;i<actives.length;i++)
+      actives[i].classList.remove("myothermove");
+
+    for(var i=0;i<actives.length;i++)
+      actives[i].classList.add("myothermove");
+    for(var i=0;i<actives.length;i++)
+      actives[i].style.animationPlayState = "running";
+*/
+
 }

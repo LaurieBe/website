@@ -3,7 +3,8 @@
   var i = 0
 
   // show the first
-  for (i = 0; i < 9; i++) {
+  for (i = 0; i < 6; i++) {
+      cards.item(0).classList.add('card-visible');
       cards.item(0).classList.remove('card-invisible');
     }
 
@@ -19,6 +20,7 @@ function loadmore() {
       }
   else {
     for (i = 0; i < 6; i++) {
+        cards.item(0).classList.add('card-visible');
         cards.item(0).classList.remove('card-invisible');
       }
   }
