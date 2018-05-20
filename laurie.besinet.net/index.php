@@ -125,24 +125,6 @@
       <div class="page">
         <div class="container">
 
-        <style>
-          .card-visible {
-              animation: mymove 0.5s cubic-bezier(0,0,0.58,1) reverse;
-          }
-
-          @keyframes mymove {
-            100% {transform: rotateY(90deg);}
-          }
-
-          .myothermove {
-            animation: myothermove 0.5s cubic-bezier(0,0,0.58,1) 1 paused reverse;
-          }
-
-          @keyframes myothermove {
-            100% {transform: rotateY(90deg);}
-          }
-        </style>
-
           <!-- Title -->
           <div class="title-page">
             <h1 class="i18n_partIII_title">Portfolio</h1>
@@ -188,7 +170,7 @@
             <div class="row">
 
               <!-- TechWeek -->
-                <div class="card card-invisible article post-module perso travel tech">
+              <div class="card card-invisible article post-module perso travel tech">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -210,15 +192,18 @@
                       <span class="col-auto link-details">... plus de détails</span>
                       </div>
                     </div>
-                    <div class="post-meta">
-                      <div>travel tech</div>
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_proj_techweek_them"></div>
+                        <div class="i18n_proj_techweek_date"></div>
+                      </div>
                     </div>
                   </div>
                 </a>
               </div>
 
               <!-- a4 Elastic -->
-                <div class="card card-invisible article post-module blogpost tech">
+              <div class="card card-invisible article post-module blogpost tech">
                   <a href="a4.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -234,13 +219,18 @@
                       <p class="i18n_a4_intro"></p>
                       <span class="col-auto link-details">... plus de détails</span></div>
                     </div>
-                    <!--div class="post-meta"></div-->
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_a4_them"></div>
+                        <div class="i18n_a4_date"></div>
+                      </div>
+                    </div>
                   </div>
                 </a>
               </div>
 
               <!-- a3 Regen -->
-                <div class="card card-invisible article post-module blogpost travel agri tech">
+              <div class="card card-invisible article post-module blogpost travel agri tech">
                   <a href="a3.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -258,13 +248,18 @@
                       <p class="i18n_a3_intro"></p>
                       <span class="col-auto link-details">... plus de détails</span></div>
                     </div>
-                    <!--div class="post-meta"></div-->
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_a3_them"></div>
+                        <div class="i18n_a3_date"></div>
+                      </div>
+                    </div>
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- a2 Autogrow -->
-                <div class="card card-invisible article post-module blogpost travel agri tech">
+              <div class="card card-invisible article post-module blogpost travel agri tech">
                   <a href="a2.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -282,13 +277,18 @@
                       <p class="i18n_a2_intro"></p>
                       <span class="col-auto link-details">... plus de détails</span></div>
                     </div>
-                    <!--div class="post-meta"></div-->
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_a2_them"></div>
+                        <div class="i18n_a2_date"></div>
+                      </div>
+                    </div>
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- a1 Auckland -->
-                <div class="card card-invisible article post-module blogpost travel">
+              <div class="card card-invisible article post-module blogpost travel">
                   <a href="a1.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -306,13 +306,18 @@
                       <p class="i18n_a1_intro"></p>
                       <span class="col-auto link-details">... plus de détails</span></div>
                     </div>
-                    <!--div class="post-meta"></div-->
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_a1_them"></div>
+                        <div class="i18n_a1_date"></div>
+                      </div>
+                    </div>
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- a0 Départ -->
-                <div class="card card-invisible article post-module blogpost travel">
+              <div class="card card-invisible article post-module blogpost travel">
                   <a href="a0.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -330,13 +335,18 @@
                       <p class="i18n_a0_intro"></p>
                       <span class="col-auto link-details">... plus de détails</span></div>
                     </div>
-                    <!--div class="post-meta"></div-->
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_a0_them"></div>
+                        <div class="i18n_a0_date"></div>
+                      </div>
+                    </div>
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- Weenat OAD ///  MODELE /// -->
-                <div class="card card-invisible article post-module pro agri tech">
+              <div class="card card-invisible article post-module pro agri tech">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -361,10 +371,52 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
+
+              <!-- site -->
+              <div class="card card-invisible article post-module perso tech">
+                  <a href="#">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                    <img src="_include/img/cards/site.jpg"/>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <div class="category i18n_proj_website_cate"></div>
+                    <h3 class="i18n_proj_website_title"></h3>
+                    <h4 class="i18n_proj_website_subtitle"></h4>
+                    <div class="description"><div>
+                      <p class="i18n_proj_website_sum"></p>
+                      <span class="col-auto link-details">... plus de détails</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- student -->
+              <div class="card card-invisible article post-module perso tech">
+                  <a href="#">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                    <img src="_include/img/cards/student.jpg"/>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <div class="category i18n_proj_student_cate"></div>
+                    <h3 class="i18n_proj_student_title"></h3>
+                    <h4 class="i18n_proj_student_subtitle"></h4>
+                    <div class="description"><div>
+                      <p class="i18n_proj_student_sum"></p>
+                      <span class="col-auto link-details">... plus de détails</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
 
               <!-- Pioneer Mktg -->
-                <div class="card card-invisible article post-module pro agri">
+              <div class="card card-invisible article post-module pro agri">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -385,10 +437,10 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- Purpan -->
-                <div class="card card-invisible article post-module studies agri">
+              <div class="card card-invisible article post-module studies agri">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -409,10 +461,10 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- Pioneer mildiou -->
-                <div class="card card-invisible article post-module pro agri tech">
+              <div class="card card-invisible article post-module pro agri tech">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -435,10 +487,32 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
+
+              <!-- plastic -->
+              <div class="card card-invisible article post-module perso tech">
+                  <a href="#">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                    <img src="_include/img/cards/plastic.jpg"/>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <div class="category i18n_proj_plastic_cate"></div>
+                    <h3 class="i18n_proj_plastic_title"></h3>
+                    <h4 class="i18n_proj_plastic_subtitle"></h4>
+                    <div class="description"><div>
+                      <p class="i18n_proj_plastic_sum"></p>
+                      <span class="col-auto link-details">... plus de détails</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
 
               <!-- UFC -->
-                <div class="card card-invisible article post-module studies agri travel">
+              <div class="card card-invisible article post-module studies agri travel">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -463,10 +537,10 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- N&S -->
-                <div class="card card-invisible article post-module pro agri">
+              <div class="card card-invisible article post-module pro agri">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -487,10 +561,10 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- Ané -->
-                <div class="card card-invisible article post-module pro agri travel">
+              <div class="card card-invisible article post-module pro agri travel">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -515,10 +589,10 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
               <!-- Lamouthe -->
-                <div class="card card-invisible article post-module pro agri">
+              <div class="card card-invisible article post-module pro agri">
                   <a href="#">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
@@ -539,7 +613,7 @@
                     <!--div class="post-meta"></div-->
                   </div>
                 </a>
-                </div>
+              </div>
 
             </div>
 

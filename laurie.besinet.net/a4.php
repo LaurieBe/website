@@ -61,7 +61,7 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a4_title title-description" style="text-transform: uppercase;">Software Technology : ElasticSuite</h2>
-              <span class="i18n_a4_param text-muted font-italic">Published 18th Feb. 2018</span>
+              <span class="i18n_a4_date text-muted font-italic">Published 18th Feb. 2018</span>
             </div>
             <div class="i18n_a4_intro"><a href=\"https://elastic.co/\" target=\"_blank\">Elastic</a> is a set of free softwares for data acquisition, storage and analysis. I share with you my observations on this very complete tool. I have summarized in a infography how it works and the pro and cons of its use.</div>
             <br><br>
@@ -157,8 +157,6 @@
 
   <!-- scripts -->
   <?php include("scripts.php"); ?>
-  <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
-
 
 </body>
 </html>

@@ -62,7 +62,7 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a2_title title-description" style="text-transform: uppercase;">AgTech in New Zealand - Autogrow</h2>
-              <span class="i18n_a2_param text-muted font-italic">Published 5th Jan. 2018</span>
+              <span class="i18n_a2_date text-muted font-italic">Published 5th Jan. 2018</span>
             </div>
             <div class="i18n_a2_intro">I have had the opportunity to meet several AgTech companies in New Zealand, so I will share these discoveries with you. <br>          In this first article on this subject, I will tell you about my meeting with Darryn Keiller and Jeffrey Law who lead <a href=\"https://autogrow.com/\" target=\"_blank\">Autogrow</a>.</div>
             <br><br>
@@ -159,7 +159,6 @@
 
   <!-- scripts -->
   <?php include("scripts.php"); ?>
-  <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
 
 
 </body>

@@ -62,7 +62,7 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a3_title title-description" style="text-transform: uppercase;">AgTech in New Zealand - Regen</h2>
-              <span class="i18n_a3_param text-muted font-italic">Published 14th Jan. 2018</span>
+              <span class="i18n_a3_date text-muted font-italic">Published 14th Jan. 2018</span>
             </div>
             <div class="i18n_a3_intro">In this second article about AgTech from New Zealand I will talk about the company <a href=\"https://regenerated.co.nz/\" target=\"_blank\">Regen</a>. I met Bridgit Hawkins, CEO, who told me about the company's solutions for better environmental management of water and effluents in breeding.</div>
             <br><br>
@@ -158,7 +158,6 @@
 
   <!-- scripts -->
   <?php include("scripts.php"); ?>
-  <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
 
 
 </body>

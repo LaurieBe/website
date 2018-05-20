@@ -64,7 +64,7 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a1_title title-description" style="text-transform: uppercase;">First month in Auckland</h2>
-              <span class="i18n_a1_param text-muted font-italic">Published 27th Dec. 2017</span>
+              <span class="i18n_a1_date text-muted font-italic">Published 27th Dec. 2017</span>
             </div>
             <div class="i18n_a1_intro">My first month in Auckland was divided between the first essential purchases and administrative formalities and visiting the city and the region.</div>
             <br><br>
@@ -160,7 +160,6 @@
 
   <!-- scripts -->
   <?php include("scripts.php"); ?>
-  <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
 
 
 </body>

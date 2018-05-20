@@ -61,7 +61,7 @@
           <div>
             <div class="title-page">
               <h2 class="i18n_a0_title title-description">The great departure</h2>
-              <span class="i18n_a0_param text-muted font-italic">Published 20th Dec. 2017</span>
+              <span class="i18n_a0_date text-muted font-italic">Published 20th Dec. 2017</span>
             </div>
             <div class="i18n_a0_intro">This travel project began long months before I found myself on a plane to the other side of the planet. this article answers the questions I might have asked myself and how it was organized.</div>
             <br><br>
@@ -154,7 +154,6 @@
 
   <!-- scripts -->
   <?php include("scripts.php"); ?>
-  <script src="_include/js/trad_i18next_nz.js"></script> <!-- Translation -->
 
 </body>
 </html>
