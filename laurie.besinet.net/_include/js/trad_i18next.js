@@ -157,6 +157,9 @@ i18next.use(i18nextBrowserLanguageDetector).init({
         "i18n_job_ns_mission": "Chemical analysis material choice and parameterization<span class=\"font-icon-plus\"></span><span class=\"font-icon-minus\"></span>",
         "i18n_job_ns_proj": "I had to select a new equipment for the analysis of the fatty acids of the biscuits produced. Once the High-Pressure Liquid Chromatograph was acquired, I parameterized it. <br>It is now used every day to control the biscuits quality.",
 
+        "i18n_job_ane_cate": "Pro",
+        "i18n_job_ane_them": "#international #agri",
+        "i18n_job_ane_sum": "I participated to genetic study about Fabaceae-Rhizobium symbioses, assisting researchers by implementing laboratory protocols",
         "i18n_job_ane_entr": "Ane Laboratory",
         "i18n_job_ane_desc": "<a target=\"_blank\" href=\"https://www.wisc.edu\">www.wisc.edu</a> | University of Wisconsin | Madison, Wisconsin, USA <br> Research laboratory studying interactions between microorganisms and plants.",
         "i18n_job_ane_date": "Jul - Sept 2012",
@@ -378,7 +381,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
         "i18n_job_ane_cate": "Pro",
         "i18n_job_ane_them": "#international #agri",
-        "i18n_job_ane_sum": "J'ai participé à une étude sur les symbioses plantes-mycorhizes au niveau génétique en assistant les chercheurs et en mettant en place les expérimentations",
+        "i18n_job_ane_sum": "J'ai participé à une étude sur les symbioses plantes-mycorhizes au niveau génétique en assistant les chercheurs et en mettant en place les expérimentations.",
         "i18n_job_ane_entr": "Laboratoire Ané, USA",
         "i18n_job_ane_desc": "<a target=\"_blank\" href=\"https://www.wisc.edu\">www.wisc.edu</a> | Université du Wisconsin | Madison, Wisconsin, USA <br> Laboratoire de recherche fondamentale sur les interactions entre les microorganismes et les plantes.",
         "i18n_job_ane_date": "Juil - Sept 2012",
