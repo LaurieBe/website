@@ -18,9 +18,9 @@
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="_include/js/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
   <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
@@ -478,7 +478,7 @@
                     <div class="logospot">
                       <img class="logo" src="_include/img/logo/purpan.png"/>
                     </div>
-                    <img src="_include/img/cards/purpan.png"/>
+                    <img src="_include/img/cards/purpan.jpg"/>
                   </div>
                   <!-- Post Content-->
                   <div class="post-content">
@@ -631,8 +631,7 @@
                     <div class="logospot">
                       <img class="logo" src="_include/img/logo/united-states.png"/>
                     </div>
-
-                    <img src="_include/img/cards/ane2.png"/>
+                    <img src="_include/img/cards/ane.jpg"/>
                   </div>
                   <!-- Post Content-->
                   <div class="post-content">
