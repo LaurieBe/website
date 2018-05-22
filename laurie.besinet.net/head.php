@@ -17,11 +17,8 @@
 
   <!-- Font Icons -->  <link href="_include/css/fonts.css" rel="stylesheet">
 
-  <!-- Shortcodes -->  <link href="_include/css/shortcodes.css" rel="stylesheet" media="screen">
-
   <!-- Responsive -->
   <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-  <link href="_include/css/responsive.css" rel="stylesheet" media="screen">
 
   <!-- Supersized -->
   <link href="_include/css/supersized.css" rel="stylesheet" media="screen">
