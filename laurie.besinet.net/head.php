@@ -1,5 +1,4 @@
-  <!-- Meta Tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- Meta Tags -->   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
   <!-- Mobile Specifics -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,15 +16,12 @@
 
   <!-- Font Icons -->  <link href="_include/css/fonts.css" rel="stylesheet">
 
-  <!-- Responsive -->
-  <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+  <!-- Responsive -->  <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 
-  <!-- Supersized -->
-  <link href="_include/css/supersized.css" rel="stylesheet" media="screen">
+  <!-- Supersized -->   <link href="_include/css/supersized.css" rel="stylesheet" media="screen">
   <link href="_include/css/supersized.shutter.css" rel="stylesheet" media="screen">
 
-  <!-- Print -->
-  <link rel="stylesheet" type="text/css" href="_include/css/print.css" media="print">
+  <!-- Print -->  <link rel="stylesheet" type="text/css" href="_include/css/print.css" media="print">
 
   <!-- Google Font   <link href='_include/css/css?family=Titillium+Web.css' rel='stylesheet' type='text/css'>-->
 

@@ -21,8 +21,8 @@
   <meta property="article:tag" content="New Zealand">
   <meta property="article:section" content="Travel">
   <meta property="article:published_time" content="2017-12-20T13:01:11+01:00">
-  <meta property="article:modified_time" content="2018-01-10T15:23:05+01:00">
-  <meta property="og:updated_time" content="2018-01-10T15:23:05+01:00">
+  <meta property="article:modified_time" content="2018-10-07T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-10-07T15:23:05+01:00">
   <meta property="og:image" content="https://laurie.besinet.net/_include/img/nz/frtonz.png">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
@@ -115,10 +115,10 @@
             <div class="text_align_left col-lg-6">
               <div>
                 <div>
-                  <a class="turning" title="Back to the list" href="blog.php">
+                  <a class="turning" title="Back to the list" href="index.php">
                     <span class="font-icon-arrow-round-left"> </span>
                   </a>
-                  <a class="no-turning" title="Back to the list" href="blog.php">
+                  <a class="no-turning" title="Back" href="index.php">
                     <span class="i18n_back"></span>
                   </a>
                 </div>

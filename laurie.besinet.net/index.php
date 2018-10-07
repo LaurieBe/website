@@ -13,14 +13,14 @@
   <meta property="og:description" content="Laurie's website about agronomy and technology">
   <meta property="og:url" content="https://laurie.besinet.net/index.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
-  <meta property="og:updated_time" content="2018-05-20T15:23:05+01:00">
+  <meta property="og:updated_time" content="2018-10-07T15:23:05+01:00">
   <meta property="og:image" content="https://laurie.besinet.net/_include/img/slider-images/image01.jpg">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
 
   <script src="_include/js/jquery.min.js"></script>
-  <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+  <link rel="stylesheet" href="_include/bootstrap-3.3.7/css/bootstrap.min.css">
+  <script src="_include/bootstrap-3.3.7/js/bootstrap.min.js"></script>
   <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
@@ -169,9 +169,40 @@
             <!-- liste des articles -->
             <div class="row">
 
+              <!-- smag -->
+              <div class="card card-invisible article post-module pro agri tech">
+                  <a href="2018-smag.php">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                    <div class="logospot">
+                      <img class="logo" src="_include/img/logo/smag.png"/>
+                    </div>
+                    <img src="_include/img/cards/plaquette_seeds.jpg"/>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <div class="category i18n_job_smag_cate"></div>
+                    <h3 class="i18n_job_smag_title"></h3>
+                    <h4 class="i18n_job_smag_entr"></h4>
+                    <div class="description"><div>
+                      <p class="i18n_job_smag_sum"></p>
+                      <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
+                      </div>
+                    </div>
+                    <div class="post-meta description">
+                      <div class="post-meta-sub">
+                        <div class="i18n_job_smag_them"></div>
+                        <div class="i18n_job_smag_date"></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+
               <!-- site -->
               <div class="card card-invisible article post-module perso tech">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <img src="_include/img/cards/site.jpg"/>
@@ -193,12 +224,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- student -->
               <div class="card card-invisible article post-module perso">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <img src="_include/img/cards/student.jpg"/>
@@ -220,12 +251,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- TechWeek -->
               <div class="card card-invisible article post-module perso travel tech">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot" style="right: 90px;">
@@ -253,7 +284,7 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- a4 Elastic -->
@@ -271,7 +302,7 @@
                     <div class="description">
                       <div>
                         <p class="i18n_a4_intro"></p>
-                        <span class="col-auto link-details">... plus de détails</span>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
                       </div>
                     </div>
                     <div class="post-meta description">
@@ -302,7 +333,7 @@
                     <div class="description">
                       <div>
                         <p class="i18n_a3_intro"></p>
-                        <span class="col-auto link-details">... plus de détails</span>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
                       </div>
                     </div>
                     <div class="post-meta description">
@@ -333,7 +364,7 @@
                     <div class="description">
                       <div>
                         <p class="i18n_a2_intro"></p>
-                        <span class="col-auto link-details">... plus de détails</span>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
                       </div>
                     </div>
                     <div class="post-meta description">
@@ -364,7 +395,7 @@
                     <div class="description">
                       <div>
                         <p class="i18n_a1_intro"></p>
-                        <span class="col-auto link-details">... plus de détails</span>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
                       </div>
                     </div>
                     <div class="post-meta description">
@@ -395,7 +426,7 @@
                     <div class="description">
                       <div>
                         <p class="i18n_a0_intro"></p>
-                        <span class="col-auto link-details">... plus de détails</span>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
                       </div>
                     </div>
                     <div class="post-meta description">
@@ -408,9 +439,9 @@
                 </a>
               </div>
 
-              <!-- Weenat OAD ///  MODELE /// -->
+              <!-- Weenat OAD -->
               <div class="card card-invisible article post-module pro agri tech">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -438,12 +469,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- Pioneer Mktg -->
               <div class="card card-invisible article post-module pro agri">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -454,7 +485,7 @@
                   <!-- Post Content-->
                   <div class="post-content">
                     <div class="category i18n_job_pio_cate"></div>
-                    <h3 class="i18n_job_pio_title1"></h3>
+                    <h3 class="i18n_job_pio_title"></h3>
                     <h4 class="i18n_job_pio_entr"></h4>
                     <div class="description"><div>
                       <p class="i18n_job_pio_sum"></p>
@@ -463,16 +494,16 @@
                     <div class="post-meta description">
                       <div class="post-meta-sub">
                         <div class="i18n_job_pio_them"></div>
-                        <div class="i18n_job_pio_date1"></div>
+                        <div class="i18n_job_pio_date"></div>
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- Purpan -->
               <div class="card card-invisible article post-module studies agri">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -496,12 +527,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- Pioneer mildiou -->
               <div class="card card-invisible article post-module pro agri tech">
-                  <a href="#filters">
+                  <a href="2014-pio-agro.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -511,19 +542,21 @@
                   </div>
                   <!-- Post Content-->
                   <div class="post-content">
-                    <div class="category i18n_job_pio_cate2"></div>
+                    <div class="category i18n_job_pio_cate"></div>
                     <!-- /// rôle / quoi ?  -->
-                    <h3 class="i18n_job_pio_title2"></h3>
+                    <h3 class="i18n_job_pio_agro_title"></h3>
                     <!-- /// organisme / où ? -->
-                    <h4 class="i18n_job_pio_entr2"></h4>
-                    <div class="description"><div>
-                      <p class="i18n_job_pio_sum2"></p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                    <h4 class="i18n_job_pio_entr"></h4>
+                    <div class="description">
+                      <div>
+                        <p class="i18n_job_pio_agro_sum"></p>
+                        <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
+                      </div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">
-                        <div class="i18n_job_pio_them2"></div>
-                        <div class="i18n_job_pio_date2"></div>
+                        <div class="i18n_job_pio_agro_them"></div>
+                        <div class="i18n_job_pio_agro_date"></div>
                       </div>
                     </div>
                   </div>
@@ -532,7 +565,7 @@
 
               <!-- plastic -->
               <div class="card card-invisible article post-module perso tech">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <img src="_include/img/cards/plastic.jpg"/>
@@ -554,13 +587,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
-
 
               <!-- UFC -->
               <div class="card card-invisible article post-module studies agri travel">
-                  <a href="#filters">
+                  <!-- <a href="#filters"> -->
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot" style="right: 90px;">
@@ -577,9 +609,11 @@
                     <div class="category i18n_etu_for_cate"></div>
                     <h3 class="i18n_etu_for_titre"></h3>
                     <h4 class="i18n_etu_for_eco"></h4>
-                    <div class="description"><div>
-                      <p class="i18n_etu_for_sum"></p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                    <div class="description">
+                      <div>
+                        <p class="i18n_etu_for_sum"></p>
+                        <!-- <span class="col-auto link-details i18n_partIII_details">... plus de détails</span> -->
+                      </div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">
@@ -588,12 +622,12 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                <!-- </a> -->
               </div>
 
               <!-- N&S -->
               <div class="card card-invisible article post-module pro agri">
-                  <a href="#filters">
+                  <a href="2013-ns.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -606,9 +640,11 @@
                     <div class="category i18n_job_ns_cate"></div>
                     <h3 class="i18n_job_ns_title"></h3>
                     <h4 class="i18n_job_ns_entr"></h4>
-                    <div class="description"><div>
-                      <p class="i18n_job_ns_sum"></p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                    <div class="description">
+                      <div>
+                        <p class="i18n_job_ns_sum"></p>
+                        <span class="col-auto link-details i18n_partIII_details">... plus de détails</span>
+                      </div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">
@@ -622,7 +658,7 @@
 
               <!-- Ané -->
               <div class="card card-invisible article post-module pro agri travel">
-                  <a href="#filters">
+                  <a href="2012-ane.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot" style="right: 90px;">
@@ -640,7 +676,7 @@
                     <h4 class="i18n_job_ane_entr"></h4>
                     <div class="description"><div>
                       <p class="i18n_job_ane_sum"></p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                      <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span></div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">
@@ -654,7 +690,7 @@
 
               <!-- Lamouthe -->
               <div class="card card-invisible article post-module pro agri">
-                  <a href="#filters">
+                  <a href="2011-lam.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -667,9 +703,11 @@
                     <div class="category i18n_job_lam_cate"></div>
                     <h3 class="i18n_job_lam_title"></h3>
                     <h4 class="i18n_job_lam_entr"></h4>
-                    <div class="description"><div>
-                      <p class="i18n_job_lam_sum"></p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                    <div class="description">
+                      <div>
+                        <p class="i18n_job_lam_sum"></p>
+                        <span class="col-auto link-details i18n_partIII_details">... plus de détails</span>
+                      </div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">

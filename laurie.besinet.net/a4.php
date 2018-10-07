@@ -129,20 +129,20 @@
           </div>
         </div>
 
-        <!--div class="text_align_right col-lg-6">
+        <div class="text_align_right col-lg-6">
           <div>
             <div>
-              <a class="no-turning" title="Next" href="a4.php#a4">
+              <a class="no-turning" title="Next" href="lam.php">
                 <span class="i18n_next"></span>
               </a>
-              <a class="turning" title="Next" href="a4.php#a4">
+              <a class="turning" title="Next" href="lam.php">
                 <span class="font-icon-arrow-round-right"> </span>
               </a>
             </div>
             <br>
-            <div class="i18n_a4_title text-muted font-italic"></div>
+            <div class="i18n_job_lam_title text-muted font-italic"></div>
           </div>
-        </div-->
+        </div>
 
       </div>
       <!--End navigation -->
