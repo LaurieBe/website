@@ -24,7 +24,7 @@
   <?php include("head.php"); ?>
 
 <body onload="highligtmenu()">
-  <!---------------------- Header ---------------------->
+  <!--################### Header ###################-->
     <!-- Homepage Slider -->
     <div id="home-slider">
       <div class="overlay">
@@ -47,10 +47,10 @@
   </header>
   <!-- End header -->
 
-  <!---------------------- CONTENT ---------------------->
+  <!--################### CONTENT ###################-->
   <div id="index">
 
-      <!---------------------- Partie I BIENVENUE -->
+      <!--################### Partie I BIENVENUE -->
       <div class="page">
         <div id="content" class="container">
           <br>
@@ -74,7 +74,7 @@
 
 
 
-      <!---------------------- Partie II DESCRIPTION-->
+      <!--################### Partie II DESCRIPTION-->
       <div class="page-alternate">
         <div id="content" class="container">
           <div class="row">
@@ -121,7 +121,7 @@
 
 
 
-      <!---------------------- Partie III ARTICLES -->
+      <!--################### Partie III ARTICLES -->
       <div class="page">
         <div class="container">
 
@@ -735,7 +735,7 @@
       <!-- End Partie Articles -->
 
 
-      <!---------------------- Partie FLUX TWITTER ? >
+      <!--################### Partie FLUX TWITTER ? 
       <div class="page">
         <div id="content" class="container">
           <div>
@@ -747,17 +747,17 @@
            </div>
         </div>
       </div>
-      <!--end Partie twitter -->
+      end Partie twitter -->
 
 
   </div>
   <!-- End Presentation -->
 
 
-  <!---------------------- Footer ---------------------->
+  <!--################### Footer ###################-->
   <?php include("footer.php"); ?>
 
-  <!---------------------- scripts ---------------------->
+  <!--################### scripts ###################-->
   <?php include("scripts.php"); ?>
   <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
   <script src="_include/js/supersized.js"></script> <!-- Slider -->

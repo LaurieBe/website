@@ -1,3 +1,2 @@
-FROM httpd:2.4
-
-COPY ./laurie.besinet.net/ /usr/local/apache2/htdocs/
+FROM php:7.2-apache
+COPY ./laurie.besinet.net/ /var/www/html/
