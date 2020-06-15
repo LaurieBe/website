@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 docker rm dev-laurie.besinet.net
 
