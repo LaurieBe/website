@@ -14,7 +14,7 @@
         </ul>
         <ul>
           <li><a title="Adress"><span class="font-icon-map-marker-2"></span></a></li>
-          <li><span>Montpellier</span></li>
+          <li><span>Montpellier, France</span></li>
         </ul>
         <ul>
           <li><a href="https://twitter.com/lauriebesinet" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
@@ -28,7 +28,7 @@
 
     <div>
       <nav>
-        <ul><p class="credits">&copy;2018 Website by Laurie Besinet, pictures by Laurie Besinet unless mentionned.</p></ul>
+        <ul><p class="credits">&copy;2020 Website by Laurie Besinet, pictures by Laurie Besinet unless mentionned.</p></ul>
       </nav>
     </div>
 

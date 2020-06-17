@@ -12,7 +12,7 @@
   <meta name="date" content="2018-08-27"/>
   <title>Labo Ane | Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="Stage recherche génétique végétale">
-  <link rel="canonical" href="https://laurie.besinet.net/2011-2012-ane.php">
+  <link rel="canonical" href="https://laurie.besinet.net/2012-ane.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Labo Ane | Laurie Besinet | Agro &amp; Tech">
   <meta property="og:description" content="Stage recherche génétique végétale">
@@ -150,7 +150,8 @@
               </div>
             </div>
             <br>
-            <div class="i18n_job_lam_entr text-muted font-italic"></div><div> : </div>
+            <div class="i18n_job_lam_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
             <div class="i18n_job_lam_title text-muted font-italic"></div>
           </div>
         </a>
@@ -165,7 +166,8 @@
                 <span class="font-icon-arrow-round-right"></span>
               </div>
             </div><br>
-            <div class="i18n_job_ns_entr text-muted font-italic"></div><div> : </div>
+            <div class="i18n_job_ns_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
             <div class="i18n_job_ns_title text-muted font-italic"></div>
           </div>
         </a>

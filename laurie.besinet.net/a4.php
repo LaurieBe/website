@@ -132,7 +132,7 @@
         <div class="text_align_right col-lg-6">
           <div>
             <div>
-              <a class="no-turning" title="Next" href="lam.php">
+              <a class="no-turning" title="Next" href="2018-smag.php">
                 <span class="i18n_next"></span>
               </a>
               <a class="turning" title="Next" href="lam.php">
@@ -140,7 +140,9 @@
               </a>
             </div>
             <br>
-            <div class="i18n_job_lam_title text-muted font-italic"></div>
+            <div class="i18n_job_smag_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
+            <div class="i18n_job_smag_title text-muted font-italic"></div>
           </div>
         </div>
 

@@ -4,7 +4,7 @@
 <!-- Head -->
 <head>
   <meta name="keywords" content="agronomie, agronomy, farming, agriculture, engineer, ingenieur, agronome, agronomist, new technology, laurie, besinet, besine, bezine, bezinet, lorie"/>
-  <meta name="date" content="2018-05-20"/>
+  <meta name="date" content="2020-05-15"/>
   <title>Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="Laurie's  website about agronomy and technology">
   <link rel="canonical" href="https://laurie.besinet.net/index.php">
@@ -13,7 +13,7 @@
   <meta property="og:description" content="Laurie's website about agronomy and technology">
   <meta property="og:url" content="https://laurie.besinet.net/index.php">
   <meta property="og:site_name" content="Laurie Besinet | Agro &amp; Tech">
-  <meta property="og:updated_time" content="2018-10-07T15:23:05+01:00">
+  <meta property="og:updated_time" content="2020-05-15T15:23:05+01:00">
   <meta property="og:image" content="https://laurie.besinet.net/_include/img/slider-images/image01.jpg">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="1169">
@@ -33,7 +33,7 @@
       <div class="slider-text">
         <div class="jumbotron" style="background: none;opacity: 1;">
           <div class="slide-content" style="line-height: 80px;">Laurie Besinet</div>
-          <p class="lead" style="color: white;margin: 15px;">Agronome spécialisée en Agri-tech</p>
+          <p class="lead i18n_subtitle" style="color: white;margin: 15px;">Agronome spécialisée en Agri-tech</p>
         </div>
       </div>
       <div class="control-nav">
@@ -441,7 +441,7 @@
 
               <!-- Weenat OAD -->
               <div class="card card-invisible article post-module pro agri tech">
-                  <!-- <a href="#filters"> -->
+                  <a href="2016-weenat.php">
                   <!-- Thumbnail-->
                   <div class="thumbnail">
                     <div class="logospot">
@@ -460,7 +460,8 @@
                       <p class="i18n_job_wnt_sum">Weenat a pour but d'optimiser les ressources agricoles grâce aux données relevées sur la parcelle.
                         Dans cette startup mes missions comprenaient surtout la gestion de projets des Outils d'Aide à la Décision, mais aussi de la relation clients et de la communication.
                       </p>
-                      <!--span class="col-auto link-details">... plus de détails</span--></div>
+                      <span class="col-auto link-details i18n_partIII_details">Cliquer pour plus de détails</span>
+                    </div>
                     </div>
                     <div class="post-meta description">
                       <div class="post-meta-sub">
@@ -469,7 +470,7 @@
                       </div>
                     </div>
                   </div>
-                <!-- </a> -->
+                  </a>
               </div>
 
               <!-- Pioneer Mktg -->
@@ -735,7 +736,7 @@
       <!-- End Partie Articles -->
 
 
-      <!--################### Partie FLUX TWITTER ? 
+      <!--################### Partie FLUX TWITTER ?
       <div class="page">
         <div id="content" class="container">
           <div>

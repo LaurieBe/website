@@ -8,6 +8,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
       // HOME
       "i18n_title": "Laurie Bésinet",
+      "i18n_subtitle": "Agronomist specialized in Agro-tech",
         "i18n_newzealand": "New-Zealand",
         "i18n_resume": "Resume",
         "i18n_experiences": "Experiences",
@@ -19,22 +20,22 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
       //Part I
       "i18n_welcome": "Welcome",
-        "i18n_hello": "Passionate and specialized in agriculture and numeric to connect fields to the World. <br> I used to be agronomist in a startup offering solutions with connected sensors and agronomic models for farmers.<br> I am now in New Zealand to discover the country, its peoples, its cultures and its agricultures.",
+        "i18n_hello": "Passionate and specialized in agriculture and numeric to connect fields to the World. <br> I used to be an agronomist in a startup offering solutions witch connect sensors and agronomic models for farmers.<br> I am now Product Owner at Smag, working on a software for agribusinesses.",
         "i18n_hello2": "",
 
       //Part II
       "i18n_partII_before_title": "What made me who I am",
-        "i18n_partII_before_text": "During my <strong>agronomy</strong> studies I had the chance to make internships in various fields like breeding, plant genetic research, food quality and agronomy. I have also been <strong>abroad</strong> to work and study, in USA and in Brazil, which has broadened my horizon.",
+        "i18n_partII_before_text": "During my <strong>agronomy</strong> studies I had the chance to make internships in various areas in agronomy. These last year I specialized in new technologies applied to agriculture. I have also been <strong>abroad</strong> to work and study (USA, Brazil, New-Zealand), which has broadened my horizon.",
 
         "i18n_partII_now_title": "Actually",
-        "i18n_partII_now_text": "I will soon work for <strong>Smag</strong> company, as product owner. Before, I used to be project manager in <strong>Weenat</strong> and I have been in <strong>New-Zealand</strong> few months where I helped to organize a show about new technologies.",
+        "i18n_partII_now_text": "I am actually working at <strong>Smag</strong>, as product owner. My role is to undertand the user's needs, to prioritize it and to specify it to the developpement team, in order to give a product with the maximum of value to the users.",
 
         "i18n_partII_proj_title": "Hobbies",
-        "i18n_partII_proj_text": "My personnal projects are split between <strong>new technologies</strong> discover; <strong>sports in nature</strong> like ski, scuba diving or hiking ; <strong>events organisation</strong> with my alumni association. ",
+        "i18n_partII_proj_text": "My personnal projects are split between <strong>new technologies</strong> discovery; <strong>sports in nature</strong> like ski, scuba diving or hiking ; <strong>hadiwork</strong> like like jewellery or furniture ; <strong>events organisation</strong> with my alumni association. ",
 
       //Part III
       "i18n_partIII_title": "Portfolio",
-        "i18n_partIII_text": "Ci-dessous sont rassemblés sous forme de portfolio mes différents projets répartis dans différentes catégories (professionnels, personnels, éducation ou bien des articles) et différents thèmes (l'agriculture, les technologies et l'international)",
+        "i18n_partIII_text": "Below are gathered in the form of a portfolio my various projects divided into different categories (professional, personal, educational or articles) and different themes (agriculture, technologies and international)",
         "i18n_partIII_details": "Clic for more details",
 
         //filters
@@ -43,7 +44,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
           "i18n_filters_theme": "Theme",
           "i18n_filters_all": "All",
           "i18n_filters_agriculture": "Agriculture",
-          "i18n_filters_technology": "Technologies",
+          "i18n_filters_technology": "Technology",
           "i18n_filters_international": "International",
           "i18n_filters_pro": "Professional",
           "i18n_filters_studies": "Studies",
@@ -114,7 +115,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
             "i18n_job_smag_them": "#agri #tech",
             "i18n_job_smag_sum": "To develop this new software, I define how the product can reach the costumer needs, work with a development team thanks to agile methods and communicate with stakeholders.",
             "i18n_job_smag_entr": "Smag",
-            "i18n_job_smag_desc": "<a target=\"_blank\" href=\"https://www.smag.tech\">www.www.smag.tech</a> | 200 employees in France | Montpellier (34), FRANCE <br> Software designer and developer for agricultural operation and production traceability.",
+            "i18n_job_smag_desc": "<a target=\"_blank\" href=\"https://www.smag.tech\">www.smag.tech</a> | 200 employees in France | Montpellier (34), FRANCE <br> Software designer and developer for agricultural operation and production traceability.",
             "i18n_job_smag_date": "June 2018 - Today",
             "i18n_job_smag_title": "Product owner Seeds Software",
             "i18n_job_smag_text": "I am actually Product Owner at Smag, my mission is to develop the solution for the Seed sector (field and factory). I define how the product should reach the customer needs and communicate with stakeholders. <br><br> To develop this software, I am working with a development team. We are using agile software developments methods.",
@@ -286,6 +287,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
       translation: {
         // ACCUEIL
         "i18n_title": "Laurie Bésinet",
+        "i18n_subtitle": "Agronome spécialisée en Agri-tech",
           "i18n_newzealand": "Nouvelle-Zélande",
           "i18n_resume": "Curriculum Vitae",
           "i18n_experiences": "Expériences",
@@ -297,15 +299,15 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
         //Part I
         "i18n_welcome": "Bienvenue",
-          "i18n_hello": "Passionnée par l'agriculture et les nouvelles technologies, je me spécialise dans la combinaison de ces domaines dans l'idée de connecter toujours plus l'agriculture pour une utilisation de nos ressources optimale et durable. ",
-          "i18n_hello2": "J'ai créé ce site par curiosité pour le web et pour partager sur mes centres d'intérêt que sont l'agriculture et les nouvelles technologies.",
+          "i18n_hello": "Passionnée par l'agriculture et les nouvelles technologies, je me spécialise dans la combinaison de ces domaines afin de connecter de mieux en mieux l'agriculture pour une utilisation de nos ressources optimale et durable. ",
+          "i18n_hello2": "J'ai créé ce site par curiosité pour le web et pour partager mes centres d'intérêt que sont l'agriculture et les nouvelles technologies.",
 
         //Part II
         "i18n_partII_before_title": "Ce qui m'a amené où je suis",
-          "i18n_partII_before_text": "J'ai choisi de faire des études d'<strong>agronomie</strong> à l'Ecole d'ingénieurs de Purpan. J'ai eu l'occasion d'y effectuer de nombreux stages dans des domaines aussi variés que l'élevage, la recherche en génétique des plantes, la qualité alimentaire et l'agronomie. J'ai aussi travaillé et étudié à l'<strong>étranger</strong>, aux Etats-Unis et au Brésil, ce qui m'a fait découvrir d'autres façons de voir le monde. ",
+          "i18n_partII_before_text": "J'ai choisi de faire des études d'<strong>agronomie</strong> à l'Ecole d'Ingénieurs de Purpan. J'ai eu l'occasion d'y effectuer de nombreux stages dans des domaines variés. Ces dernières années, je me spécialise dans le domaine des nouvelles-technologies appliquées à l'agriculture. J'ai aussi travaillé et étudié à l'<strong>étranger</strong> (Etats-Unis, Brésil, Nouvelle-Zélande), où j'ai découvert d'autres cultures et façons de voir le monde. ",
 
           "i18n_partII_now_title": "Situation actuelle",
-          "i18n_partII_now_text": "J'intègrerai sous peu l'entreprise <strong>Smag</strong> en tant que chef produit. Cela fait suite à 2 années responsable de projets dans la startup <strong>Weenat</strong> qui allie nouvelles technologies et agronomie et la découverte de la <strong>Nouvelle-Zélande</strong> pendant plusieurs mois où j'ai aidé à l'organisation d'évènements sur les nouvelles technologies.",
+          "i18n_partII_now_text": "Actuellement chef produit chez <strong>Smag</strong>, je suis chargée de comprendre les besoins des utilisateurs, les prioriser et les spécifier aux équipes de développement. Mon objectif est de maximiser la valeur apportée par le produit aux utilisateurs. Ce logiciel est ensuite utilisé par les agro-industriels pour suivre leurs productions tout au long de la saison.",
 
           "i18n_partII_proj_title": "Centres d'intérêts",
           "i18n_partII_proj_text": "Mes projets personnels sont répartis entre la découverte de <strong>nouvelles technologies</strong> ; les <strong>sports au contact de la nature</strong> comme le ski, la plongée ou la randonnée ; et l'<strong>organisation d'évènements</strong> avec l'association des anciens étudiants de ma promotion. ",

@@ -112,18 +112,22 @@
           <!--navigation -->
           <div id="navigation-area" class="row">
             <hr>
-            <div class="text_align_left col-lg-6">
+            <a href="2016-weenat.php" class="text_align_left col-lg-6">
               <div>
                 <div>
-                  <a class="turning" title="Back to the list" href="index.php">
+                  <div class="turning" title="Previous">
                     <span class="font-icon-arrow-round-left"> </span>
-                  </a>
-                  <a class="no-turning" title="Back" href="index.php">
-                    <span class="i18n_back"></span>
-                  </a>
+                  </div>
+                  <div class="no-turning" title="Previous">
+                    <span class="i18n_previous"></span>
+                  </div>
                 </div>
+                <br>
+                <div class="i18n_job_wnt_entr text-muted font-italic"></div>
+                <div class="text-muted font-italic"> : </div>
+                <div class="i18n_job_wnt_title1 text-muted font-italic"></div>
               </div>
-            </div>
+            </a>
 
             <div class="text_align_right col-lg-6">
               <div>

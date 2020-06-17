@@ -12,7 +12,7 @@
   <meta name="date" content="2018-08-27"/>
   <title>Labo Ane | Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="Stage recherche génétique végétale">
-  <link rel="canonical" href="https://laurie.besinet.net/2011-2014-pio-agro.php">
+  <link rel="canonical" href="https://laurie.besinet.net/2014-pio-agro.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Labo Ane | Laurie Besinet | Agro &amp; Tech">
   <meta property="og:description" content="Stage recherche génétique végétale">
@@ -139,7 +139,7 @@
       <hr>
       <div id="navigation-area" class="row">
 
-        <a href="2012-ane.php" class="text_align_left col-lg-6">
+        <a href="2013-ns.php" class="text_align_left col-lg-6">
           <div>
             <div>
               <div class="turning" title="Previous">
@@ -150,12 +150,13 @@
               </div>
             </div>
             <br>
-            <div class="i18n_job_ane_entr text-muted font-italic"></div><div> : </div>
-            <div class="i18n_job_ane_title text-muted font-italic"></div>
+            <div class="i18n_job_ns_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
+            <div class="i18n_job_ns_title text-muted font-italic"></div>
           </div>
         </a>
 
-        <!-- <a href="2014-pio-agro.php" class="text_align_right col-lg-6">
+        <a href="2016-weenat.php" class="text_align_right col-lg-6">
           <div>
             <div>
               <div class="no-turning" title="Next">
@@ -165,10 +166,11 @@
                 <span class="font-icon-arrow-round-right"></span>
               </div>
             </div><br>
-            <div class="i18n_job_ns_entr text-muted font-italic"></div><div> : </div>
-            <div class="i18n_job_ns_title text-muted font-italic"></div>
+            <div class="i18n_job_wnt_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
+            <div class="i18n_job_wnt_title1 text-muted font-italic"></div>
           </div>
-        </a> -->
+        </a>
 
 
       </div>

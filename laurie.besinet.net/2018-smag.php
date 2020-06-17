@@ -12,7 +12,7 @@
   <meta name="date" content="2018-10-07"/>
   <title>Smag | Laurie Besinet | Agro &amp; Tech</title>
   <meta name="description" content="Chef produit logiciel semences">
-  <link rel="canonical" href="https://laurie.besinet.net/2011-2018-smag.php">
+  <link rel="canonical" href="https://laurie.besinet.net/2018-smag.php">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Smag | Laurie Besinet | Agro &amp; Tech">
   <meta property="og:description" content="Chef produit logiciel semences">
@@ -21,9 +21,9 @@
   <meta property="article:tag" content="Software">
   <meta property="article:tag" content="Seeds">
   <meta property="article:section" content="Smag">
-  <meta property="article:published_time" content="2018-10-07T13:01:11+01:00">
-  <meta property="article:modified_time" content="2018-10-07T15:23:05+01:00">
-  <meta property="og:updated_time" content="2018-10-07T15:23:05+01:00">
+  <meta property="article:published_time" content="2020-05-15T13:01:11+01:00">
+  <meta property="article:modified_time" content="2020-05-15T15:23:05+01:00">
+  <meta property="og:updated_time" content="2020-05-15T15:23:05+01:00">
 
 
   <meta property="og:image" content="https://laurie.besinet.net/_include/img/cards/plaquette_seeds.jpg">
@@ -135,9 +135,9 @@
 
       <!--navigation -->
       <hr>
-      <!-- <div id="navigation-area" class="row">
+      <div id="navigation-area" class="row">
 
-        <a href="2012-ane.php" class="text_align_left col-lg-6">
+        <a href="a4.php" class="text_align_left col-lg-6">
           <div>
             <div>
               <div class="turning" title="Previous">
@@ -148,25 +148,24 @@
               </div>
             </div>
             <br>
-            <div class="i18n_job_ane_entr text-muted font-italic"></div><div> : </div>
-            <div class="i18n_job_ane_title text-muted font-italic"></div>
+            <div class="i18n_a4_title text-muted font-italic"></div>
           </div>
-        </a> -->
+        </a>
 
-        <!-- <a href="2018-smag.php" class="text_align_right col-lg-6">
+        <a href="index.php" class="text_align_right col-lg-6">
           <div>
             <div>
               <div class="no-turning" title="Next">
-                <span class="i18n_next"></span>
+                <span class="i18n_back"></span>
               </div>
               <div class="turning" title="Next">
                 <span class="font-icon-arrow-round-right"></span>
               </div>
-            </div><br>
-            <div class="i18n_job_ns_entr text-muted font-italic"></div><div> : </div>
-            <div class="i18n_job_ns_title text-muted font-italic"></div>
+            </div>
+            <!--<div class="i18n_job_ns_entr text-muted font-italic"></div><div> : </div>
+            <div class="i18n_job_ns_title text-muted font-italic"></div>-->
           </div>
-        </a> -->
+        </a>
 
 
       </div>

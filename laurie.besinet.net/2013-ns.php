@@ -150,7 +150,8 @@
               </div>
             </div>
             <br>
-            <div class="i18n_job_ane_entr text-muted font-italic"></div><div> : </div>
+            <div class="i18n_job_ane_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
             <div class="i18n_job_ane_title text-muted font-italic"></div>
           </div>
         </a>
@@ -165,8 +166,9 @@
                 <span class="font-icon-arrow-round-right"></span>
               </div>
             </div><br>
-            <div class="i18n_job_pio_entr text-muted font-italic"></div><div> : </div>
-            <div class="i18n_job_pio_agro_title text-muted font-italic"></div>
+            <div class="i18n_job_pio_entr text-muted font-italic"></div>
+            <div class="text-muted font-italic"> : </div>
+            <div class="i18n_job_pio_title text-muted font-italic"></div>
           </div>
         </a>
 
